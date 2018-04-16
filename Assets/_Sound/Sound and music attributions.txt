@@ -1,0 +1,18 @@
+Sound effect and Music attributions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Polearm, Katana and Power Fist swing (No contact) - swoosh.wav by 'PorkMuncher'	https://freesound.org/people/PorkMuncher/sounds/263595/
+Polearm and Katana attack (Hit enemy) - samurai slash by 'nekoninja'		https://freesound.org/people/nekoninja/sounds/370204/
+Polearm and Katana attack (Hit obstacle/wall) - katana1.mp3 by 'Taira Komori'	https://freesound.org/people/Taira%20Komori/sounds/215033/
+Katana Dash ability - Unsheathed blade by 'jamesabdulrahman' 			https://freesound.org/people/jamesabdulrahman/sounds/320521/
+Enemy laser shot - Lazer.mp3 by 'uzerx' 					https://freesound.org/people/uzerx/sounds/59873/
+Enemy musket shot - aaronsiler_musket 2.wav by 'aaronsiler' 			https://freesound.org/people/aaronsiler/sounds/128978/
+Grass footstep - Footstep_Grass_4.wav by 'GiocoSound'				https://freesound.org/people/GiocoSound/sounds/421128/
+Regular footstep (Concrete) - Step 10.wav by 'carrigsound'			https://freesound.org/people/carrigsound/sounds/32636/
+Metal footstep (Armour) - metal-click.wav by 'newagesoup'			https://freesound.org/people/newagesoup/sounds/337865/
+Bow draw and release - Regular Arrow Shot by 'brendan89'			https://freesound.org/people/brendan89/sounds/321552/
+Arrow impact ground/obstacle - Arrow Impact 1 by 'Ali_6868'			https://freesound.org/people/Ali_6868/sounds/384914/
+Power Fist ability (Ground Smash) - Impact Cinematic by 'original_sound'	https://freesound.org/people/original_sound/sounds/376817/
+
+
+
