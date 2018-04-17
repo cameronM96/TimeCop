@@ -19,7 +19,7 @@ namespace UnityStandardAssets._2D
         {
             Patrol();
 
-            enemy.Move();
+            //enemy.Move();
             if (enemy.Target != null)
             {
                 enemy.ChangeState(new MeleeState());
@@ -35,7 +35,7 @@ namespace UnityStandardAssets._2D
         {
             if (other.tag == "Edge")
             {
-                enemy.ChangeDirection();
+                //enemy.ChangeDirection();
             }
         }
 

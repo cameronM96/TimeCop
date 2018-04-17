@@ -19,7 +19,6 @@ namespace UnityStandardAssets._2D
             if (enemy.Target != null)
             {
                 // different kind of move?
-                enemy.Move();
             }
             else
             {
