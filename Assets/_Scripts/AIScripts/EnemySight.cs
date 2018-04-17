@@ -2,26 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemySight : MonoBehaviour {
-
-    [SerializeField]
-    private Enemy enemy;
-
-    private void OnTriggerEnter2D(Collider2D other)
+namespace UnityStandardAssets._2D
+{
+    public class EnemySight : MonoBehaviour
     {
-        if (other.tag == "Player")
+
+        [SerializeField]
+        private Enemy enemy;
+
+        private void OnTriggerEnter2D(Collider2D other)
         {
-            enemy.Target = other.gameObject;
+            if (other.tag == "Player")
+            {
+                enemy.Target = other.gameObject;
+            }
+
         }
 
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.tag == "Player")
+        private void OnTriggerExit2D(Collider2D other)
         {
-            enemy.Target = null;
+            if (other.tag == "Player")
+            {
+                enemy.Target = null;
+            }
         }
     }
-    
 }

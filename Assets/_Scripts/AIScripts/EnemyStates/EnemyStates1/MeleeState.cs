@@ -3,35 +3,40 @@ using System.Collections.Generic;
 using UnityEngine;
 using Pathfinding;
 
-public class MeleeState : IEnemyState
+namespace UnityStandardAssets._2D
 {
-    private Enemy enemy;
-
-    public void Enter(Enemy enemy)
+    public class MeleeState : IEnemyState
     {
-        this.enemy = enemy;
-    }
+        private Enemy enemy;
 
-    public void Execute()
-    {
-        if(enemy.Target != null)
+        public void Enter(Enemy enemy)
         {
-            // different kind of move?
-            enemy.Move();
-        } else
+            this.enemy = enemy;
+        }
+
+        public void Execute()
         {
-            //maybe only do it if the AI reached the end of it's path
-            enemy.ChangeState(new PatrolState());
+            if (enemy.Target != null)
+            {
+                // different kind of move?
+                enemy.Move();
+            }
+            else
+            {
+                //maybe only do it if the AI reached the end of it's path
+                enemy.ChangeState(new PatrolState());
+            }
+        }
+
+        public void Exit()
+        {
+
+        }
+
+        public void OnTriggerEnter(Collider2D other)
+        {
+
         }
     }
-
-    public void Exit()
-    {
-        
-    }
-
-    public void OnTriggerEnter(Collider2D other)
-    {
-        
-    }
 }
+

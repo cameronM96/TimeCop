@@ -2,50 +2,53 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PatrolState : IEnemyState
+namespace UnityStandardAssets._2D
 {
-    private Enemy enemy;
-    private float patrolTimer;
-    private float patrolDuration = 10;
-
-    public void Enter(Enemy enemy)
+    public class PatrolState : IEnemyState
     {
-        this.enemy = enemy;
-    }
+        private Enemy enemy;
+        private float patrolTimer;
+        private float patrolDuration = 10;
 
-    public void Execute()
-    {
-        Patrol();
-
-        enemy.Move();
-        if (enemy.Target != null)
+        public void Enter(Enemy enemy)
         {
-            enemy.ChangeState(new MeleeState());
+            this.enemy = enemy;
         }
-    }
 
-    public void Exit()
-    {
-        
-    }
-
-    public void OnTriggerEnter(Collider2D other)
-    {
-        if(other.tag == "Edge")
+        public void Execute()
         {
-            enemy.ChangeDirection();
+            Patrol();
+
+            enemy.Move();
+            if (enemy.Target != null)
+            {
+                enemy.ChangeState(new MeleeState());
+            }
         }
-    }
 
-    private void Patrol()
-    {
-
-        patrolTimer += Time.deltaTime;
-
-        if (patrolTimer >= patrolDuration)
+        public void Exit()
         {
-            enemy.ChangeState(new IdleState());
-            patrolTimer = 0;
+
+        }
+
+        public void OnTriggerEnter(Collider2D other)
+        {
+            if (other.tag == "Edge")
+            {
+                enemy.ChangeDirection();
+            }
+        }
+
+        private void Patrol()
+        {
+
+            patrolTimer += Time.deltaTime;
+
+            if (patrolTimer >= patrolDuration)
+            {
+                enemy.ChangeState(new IdleState());
+                patrolTimer = 0;
+            }
         }
     }
 }
