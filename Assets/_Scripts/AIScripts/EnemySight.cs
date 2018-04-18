@@ -23,7 +23,7 @@ namespace UnityStandardAssets._2D
         {
             if (other.tag == "Player")
             {
-                enemy.Target = null;
+                //enemy.Target = null;
             }
         }
     }

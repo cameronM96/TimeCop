@@ -19,10 +19,9 @@ namespace UnityStandardAssets._2D
         {
             Patrol();
 
-            //enemy.Move();
             if (enemy.Target != null)
             {
-                enemy.ChangeState(new MeleeState());
+                enemy.ChangeState(new AttackState());
             }
         }
 
@@ -35,13 +34,29 @@ namespace UnityStandardAssets._2D
         {
             if (other.tag == "Edge")
             {
-                //enemy.ChangeDirection();
+                // Make him turn around somehow...
+                Debug.Log("Turning around");
+                if (enemy.transform.localScale.x > 0)
+                {
+                    enemy.Move(-1, false);
+                }
+                else
+                {
+                    enemy.Move(1, false); 
+                }
             }
         }
 
         private void Patrol()
         {
-
+            if (enemy.transform.localScale.x > 0)
+            {
+                enemy.h = 1;
+            } 
+            else
+            {
+                enemy.h = -1;
+            }
             patrolTimer += Time.deltaTime;
 
             if (patrolTimer >= patrolDuration)
