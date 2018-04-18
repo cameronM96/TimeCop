@@ -77,7 +77,7 @@ namespace UnityStandardAssets._2D
             pathIsEnded = false;
 
             //direction is calculated here
-            m_Character.Move(h, false, m_Jump);
+            //m_Character.Move(h, false, m_Jump);
 
             if (path.vectorPath[currentWayPoint].y - transform.position.y > 0)
             {
