@@ -11,10 +11,12 @@ namespace UnityStandardAssets._2D
 
         //Enemy is based off of these tutorials: https://arongranberg.com/astar/ , https://www.youtube.com/watch?v=4T7KHysRw84 , https://www.youtube.com/watch?v=XLgMzg30Qcg&t=14s
         private PlatformerCharacter2D m_Character;
-        private bool m_Jump;
+        private bool m_Jump = false;
+        private bool m_Crouch = false;
 
         private IEnemyState currentState;
-        float h = 0; // This is the same as GetAxis("Horizontal")
+
+        public float h = 0; // This is the same as GetAxis("Horizontal")
 
         private Rigidbody2D rb;
 
@@ -27,6 +29,7 @@ namespace UnityStandardAssets._2D
 
         //Caching
         private Seeker seeker;
+        private FOV fieldOfView;
 
         //The Calculated path
         public Path path;
@@ -38,13 +41,15 @@ namespace UnityStandardAssets._2D
         public bool pathIsEnded = false;
 
         // Use this for initialization
-        public void Start()
+        public void Awake()
         {
             rb = GetComponent<Rigidbody2D>();
             ChangeState(new IdleState());
-            Target = GameObject.FindGameObjectWithTag("Player");
+
+            m_Character = GetComponent<PlatformerCharacter2D>();
 
             seeker = GetComponent<Seeker>();
+            fieldOfView = GetComponent<FOV>();
             if (Target != null)
                 seeker.StartPath(transform.position, Target.transform.position, OnPathComplete);
 
@@ -56,60 +61,49 @@ namespace UnityStandardAssets._2D
         {
             currentState.Execute();
 
-            LookAtTarget();
+            foreach (GameObject target in fieldOfView.visibleTargets)
+            {
+                // There will only ever be 1 possible target (as there is only 1 player)
+                // but in future you could put logic here to determine what to do if there is more.
+                Target = target;
+            }
         }
 
         private void FixedUpdate()
         {
-            if (path == null)
-                return;
-
-            if (currentWayPoint >= path.vectorPath.Count)
+            if (path != null)
             {
-                if (pathIsEnded)
+                if (currentWayPoint >= path.vectorPath.Count)
+                {
+                    if (pathIsEnded)
+                        return;
+
+                    Debug.Log("End of Path reached.");
+                    pathIsEnded = true;
                     return;
+                }
 
-                Debug.Log("End of Path reached.");
-                pathIsEnded = true;
-                return;
-            }
+                pathIsEnded = false;
 
-            pathIsEnded = false;
-
-            //direction is calculated here
-            //m_Character.Move(h, false, m_Jump);
-
-            if (path.vectorPath[currentWayPoint].y - transform.position.y > 0)
-            {
-                Debug.Log("Jumping");
-                rb.AddForce(new Vector2(0, jumpForce));
-            }
-
-            float dist = Vector3.Distance(transform.position, path.vectorPath[currentWayPoint]);
-            if (dist < nextWayPointDistance)
-            {
-                currentWayPoint++;
-                return;
-            }
-        }
-
-        private void LookAtTarget()
-        {
-            if (Target != null)
-            {
-                float xDir = Target.transform.position.x - transform.position.x;
-
-                if (xDir < 0 )
+                if (path.vectorPath[currentWayPoint].y - transform.position.y > 0)
                 {
-                    h = 1;
-                } else if (xDir > 0)
+                    Debug.Log("Jumping");
+                    m_Jump = true;
+                }
+                else
                 {
-                    h = -1;
-                } else
+                    m_Jump = false;
+                }
+
+                float dist = Vector3.Distance(transform.position, path.vectorPath[currentWayPoint]);
+                if (dist < nextWayPointDistance)
                 {
-                    h = 0;
+                    currentWayPoint++;
+                    return;
                 }
             }
+
+            Move(h,m_Jump);
         }
 
         public void ChangeState(IEnemyState newState)
@@ -122,6 +116,7 @@ namespace UnityStandardAssets._2D
             currentState = newState;
 
             currentState.Enter(this);
+            Debug.Log(currentState);
         }
         
         private void OnTriggerEnter2D(Collider2D other)
@@ -142,7 +137,6 @@ namespace UnityStandardAssets._2D
         {
             if (Target == null)
             {
-                //TODO: insert a player search here.
                 yield return null;
             }
 
@@ -154,6 +148,11 @@ namespace UnityStandardAssets._2D
 
             yield return new WaitForSeconds(1f / updateRate);
             StartCoroutine(UpdatePath());
+        }
+
+        public void Move(float h, bool jump)
+        {
+            m_Character.Move(h, m_Crouch, jump);
         }
     }
 }
