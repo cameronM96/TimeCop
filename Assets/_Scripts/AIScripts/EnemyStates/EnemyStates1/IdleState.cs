@@ -38,8 +38,7 @@ namespace UnityStandardAssets._2D
 
         private void Idle()
         {
-            enemy.myAnimator.SetFloat("speed", 0);
-
+            enemy.h = 0;
             idleTimer += Time.deltaTime;
 
             if (idleTimer >= idleDuration)

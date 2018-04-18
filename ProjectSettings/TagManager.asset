@@ -8,6 +8,9 @@ TagManager:
   - AI
   - Edge
   - Path_Jump
+  - Score
+  - ScoreBoard
+  - ScoreBoardBackground
   layers:
   - Default
   - TransparentFX
@@ -18,8 +21,8 @@ TagManager:
   - 
   - 
   - BackgroundImage
-  - 
-  - 
+  - Player
+  - Enemy
   - 
   - 
   - 
