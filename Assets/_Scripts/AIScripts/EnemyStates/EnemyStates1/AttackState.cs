@@ -22,6 +22,7 @@ namespace UnityStandardAssets._2D
                 {
                     // Do attack
                     enemy.h = 0;
+                    enemy.attack = true;
                 }
                 else
                 {

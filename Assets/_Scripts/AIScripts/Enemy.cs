@@ -8,7 +8,6 @@ namespace UnityStandardAssets._2D
     [RequireComponent(typeof(PlatformerCharacter2D))]
     public class Enemy : MonoBehaviour
     {
-
         //Enemy is based off of these tutorials: https://arongranberg.com/astar/ , https://www.youtube.com/watch?v=4T7KHysRw84 , https://www.youtube.com/watch?v=XLgMzg30Qcg&t=14s
         private PlatformerCharacter2D m_Character;
         private bool m_Jump = false;
@@ -22,7 +21,8 @@ namespace UnityStandardAssets._2D
 
         public GameObject Target { get; set; }
 
-        public float updateRate = 2f;
+        [SerializeField]
+        private float updateRate = 2f;
 
         [SerializeField]
         protected float jumpForce = 10;
@@ -39,6 +39,17 @@ namespace UnityStandardAssets._2D
 
         [HideInInspector]
         public bool pathIsEnded = false;
+
+        public ScoreManager scoreManager;
+        public bool knight;
+        public bool ninja;
+        public bool juggernaut;
+        [HideInInspector]
+        public bool attack;
+        public float attackCooldown;
+        [HideInInspector]
+        public bool specialAttack;
+        public float specialAttackCooldown;
 
         // Use this for initialization
         public void Awake()
@@ -153,6 +164,19 @@ namespace UnityStandardAssets._2D
         public void Move(float h, bool jump)
         {
             m_Character.Move(h, m_Crouch, jump);
+        }
+
+        private void Death ()
+        {
+            rb.constraints = RigidbodyConstraints2D.None;
+            if (knight || ninja || juggernaut)
+            {
+                ++scoreManager.specialEnemyKillCount;
+            }
+            else
+            {
+                ++scoreManager.basicEnemyKillCount;
+            }
         }
     }
 }
