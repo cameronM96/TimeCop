@@ -51,6 +51,10 @@ namespace UnityStandardAssets._2D
         public bool specialAttack;
         public float specialAttackCooldown;
 
+        private float jumpTimer = 0.1f;
+        [SerializeField]
+        private float jumpTimerReset = 0.1f;
+
         // Use this for initialization
         public void Awake()
         {
@@ -78,6 +82,8 @@ namespace UnityStandardAssets._2D
                 // but in future you could put logic here to determine what to do if there is more.
                 Target = target;
             }
+
+            jumpTimer -= Time.deltaTime;
         }
 
         private void FixedUpdate()
@@ -96,15 +102,20 @@ namespace UnityStandardAssets._2D
 
                 pathIsEnded = false;
 
-                if (path.vectorPath[currentWayPoint].y - transform.position.y > 0)
-                {
-                    Debug.Log("Jumping");
-                    m_Jump = true;
-                }
-                else
-                {
-                    m_Jump = false;
-                }
+                // This logic is flawed
+                //if (path.vectorPath[currentWayPoint].y - transform.position.y > 0.0f)
+                //{
+                //    if (jumpTimer <= 0)
+                //    {
+                //        jumpTimer = jumpTimerReset;
+                //        Debug.Log("Jumping");
+                //        m_Jump = true;
+                //    }
+                //}
+                //else
+                //{
+                //    m_Jump = false;
+                //}
 
                 float dist = Vector3.Distance(transform.position, path.vectorPath[currentWayPoint]);
                 if (dist < nextWayPointDistance)
@@ -114,6 +125,7 @@ namespace UnityStandardAssets._2D
                 }
             }
 
+            Debug.Log("Jumping: " + m_Jump);
             Move(h,m_Jump);
         }
 
@@ -168,7 +180,10 @@ namespace UnityStandardAssets._2D
 
         private void Death ()
         {
-            rb.constraints = RigidbodyConstraints2D.None;
+            //rb.constraints = RigidbodyConstraints2D.None;
+
+            // Play Death animation
+
             if (knight || ninja || juggernaut)
             {
                 ++scoreManager.specialEnemyKillCount;
