@@ -47,6 +47,7 @@ namespace UnityStandardAssets._2D
         [HideInInspector]
         public bool attack;
         public float attackCooldown;
+        public float attackRange;
         [HideInInspector]
         public bool specialAttack;
         public float specialAttackCooldown;
@@ -58,6 +59,7 @@ namespace UnityStandardAssets._2D
         // Use this for initialization
         public void Awake()
         {
+            // Setting up references.
             rb = GetComponent<Rigidbody2D>();
             ChangeState(new IdleState());
 
@@ -68,12 +70,35 @@ namespace UnityStandardAssets._2D
             if (Target != null)
                 seeker.StartPath(transform.position, Target.transform.position, OnPathComplete);
 
+            // Starts path finding script
             StartCoroutine(UpdatePath());
+
+            // Set the health of the AI based on what kind of AI it is.
+            if (knight)
+            {
+                m_Character.health = 2;
+            } else if (juggernaut)
+            {
+                m_Character.health = 3;
+            } else
+            {
+                m_Character.health = 1;
+            }
+
+            // Determine the AI's attack range based on kind of AI.
+            if (knight || ninja || juggernaut)
+            {
+                attackRange = 4.0f;
+            } else
+            {
+                attackRange = 5.0f;
+            }
         }
 
         // Update is called once per frame
         void Update()
         {
+            // Runs the behaviour statemachine.
             currentState.Execute();
 
             foreach (GameObject target in fieldOfView.visibleTargets)
@@ -88,6 +113,7 @@ namespace UnityStandardAssets._2D
 
         private void FixedUpdate()
         {
+            // Determine if the AI has reached the end of the path.
             if (path != null)
             {
                 if (currentWayPoint >= path.vectorPath.Count)
@@ -95,7 +121,7 @@ namespace UnityStandardAssets._2D
                     if (pathIsEnded)
                         return;
 
-                    Debug.Log("End of Path reached.");
+                    //Debug.Log("End of Path reached.");
                     pathIsEnded = true;
                     return;
                 }
@@ -117,6 +143,7 @@ namespace UnityStandardAssets._2D
                 //    m_Jump = false;
                 //}
 
+                // Determine if the AI is close enough to the node to move to the next node in the path.
                 float dist = Vector3.Distance(transform.position, path.vectorPath[currentWayPoint]);
                 if (dist < nextWayPointDistance)
                 {
@@ -126,11 +153,13 @@ namespace UnityStandardAssets._2D
             }
 
             Debug.Log("Jumping: " + m_Jump);
+            // Moves the AI
             Move(h,m_Jump);
         }
 
         public void ChangeState(IEnemyState newState)
         {
+            // Changes the behaviour state of the AI.
             if (currentState != null)
             {
                 currentState.Exit();
@@ -158,15 +187,18 @@ namespace UnityStandardAssets._2D
 
         IEnumerator UpdatePath()
         {
+            // Updates path based on if a target is found.
+            // If there is no Target, then path is null.
             if (Target == null)
             {
                 yield return null;
             }
 
+            // If a target is found, find the path between AI and the target.
             if (Target != null)
             {
                 seeker.StartPath(transform.position, Target.transform.position, OnPathComplete);
-                Debug.Log("Starting Path");
+                //Debug.Log("Starting Path");
             }
 
             yield return new WaitForSeconds(1f / updateRate);

@@ -5,7 +5,7 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: AI-Knight
+  m_Name: AI-Juggernaut
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Speed
@@ -20,7 +20,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: attack
+  - m_Name: Attack
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -239,7 +239,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: attack
+    m_ConditionEvent: Attack
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102141587581613256}
@@ -263,7 +263,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: attack
+    m_ConditionEvent: Attack
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102719956984043500}
@@ -285,7 +285,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: AI-Knight-Run
+  m_Name: AI-Run
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -300,7 +300,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 5dc62c9f2a381f742bfaaea17b161d3f, type: 2}
+  m_Motion: {fileID: 7400000, guid: 898a0d97f6ef3fc41af0d0c1ad45aac2, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -312,7 +312,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: AI-Knight-Attack
+  m_Name: AI-Attack
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -326,7 +326,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 883cca26b890a4f4b855efef757fa8c7, type: 2}
+  m_Motion: {fileID: 7400000, guid: 3d7a7b61c5ef97d44ae6bf115be65188, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -338,7 +338,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: AI-Knight-Death
+  m_Name: AI-Death
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -351,7 +351,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 3657f315eaf471e43837d7866f973d6c, type: 2}
+  m_Motion: {fileID: 7400000, guid: e24fe5cdccbf1d34d84bab6d9441f25a, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -363,7 +363,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: AI-Knight-Jump
+  m_Name: AI-Jump
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -378,7 +378,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: e13e5a02b48e0f54396c2bcd30c6b6cf, type: 2}
+  m_Motion: {fileID: 7400000, guid: 5f8d2460dae27af4d9a8fb3375ebde50, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -390,7 +390,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: AI-Knight-Idle
+  m_Name: AI-Idle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -406,7 +406,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: efcae11ebcb8d7244abcc83d9dd0a90e, type: 2}
+  m_Motion: {fileID: 7400000, guid: ba9be7476d9e1fc4f828c472251f7f05, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

@@ -19,6 +19,7 @@ namespace UnityStandardAssets._2D
         private Animator m_Anim;            // Reference to the player's animator component.
         private Rigidbody2D m_Rigidbody2D;
         private bool m_FacingRight = true;  // For determining which way the player is currently facing.
+        public int health;
 
         private void Awake()
         {
@@ -29,6 +30,13 @@ namespace UnityStandardAssets._2D
             m_Rigidbody2D = GetComponent<Rigidbody2D>();
         }
 
+        private void Update()
+        {
+            if (health <= 0)
+            {
+                Death();
+            }
+        }
 
         private void FixedUpdate()
         {
@@ -47,7 +55,6 @@ namespace UnityStandardAssets._2D
             // Set the vertical animation
             m_Anim.SetFloat("vSpeed", m_Rigidbody2D.velocity.y);
         }
-
 
         public void Move(float move, bool crouch, bool jump)
         {
@@ -99,7 +106,6 @@ namespace UnityStandardAssets._2D
             }
         }
 
-
         private void Flip()
         {
             // Switch the way the player is labelled as facing.
@@ -109,6 +115,43 @@ namespace UnityStandardAssets._2D
             Vector3 theScale = transform.localScale;
             theScale.x *= -1;
             transform.localScale = theScale;
+        }
+
+        public void Attack()
+        {
+            // Play attack animation, collider is attached to the animation and is triggered there.
+            m_Rigidbody2D.velocity = new Vector2(0, 0);
+
+            m_Anim.SetBool("attack", true);
+        }
+
+        public void Death()
+        {
+            // When health hits 0 or less play the death animations and destroy object shortly after.
+            m_Rigidbody2D.velocity = new Vector2(0, 0);
+            m_Anim.SetBool("death", true);
+            Destroy(this, 3.0f);
+        }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            // Checks if the player is hit by the AI
+            if (this.tag == "Player")
+            {
+                if (other.tag == "AIWeapon")
+                {
+                    health -= 1;
+                }
+            }
+
+            // Checks if the AI is hit by the player
+            if (this.tag == "AI")
+            {
+                if (other.tag == "Weapon")
+                {
+                    health -= 1;
+                }
+            }
         }
     }
 }
