@@ -4,4 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Scenes/Main Menu.unity
+    guid: 4176b14f9e3bff944b71626224d1723b
+  - enabled: 1
+    path: Assets/_Scenes/Davis_Renaissance_Venice.unity
+    guid: fc6bb0eb8d069e449ad3322fe9b88e6f
+  - enabled: 1
+    path: Assets/_Scenes/SC_Feudal Tokyo.unity
+    guid: 4128d1751fe54104e9976927b16e35ba
+  - enabled: 1
+    path: Assets/_Scenes/Neo_Noir_New_York.unity
+    guid: 2010352d8ba9ebc4eb57ec1140bbf1fd

@@ -11,6 +11,8 @@ TagManager:
   - Score
   - ScoreBoard
   - ScoreBoardBackground
+  - GameMusic
+  - SoundEffect
   layers:
   - Default
   - TransparentFX
