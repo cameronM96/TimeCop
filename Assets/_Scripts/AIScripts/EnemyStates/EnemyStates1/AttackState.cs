@@ -18,7 +18,7 @@ namespace UnityStandardAssets._2D
         {
             if (enemy.Target != null)
             {
-                if (Vector3.Distance(enemy.Target.transform.position, enemy.transform.position) < 4.05f)
+                if (Vector3.Distance(enemy.Target.transform.position, enemy.transform.position) < enemy.attackRange)
                 {
                     // Do attack
                     enemy.h = 0;

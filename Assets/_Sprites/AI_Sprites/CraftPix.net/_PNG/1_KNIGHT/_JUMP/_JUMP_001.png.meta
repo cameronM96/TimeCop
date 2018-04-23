@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: cad98ca95d344754db44384905cbaab6
-timeCreated: 1523317388
+timeCreated: 1524362388
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
@@ -43,9 +43,9 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  alignment: 9
+  spritePivot: {x: 0.38, y: 0.38}
+  spriteBorder: {x: 0, y: 4, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -65,7 +65,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites: []
