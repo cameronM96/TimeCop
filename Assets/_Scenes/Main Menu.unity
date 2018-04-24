@@ -247,8 +247,8 @@ RectTransform:
   m_Father: {fileID: 1228444971}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.94671774}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -842,10 +842,10 @@ RectTransform:
   m_Father: {fileID: 842114625}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 58.16665, y: -50}
-  m_SizeDelta: {x: 106.33333, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &218137708
 MonoBehaviour:
@@ -1198,7 +1198,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &245108519
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1286,10 +1286,10 @@ RectTransform:
   m_Father: {fileID: 842114625}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 9.166664, y: -50}
-  m_SizeDelta: {x: 106.33333, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &253188076
 MonoBehaviour:
@@ -1684,10 +1684,10 @@ RectTransform:
   m_Father: {fileID: 842114625}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 74.49998, y: -50}
-  m_SizeDelta: {x: 106.33333, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &321084075
 MonoBehaviour:
@@ -2669,12 +2669,49 @@ MonoBehaviour:
   m_Text: 'Art
 
 
+    "PixelPunk" - https://www.pinterest.co.uk/pin/31947478590579222/
+
+
+    "Black-Gradient Background" - http://gause.polk-fl.net/black-gradient-background/
+
+
+    "CyberPunk" - https://www.pinterest.com.au/pin/531424824767271273/
+
+
+    "Pixel Art Wallpapers" - http://www.xsjjys.com/pixel-art-wallpapers.html
+
+
+    "Water Again" - http://dullahansoft.com/pixel/?tag=water
+
 
     Assets
 
 
+    Digital Ruby (Jeff Johnson) - "Free Parallaz for Unity (2D)"
 
-    Audio'
+
+    Random Creations - "Indian Kanoe - Malecite"
+
+
+    Julien Tonsuso - "Modular Fantasy Bridges"
+
+
+    MAD Entertainment - "Neon Shapes"
+
+
+    Unity Technologies - "2D Game Kit"
+
+
+    LowlyPoly - "Building Apartment"
+
+
+    Audio
+
+
+    "8-bit Hungarian Rhapsody" - https://www.youtube.com/watch?v=Hdv_DihRu4k
+
+
+'
 --- !u!222 &766777763
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2698,7 +2735,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &842114625
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4997,10 +5034,10 @@ RectTransform:
   m_Father: {fileID: 842114625}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 90.833305, y: -50}
-  m_SizeDelta: {x: 106.33333, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1637184235
 MonoBehaviour:
@@ -6039,10 +6076,10 @@ RectTransform:
   m_Father: {fileID: 842114625}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 41.83332, y: -50}
-  m_SizeDelta: {x: 106.33333, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2008449253
 MonoBehaviour:
@@ -6379,10 +6416,10 @@ RectTransform:
   m_Father: {fileID: 842114625}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 25.499992, y: -50}
-  m_SizeDelta: {x: 106.33333, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2096376182
 MonoBehaviour:
