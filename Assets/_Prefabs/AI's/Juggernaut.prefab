@@ -65,6 +65,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1828603204859004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4265031090925886}
+  - component: {fileID: 70222647910601676}
+  m_Layer: 9
+  m_Name: AttackHitBox
+  m_TagString: AIAttack
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4265031090925886
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1828603204859004}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.07, y: -0.04, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4672751378148886}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4556728303445608
 Transform:
   m_ObjectHideFlags: 1
@@ -85,11 +114,12 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1781627697476702}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.276046, y: -1.4021981, z: 0}
-  m_LocalScale: {x: 0.2587746, y: 0.25877473, z: 0.25877473}
+  m_LocalPosition: {x: 11.387234, y: 0.49384645, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4556728303445608}
   - {fileID: 4690046360901038}
+  - {fileID: 4265031090925886}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -141,6 +171,21 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -1.55}
   serializedVersion: 2
   m_Radius: 0.98
+--- !u!70 &70222647910601676
+CapsuleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1828603204859004}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 4, y: 5}
+  m_Direction: 0
 --- !u!70 &70656855106234236
 CapsuleCollider2D:
   m_ObjectHideFlags: 1
@@ -220,6 +265,10 @@ MonoBehaviour:
   m_GroundCheck: {fileID: 0}
   m_Anim: {fileID: 0}
   health: 1
+  attackCD: 1
+  ability1CD: 3
+  ability2CD: 3
+  ability3CD: 3
 --- !u!114 &114528987764494072
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -265,8 +314,8 @@ MonoBehaviour:
   attackRange: 0
   specialAttack: 0
   specialAttackCooldown: 0
-  projectilePrefab: []
-  pNumber: 0
+  projectilePrefab: {fileID: 0}
+  projectilePoint: {fileID: 0}
 --- !u!212 &212086000504830854
 SpriteRenderer:
   m_ObjectHideFlags: 1

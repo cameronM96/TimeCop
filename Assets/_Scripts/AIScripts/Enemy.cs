@@ -56,8 +56,8 @@ namespace UnityStandardAssets._2D
         //private float jumpTimerReset = 0.1f;
 
         // Projectile
-        public GameObject[] projectilePrefab;
-        public int pNumber;
+        public GameObject projectilePrefab;
+        [SerializeField]
         private Transform projectilePoint;
 
         // Use this for initialization
@@ -108,7 +108,6 @@ namespace UnityStandardAssets._2D
             // Runs the behaviour statemachine.
             currentState.Execute();
 
-
             if (fieldOfView.visibleTargets.Count > 0)
             {
                 foreach (GameObject target in fieldOfView.visibleTargets)
@@ -122,8 +121,7 @@ namespace UnityStandardAssets._2D
             {
                 Target = null;
             }
-
-
+            
             jumpTimer -= Time.deltaTime;
         }
 
@@ -176,23 +174,15 @@ namespace UnityStandardAssets._2D
                 if (!(knight || ninja || juggernaut))
                 {
                     GameObject projectile;
-                    projectile = (Instantiate(projectilePrefab[pNumber], projectilePoint.position, projectilePoint.rotation)) as GameObject;
+                    projectile = (Instantiate(projectilePrefab, projectilePoint.position, projectilePoint.rotation)) as GameObject;
+                    // Add force to the bullet somehow
                 }
                 attack = false;
-
             }
 
             if (!m_Character.m_Anim.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
             {
                 Move(h, m_Jump);
-            }
-        }
-
-        private void LateUpdate()
-        {
-            if (!m_Character.m_Anim.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
-            {
-                m_Character.m_Anim.SetBool("Attack", false);
             }
         }
 

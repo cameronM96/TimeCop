@@ -17,6 +17,8 @@ TagManager:
   - Green
   - Blue
   - AIAttack
+  - Weapon
+  - Projectile
   layers:
   - Default
   - TransparentFX

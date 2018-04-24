@@ -21,9 +21,10 @@ GameObject:
   - component: {fileID: 4199024065432722}
   - component: {fileID: 212649317519040848}
   - component: {fileID: 61814938990422790}
+  - component: {fileID: 114694751565189750}
   m_Layer: 0
   m_Name: Kunai
-  m_TagString: AIAttack
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66,6 +67,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.39, y: 0.2}
   m_EdgeRadius: 0
+--- !u!114 &114694751565189750
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1393257422833092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa5a0ac5ace2fe14baaf62d4dfd85088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 0}
+  speed: 0
 --- !u!212 &212649317519040848
 SpriteRenderer:
   m_ObjectHideFlags: 1

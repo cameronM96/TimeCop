@@ -26,6 +26,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1728578033006198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4775442683377100}
+  m_Layer: 10
+  m_Name: Projectilepoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1918912517416874
 GameObject:
   m_ObjectHideFlags: 0
@@ -98,13 +113,27 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1942596564263166}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.406, y: -1.419, z: 0}
-  m_LocalScale: {x: 0.22722615, y: 0.22722615, z: 0.22722615}
+  m_LocalPosition: {x: 11.03, y: 0.61, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4325088338805436}
   - {fileID: 4470629312334876}
+  - {fileID: 4775442683377100}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4775442683377100
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1728578033006198}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.31, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4645011818341422}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &50152581868207524
 Rigidbody2D:
@@ -218,8 +247,9 @@ MonoBehaviour:
   attackRange: 0
   specialAttack: 0
   specialAttackCooldown: 0
-  projectilePrefab: []
-  pNumber: 0
+  projectilePrefab: {fileID: 1393257422833092, guid: b63c0846bd1e1564fab72796395a117d,
+    type: 2}
+  projectilePoint: {fileID: 4775442683377100}
 --- !u!114 &114629557068566500
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -267,6 +297,10 @@ MonoBehaviour:
   m_GroundCheck: {fileID: 0}
   m_Anim: {fileID: 0}
   health: 1
+  attackCD: 1
+  ability1CD: 3
+  ability2CD: 3
+  ability3CD: 3
 --- !u!212 &212032693889673530
 SpriteRenderer:
   m_ObjectHideFlags: 1

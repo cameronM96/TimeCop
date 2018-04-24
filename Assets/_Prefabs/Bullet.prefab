@@ -21,10 +21,10 @@ GameObject:
   - component: {fileID: 4066621181289980}
   - component: {fileID: 212197735585236028}
   - component: {fileID: 58577533666562006}
-  - component: {fileID: 114887252395155388}
+  - component: {fileID: 114015055384106530}
   m_Layer: 0
   m_Name: Bullet
-  m_TagString: AIAttack
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57,7 +57,7 @@ CircleCollider2D:
   m_Offset: {x: 0.12, y: -0.03}
   serializedVersion: 2
   m_Radius: 0.62
---- !u!114 &114887252395155388
+--- !u!114 &114015055384106530
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -69,7 +69,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  speed: 10
+  speed: 0
 --- !u!212 &212197735585236028
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEditor;
 
 // The following script was created by Cameron Mullins
+// This script creates the lines seen in the editor to display the AI's field of view
 [CustomEditor (typeof (FOV))]
 public class FieldOfViewEditor : Editor {
 
