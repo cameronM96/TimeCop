@@ -98,7 +98,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1814382841672322}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.276046, y: -1.4021981, z: -4}
+  m_LocalPosition: {x: 6.276046, y: -1.4021981, z: 0}
   m_LocalScale: {x: 0.2587746, y: 0.25877473, z: 0.25877473}
   m_Children:
   - {fileID: 4291354612798282}
@@ -221,9 +221,11 @@ MonoBehaviour:
   juggernaut: 0
   attack: 0
   attackCooldown: 0
+  attackRange: 0
   specialAttack: 0
   specialAttackCooldown: 0
-  jumpTimerReset: 0.1
+  projectilePrefab: []
+  pNumber: 0
 --- !u!114 &114273443586969906
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -242,6 +244,9 @@ MonoBehaviour:
   m_WhatIsGround:
     serializedVersion: 2
     m_Bits: 257
+  m_GroundCheck: {fileID: 0}
+  m_Anim: {fileID: 0}
+  health: 1
 --- !u!114 &114277644367432348
 MonoBehaviour:
   m_ObjectHideFlags: 1

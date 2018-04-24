@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using Pathfinding;
 
+// The following script was created by Cameron Mullins
 namespace UnityStandardAssets._2D
 {
+    // Attack state for the behaviour statemachine
     public class AttackState : IEnemyState
     {
         private Enemy enemy;
@@ -26,6 +28,7 @@ namespace UnityStandardAssets._2D
                 }
                 else
                 {
+                    enemy.attack = false;
                     float xDir = enemy.Target.transform.position.x - enemy.transform.position.x;
 
                     if (xDir < 0)
@@ -44,6 +47,7 @@ namespace UnityStandardAssets._2D
             }
             else
             {
+                enemy.attack = false;
                 //maybe only do it if the AI reached the end of it's path
                 enemy.ChangeState(new PatrolState());
             }

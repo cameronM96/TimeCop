@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
+// The following script was created by Cameron Mullins
 [CustomEditor (typeof (FOV))]
 public class FieldOfViewEditor : Editor {
 
-	
     void OnSceneGUI ()
     {
         FOV fow = (FOV)target;

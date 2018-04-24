@@ -11,15 +11,17 @@ namespace UnityStandardAssets._2D
         [SerializeField] private bool m_AirControl = false;                 // Whether or not a player can steer while jumping;
         [SerializeField] private LayerMask m_WhatIsGround;                  // A mask determining what is ground to the character
 
-        private Transform m_GroundCheck;    // A position marking where to check if the player is grounded.
+        [HideInInspector]
+        public Transform m_GroundCheck;    // A position marking where to check if the player is grounded.
         const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
         private bool m_Grounded;            // Whether or not the player is grounded.
         private Transform m_CeilingCheck;   // A position marking where to check for ceilings
         const float k_CeilingRadius = .01f; // Radius of the overlap circle to determine if the player can stand up
-        private Animator m_Anim;            // Reference to the player's animator component.
+        [HideInInspector]
+        public Animator m_Anim;            // Reference to the player's animator component.
         private Rigidbody2D m_Rigidbody2D;
         private bool m_FacingRight = true;  // For determining which way the player is currently facing.
-        public int health;
+        public int health = 1;
 
         private void Awake()
         {
@@ -34,7 +36,7 @@ namespace UnityStandardAssets._2D
         {
             if (health <= 0)
             {
-                Death();
+                //Death();
             }
         }
 
@@ -117,12 +119,16 @@ namespace UnityStandardAssets._2D
             transform.localScale = theScale;
         }
 
+
+        // These 3 methods below were created by Cameron Mullins
         public void Attack()
         {
             // Play attack animation, collider is attached to the animation and is triggered there.
             m_Rigidbody2D.velocity = new Vector2(0, 0);
+            
+            m_Anim.SetBool("Attack", true);
 
-            m_Anim.SetBool("attack", true);
+            //Spawn projectile if they are ranged...
         }
 
         public void Death()
@@ -130,22 +136,30 @@ namespace UnityStandardAssets._2D
             // When health hits 0 or less play the death animations and destroy object shortly after.
             m_Rigidbody2D.velocity = new Vector2(0, 0);
             m_Anim.SetBool("death", true);
-            Destroy(this, 3.0f);
+            // Instead of destroy probably just teleport to start if it's the player...
+            if (this.gameObject.tag != "Player")
+            {
+                Destroy(this.gameObject, 3.0f);
+            }
+            else
+            {
+                // Disable the player input controller and re-enable what player is reset.
+            }
         }
 
         private void OnTriggerEnter(Collider other)
         {
             // Checks if the player is hit by the AI
-            if (this.tag == "Player")
+            if (this.gameObject.tag == "Player")
             {
-                if (other.tag == "AIWeapon")
+                if (other.tag == "AIAttack")
                 {
                     health -= 1;
                 }
             }
 
             // Checks if the AI is hit by the player
-            if (this.tag == "AI")
+            if (this.gameObject.tag == "AI")
             {
                 if (other.tag == "Weapon")
                 {

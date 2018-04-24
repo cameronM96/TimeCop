@@ -13,6 +13,10 @@ TagManager:
   - ScoreBoardBackground
   - GameMusic
   - SoundEffect
+  - Red
+  - Green
+  - Blue
+  - AIAttack
   layers:
   - Default
   - TransparentFX

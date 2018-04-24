@@ -72,7 +72,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1861093156568530}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.298632, y: -1.3564277, z: -4}
+  m_LocalPosition: {x: 6.298632, y: -1.3564277, z: 0}
   m_LocalScale: {x: 0.1109488, y: 0.1109488, z: 0.1109488}
   m_Children:
   - {fileID: 4771801425473350}
@@ -216,14 +216,16 @@ MonoBehaviour:
   nextWayPointDistance: 3
   pathIsEnded: 0
   scoreManager: {fileID: 0}
-  knight: 0
+  knight: 1
   ninja: 0
   juggernaut: 0
   attack: 0
   attackCooldown: 0
+  attackRange: 0
   specialAttack: 0
   specialAttackCooldown: 0
-  jumpTimerReset: 0.1
+  projectilePrefab: []
+  pNumber: 0
 --- !u!114 &114832485167652794
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -262,6 +264,9 @@ MonoBehaviour:
   m_WhatIsGround:
     serializedVersion: 2
     m_Bits: 257
+  m_GroundCheck: {fileID: 0}
+  m_Anim: {fileID: 0}
+  health: 1
 --- !u!212 &212032363608647820
 SpriteRenderer:
   m_ObjectHideFlags: 1
