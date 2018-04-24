@@ -30,6 +30,9 @@ namespace UnityStandardAssets._2D
         public float ability3CD = 3f;        // This is the Cooldown timer for the Ground Smash
         private GameObject startPoint;
         private float respawndelay;
+        public bool ability1Learnt;
+        public bool ability2Learnt;
+        public bool ability3Learnt;
 
         private void Awake()
         {
@@ -38,7 +41,7 @@ namespace UnityStandardAssets._2D
             m_CeilingCheck = transform.Find("CeilingCheck");
             m_Anim = GetComponent<Animator>();
             m_Rigidbody2D = GetComponent<Rigidbody2D>();
-            startPoint = GameObject.FindGameObjectWithTag("StartPont");
+            startPoint = GameObject.FindGameObjectWithTag("StartPoint");
 
             if (this.gameObject.transform.localScale.x > 0)
             {
@@ -171,8 +174,7 @@ namespace UnityStandardAssets._2D
             transform.localScale = theScale;
         }
 
-
-        // These 3 methods below were created by Cameron Mullins
+        // The methods below were created by Cameron Mullins
         public void Attack()
         {
             if (attackCD <= 0f)
@@ -190,7 +192,7 @@ namespace UnityStandardAssets._2D
             switch (ability)
             {
                 case 1:
-                    if (ability1CD <= 0f)
+                    if (ability1CD <= 0f || ability1Learnt)
                     {
                         m_Anim.SetBool("UpperCut", true);
                         m_Rigidbody2D.AddForce(new Vector2(m_Rigidbody2D.velocity.x, m_JumpForce * 1.5f));
@@ -198,7 +200,7 @@ namespace UnityStandardAssets._2D
                     }
                     break;
                 case 2:
-                    if (ability2CD <= 0f)
+                    if (ability2CD <= 0f || ability2Learnt)
                     {
                         m_Anim.SetBool("Dash", true);
                         m_Rigidbody2D.velocity = new Vector2(1.5f * m_MaxSpeed, m_Rigidbody2D.velocity.y);
@@ -206,7 +208,7 @@ namespace UnityStandardAssets._2D
                     }
                     break;
                 case 3:
-                    if (ability3CD <= 0f)
+                    if (ability3CD <= 0f || ability3Learnt)
                     {
                         m_Anim.SetBool("GroundSmash", true);
                         ability3CD = 3f;
@@ -217,6 +219,7 @@ namespace UnityStandardAssets._2D
             }
         }
 
+        // This is triggered when the players attack collides with a projectile...
         public void Death()
         {
             // When health hits 0 or less play the death animations and destroy object shortly after.
@@ -229,14 +232,17 @@ namespace UnityStandardAssets._2D
             else
             {
                 // Set player back to start
+                Debug.Log("Respawning");
                 Respawn();
             }
         }
 
+        // This doesn't work...
         IEnumerator Respawn()
         {
-            yield return new WaitForSeconds(3);
             health = 1;
+            yield return new WaitForSeconds(3);
+            Debug.Log("Respawn Complete");
             this.gameObject.transform.position = startPoint.transform.position;
             m_Anim.SetBool("death", false);
         }
@@ -249,6 +255,21 @@ namespace UnityStandardAssets._2D
                 if (other.tag == "AIAttack" || other.tag == "Projectile")
                 {
                     health -= 1;
+                }
+
+                if (other.tag == "Ability1Scroll")
+                {
+                    ability1Learnt = true;
+                }
+
+                if (other.tag == "Ability2Scroll")
+                {
+                    ability2Learnt = true;
+                }
+
+                if (other.tag == "Ability3Scroll")
+                {
+                    ability3Learnt = true;
                 }
             }
 

@@ -325,6 +325,9 @@ MonoBehaviour:
   ability1CD: 3
   ability2CD: 3
   ability3CD: 3
+  ability1Learnt: 1
+  ability2Learnt: 1
+  ability3Learnt: 1
 --- !u!114 &114961476830331524
 MonoBehaviour:
   m_ObjectHideFlags: 1

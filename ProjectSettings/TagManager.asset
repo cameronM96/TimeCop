@@ -19,6 +19,10 @@ TagManager:
   - AIAttack
   - Weapon
   - Projectile
+  - Ability1Scroll
+  - Ability2Scroll
+  - Ability3Scroll
+  - StartPoint
   layers:
   - Default
   - TransparentFX
@@ -31,7 +35,7 @@ TagManager:
   - BackgroundImage
   - Player
   - Enemy
-  - 
+  - Attack
   - 
   - 
   - 

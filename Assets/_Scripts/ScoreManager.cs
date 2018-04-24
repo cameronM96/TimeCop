@@ -50,6 +50,7 @@ public class ScoreManager : MonoBehaviour {
 
     float CalcTimeScore ()
     {
+        timeScore = 1000000f;
         // Here just incase we want it for later...
         
         return timeScore;

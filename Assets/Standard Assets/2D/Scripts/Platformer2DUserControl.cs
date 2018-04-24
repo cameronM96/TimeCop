@@ -13,13 +13,11 @@ namespace UnityStandardAssets._2D
         private bool attack = false;
         private int abilityNumber = 0;
 
-
         private void Awake()
         {
             m_Character = GetComponent<PlatformerCharacter2D>();
         }
-
-
+        
         private void Update()
         {
             if (!m_Jump)
@@ -28,8 +26,7 @@ namespace UnityStandardAssets._2D
                 m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
             }
         }
-
-
+        
         private void FixedUpdate()
         {
             // Reset 
