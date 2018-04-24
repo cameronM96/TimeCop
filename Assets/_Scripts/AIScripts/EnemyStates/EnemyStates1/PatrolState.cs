@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// The following script was created by Cameron Mullins
 namespace UnityStandardAssets._2D
 {
+    // Patrol state for the behaviour statemachine
     public class PatrolState : IEnemyState
     {
         private Enemy enemy;

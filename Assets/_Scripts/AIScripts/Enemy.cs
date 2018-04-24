@@ -5,6 +5,7 @@ using Pathfinding;
 
 namespace UnityStandardAssets._2D
 {
+    // The following script was created by Cameron Mullins
     [RequireComponent(typeof(PlatformerCharacter2D))]
     public class Enemy : MonoBehaviour
     {
@@ -16,8 +17,6 @@ namespace UnityStandardAssets._2D
         private IEnemyState currentState;
 
         public float h = 0; // This is the same as GetAxis("Horizontal")
-
-        private Rigidbody2D rb;
 
         public GameObject Target { get; set; }
 
@@ -53,14 +52,18 @@ namespace UnityStandardAssets._2D
         public float specialAttackCooldown;
 
         private float jumpTimer = 0.1f;
-        [SerializeField]
-        private float jumpTimerReset = 0.1f;
+        //[SerializeField]
+        //private float jumpTimerReset = 0.1f;
+
+        // Projectile
+        public GameObject[] projectilePrefab;
+        public int pNumber;
+        private Transform projectilePoint;
 
         // Use this for initialization
         public void Awake()
         {
             // Setting up references.
-            rb = GetComponent<Rigidbody2D>();
             ChangeState(new IdleState());
 
             m_Character = GetComponent<PlatformerCharacter2D>();
@@ -68,7 +71,7 @@ namespace UnityStandardAssets._2D
             seeker = GetComponent<Seeker>();
             fieldOfView = GetComponent<FOV>();
             if (Target != null)
-                seeker.StartPath(transform.position, Target.transform.position, OnPathComplete);
+                seeker.StartPath(m_Character.m_GroundCheck.transform.position, Target.transform.position, OnPathComplete);
 
             // Starts path finding script
             StartCoroutine(UpdatePath());
@@ -77,10 +80,12 @@ namespace UnityStandardAssets._2D
             if (knight)
             {
                 m_Character.health = 2;
-            } else if (juggernaut)
+            }
+            else if (juggernaut)
             {
                 m_Character.health = 3;
-            } else
+            }
+            else
             {
                 m_Character.health = 1;
             }
@@ -89,7 +94,8 @@ namespace UnityStandardAssets._2D
             if (knight || ninja || juggernaut)
             {
                 attackRange = 4.0f;
-            } else
+            }
+            else
             {
                 attackRange = 5.0f;
             }
@@ -101,12 +107,21 @@ namespace UnityStandardAssets._2D
             // Runs the behaviour statemachine.
             currentState.Execute();
 
-            foreach (GameObject target in fieldOfView.visibleTargets)
+
+            if (fieldOfView.visibleTargets.Count > 0)
             {
-                // There will only ever be 1 possible target (as there is only 1 player)
-                // but in future you could put logic here to determine what to do if there is more.
-                Target = target;
+                foreach (GameObject target in fieldOfView.visibleTargets)
+                {
+                    // There will only ever be 1 possible target (as there is only 1 player)
+                    // but in future you could put logic here to determine what to do if there is more.
+                    Target = target;
+                }
             }
+            else
+            {
+                Target = null;
+            }
+
 
             jumpTimer -= Time.deltaTime;
         }
@@ -154,7 +169,27 @@ namespace UnityStandardAssets._2D
 
             Debug.Log("Jumping: " + m_Jump);
             // Moves the AI
-            Move(h,m_Jump);
+            if (attack)
+            {
+                m_Character.Attack();
+                GameObject projectile;
+                projectile = (Instantiate(projectilePrefab[pNumber], projectilePoint.position, projectilePoint.rotation)) as GameObject;
+                attack = false;
+
+            }
+
+            if (!m_Character.m_Anim.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
+            {
+                Move(h, m_Jump);
+            }
+        }
+
+        private void LateUpdate()
+        {
+            if (!m_Character.m_Anim.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
+            {
+                m_Character.m_Anim.SetBool("Attack", false);
+            }
         }
 
         public void ChangeState(IEnemyState newState)
@@ -212,8 +247,6 @@ namespace UnityStandardAssets._2D
 
         private void Death ()
         {
-            //rb.constraints = RigidbodyConstraints2D.None;
-
             // Play Death animation
 
             if (knight || ninja || juggernaut)
