@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/_Scenes/Main Menu.unity
     guid: 4176b14f9e3bff944b71626224d1723b
   - enabled: 1
-    path: Assets/_Scenes/Davis_Renaissance_Venice.unity
-    guid: fc6bb0eb8d069e449ad3322fe9b88e6f
+    path: Assets/_Scenes/Davis_Standard_Venice.unity
+    guid: f5d711096d83d47499079d63c95da401
   - enabled: 1
     path: Assets/_Scenes/SC_Feudal Tokyo.unity
     guid: 4128d1751fe54104e9976927b16e35ba
