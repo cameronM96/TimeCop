@@ -91,6 +91,7 @@ namespace UnityStandardAssets._2D
             }
 
             // Determine the AI's attack range based on kind of AI.
+            // These values will probably need to change or be altered based on scale...
             if (knight || ninja || juggernaut)
             {
                 attackRange = 4.0f;
@@ -172,8 +173,11 @@ namespace UnityStandardAssets._2D
             if (attack)
             {
                 m_Character.Attack();
-                GameObject projectile;
-                projectile = (Instantiate(projectilePrefab[pNumber], projectilePoint.position, projectilePoint.rotation)) as GameObject;
+                if (!(knight || ninja || juggernaut))
+                {
+                    GameObject projectile;
+                    projectile = (Instantiate(projectilePrefab[pNumber], projectilePoint.position, projectilePoint.rotation)) as GameObject;
+                }
                 attack = false;
 
             }
