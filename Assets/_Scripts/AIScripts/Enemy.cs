@@ -140,6 +140,15 @@ namespace UnityStandardAssets._2D
             }
             
             jumpTimer -= Time.deltaTime;
+
+            if (m_Character.health <= 0)
+            {
+                if (dropScroll)
+                {
+                    dropScroll = false;
+                    Instantiate(scroll, transform.position, transform.rotation);
+                }
+            }
         }
 
         private void FixedUpdate()

@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 namespace UnityStandardAssets._2D
 {
@@ -43,6 +44,7 @@ namespace UnityStandardAssets._2D
         public float dashPower = 50f;
         [HideInInspector]
         public bool specialAI = false;
+        public GameObject volume;
 
         // Audio
         public AudioSource audioSource;
@@ -62,6 +64,7 @@ namespace UnityStandardAssets._2D
             m_Rigidbody2D = GetComponent<Rigidbody2D>();
             startPoint = GameObject.FindGameObjectWithTag("StartPoint");
             audioSource = GetComponent<AudioSource>();
+            volume = GameObject.FindGameObjectWithTag("VolumeSlider");
 
             if (this.gameObject.transform.localScale.x > 0)
             {
@@ -87,6 +90,7 @@ namespace UnityStandardAssets._2D
             ability3CD -= Time.deltaTime;
 
             // Determine if running noise should be played.
+            //audioSource.volume = volume.GetComponent<Slider>().value;
             if (!dashActive)
             {
                 if (m_Rigidbody2D.velocity.x != 0 && m_Grounded)
@@ -309,7 +313,6 @@ namespace UnityStandardAssets._2D
             // Instead of destroy probably just teleport to start if it's the player...
             if (this.gameObject.tag != "Player")
             {
-
                 Destroy(this.gameObject, 3.0f);
             }
             else

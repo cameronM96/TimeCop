@@ -371,6 +371,7 @@ MonoBehaviour:
   ability2CD: 3
   ability3CD: 3
   abilityCD: 3
+  attackCDReset: 2
   ability1Learnt: 0
   ability2Learnt: 0
   ability3Learnt: 0
@@ -378,12 +379,14 @@ MonoBehaviour:
   dashActive: 0
   dashPower: 50
   specialAI: 0
+  volume: {fileID: 0}
   audioSource: {fileID: 82251490013042806}
   rangedAttack: {fileID: 0}
   meleeAttack: {fileID: 8300000, guid: 0b69f679c3377944e9feb4d7101ed475, type: 3}
   running: {fileID: 8300000, guid: c3cc19d6b910aaa4ab4aed9cf5b3bf61, type: 3}
   powerFist: {fileID: 8300000, guid: cdd363cfefa00864497c0a8b71ed00a3, type: 3}
   dash: {fileID: 8300000, guid: 34479b2c7b7dd0a438c7361a20a41d8d, type: 3}
+  deathSound: {fileID: 8300000, guid: b6648be9ad1988b4281b2789108ebe99, type: 3}
 --- !u!114 &114257145775232536
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -467,6 +470,7 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -482,6 +486,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5

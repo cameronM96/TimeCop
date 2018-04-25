@@ -24,6 +24,41 @@ namespace UnityStandardAssets._2D
             {
                 ability1.enabled = true;
                 abilityIcon1.enabled = true;
+            } else
+            {
+                ability1.enabled = false;
+                abilityIcon1.enabled = false;
+            }
+
+            if (m_Character.ability2Learnt)
+            {
+                ability2.enabled = true;
+                abilityIcon2.enabled = true;
+            } else
+            {
+                ability2.enabled = false;
+                abilityIcon2.enabled = false;
+            }
+
+            if (m_Character.ability3Learnt)
+            {
+                ability3.enabled = true;
+                abilityIcon3.enabled = true;
+            } else
+            {
+                ability3.enabled = false;
+                abilityIcon3.enabled = false;
+            }
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+            // Update UI
+            if (m_Character.ability1Learnt)
+            {
+                ability1.enabled = true;
+                abilityIcon1.enabled = true;
             }
 
             if (m_Character.ability2Learnt)
@@ -37,11 +72,6 @@ namespace UnityStandardAssets._2D
                 ability3.enabled = true;
                 abilityIcon3.enabled = true;
             }
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
             // Set the fill amount on the cooldown bar
             ability1.fillAmount = (m_Character.ability1CD / m_Character.abilityCD);
             ability2.fillAmount = (m_Character.ability2CD / m_Character.abilityCD);

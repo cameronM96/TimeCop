@@ -1,22 +1,27 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 // Created By Myles Okorn
 public class MO_Blackout : MonoBehaviour {
 
-    public float blackoutCountdown = 500.0f;
+    public float blackoutCountdown = 30.0f;
     public float blackoutTimer = 30.0f;
 
     public GameObject[] spotlights;
 
     public GameObject sceneLight;
+    public Image blackoutCurtain;
+
 
     private bool isBlackout = false;
 
     // Use this for initialization
     void Start ()
     {
+        blackoutCurtain.enabled = false;
+        sceneLight.SetActive(true);
         foreach(GameObject light in spotlights)
         {
             light.SetActive(false);
@@ -42,7 +47,7 @@ public class MO_Blackout : MonoBehaviour {
             {
                 blackoutEnd();
                 blackoutTimer = 30.0f;
-                blackoutCountdown = 500.0f;
+                blackoutCountdown = 30.0f;
             }
         }
 	}
@@ -50,6 +55,7 @@ public class MO_Blackout : MonoBehaviour {
     private void blackout()
     {
         sceneLight.SetActive(false);
+        blackoutCurtain.enabled = true;
         foreach (GameObject light in spotlights)
         {
             light.SetActive(true);
@@ -59,9 +65,10 @@ public class MO_Blackout : MonoBehaviour {
     private void blackoutEnd()
     {
         sceneLight.SetActive(true);
+        blackoutCurtain.enabled = false;
         foreach (GameObject light in spotlights)
         {
-            light.SetActive(true);
+            light.SetActive(false);
         }
     }
 }

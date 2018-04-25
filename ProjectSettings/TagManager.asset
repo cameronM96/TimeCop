@@ -24,6 +24,8 @@ TagManager:
   - Ability3Scroll
   - StartPoint
   - AbilityProc
+  - VolumeSlider
+  - Warning
   layers:
   - Default
   - TransparentFX

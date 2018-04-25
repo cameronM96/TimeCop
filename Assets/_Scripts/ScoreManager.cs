@@ -98,7 +98,7 @@ namespace UnityStandardAssets._2D
 
         // This functions will enable the canvas that displays the breakdown for the score.
         // It will be triggered at the end of the level (simple on trigger enter event on the player)
-        void DisplayScoreBoard()
+        public void DisplayScoreBoard()
         {
             // Suspend all the AI here so at the end of the level everything freezes? 
             //(maybe create another method and just call it at the same time)

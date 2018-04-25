@@ -11,9 +11,17 @@ namespace UnityStandardAssets._2D
         {
             if (other.gameObject.tag == "Player")
             {
-                SceneManager.LoadScene("Main Menu");
-
+                ScoreManager scoreBoard = GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreManager>();
+                scoreBoard.DisplayScoreBoard();
+                StartCoroutine(NextLevel());
             }
+        }
+
+        IEnumerator NextLevel()
+        {
+            yield return new WaitForSeconds(10);
+            SceneManager.LoadScene("Main Menu");
         }
     }
 }
+
