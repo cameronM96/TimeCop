@@ -53,5 +53,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rainTimer: 15
   arrow: {fileID: 1484732432233602, guid: 7066f68d165fc734f9123e9d6f4cc94a, type: 2}
-  numberOfArrows: 10
+  numberOfArrows: 80
   numberOfRows: 2
