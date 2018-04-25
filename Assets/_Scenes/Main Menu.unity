@@ -2694,8 +2694,7 @@ MonoBehaviour:
     by 'GiocoSound'\n\t\r\nRegular footstep (Concrete) - Step 10.wav by 'carrigsound'\r\nMetal
     footstep (Armour) - metal-click.wav by 'newagesoup'\r\n\nBow draw and release
     - Regular Arrow Shot by 'brendan89'\r\nArrow impact ground/obstacle - Arrow Impact
-    1 by 'Ali_6868'\r\n\nPower Fist ability (Ground Smash) - Impact Cinematic by 'original_sound'\r\n\nDeath
-    sound - Grunt2 Death Pain by 'Aline Audio'\n"
+    1 by 'Ali_6868'\r\n\nPower Fist ability (Ground Smash) - Impact Cinematic by 'original_sound'\r\n"
 --- !u!222 &766777763
 CanvasRenderer:
   m_ObjectHideFlags: 0
