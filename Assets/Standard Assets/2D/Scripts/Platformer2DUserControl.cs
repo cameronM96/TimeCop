@@ -12,6 +12,7 @@ namespace UnityStandardAssets._2D
         private bool m_Jump;
         private bool attack = false;
         private int abilityNumber = 0;
+        private bool right = true;
 
         private void Awake()
         {
@@ -41,16 +42,28 @@ namespace UnityStandardAssets._2D
 
             float h = CrossPlatformInputManager.GetAxis("Horizontal");
             
+            // Don't do ability if one is currently in progress
             if (!m_Character.m_Anim.GetCurrentAnimatorStateInfo(0).IsName("UpperCut") ||
                 !m_Character.m_Anim.GetCurrentAnimatorStateInfo(0).IsName("Dash") ||
-                !m_Character.m_Anim.GetCurrentAnimatorStateInfo(0).IsName("GroundSmash")) 
+                !m_Character.m_Anim.GetCurrentAnimatorStateInfo(0).IsName("GroundSmash") ||
+                !m_Character.m_Anim.GetCurrentAnimatorStateInfo(0).IsName("Attack")) 
                 {
                 // This is the UpperCut ability
                 if (Input.GetButton("Fire2") && Input.GetKey(KeyCode.W) && m_Character.ability1CD <= 0)
                     abilityNumber = 1;
-                // This is the Dash Ability
-                if (Input.GetButton("Fire2") && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) && m_Character.ability2CD <= 0)
+                // This is the Dash Ability (right)
+                if (Input.GetButton("Fire2") && Input.GetKey(KeyCode.A) && m_Character.ability2CD <= 0)
+                {
                     abilityNumber = 2;
+                    right = true;
+                }
+                // This is the Dash Ability (left)
+                if (Input.GetButton("Fire2") && Input.GetKey(KeyCode.D) && m_Character.ability2CD <= 0)
+                {
+                    abilityNumber = 2;
+                    right = false;
+                }
+
                 // This is the Ground Smash Ability
                 if (Input.GetButton("Fire2") && Input.GetKey(KeyCode.S) && m_Character.ability3CD <= 0)
                     abilityNumber = 3;
@@ -62,7 +75,7 @@ namespace UnityStandardAssets._2D
             if (abilityNumber != 0)
             {
                 // Do abilities
-                m_Character.Abilities(abilityNumber);
+                m_Character.Abilities(abilityNumber,right);
             }
             else if (attack)
             {
@@ -72,7 +85,7 @@ namespace UnityStandardAssets._2D
             else
             {
                 // Move character (if groundsmash isn't active)
-                if (!m_Character.groundSmashActive)
+                if (!m_Character.groundSmashActive || !m_Character.m_Anim.GetCurrentAnimatorStateInfo(0).IsName("Dash"))
                     m_Character.Move(h, crouch, m_Jump);
             }
             

@@ -9,18 +9,40 @@ namespace UnityStandardAssets._2D
     {
         private PlatformerCharacter2D m_Character;
         public Image ability1;
+        public Image abilityIcon1;
         public Image ability2;
+        public Image abilityIcon2;
         public Image ability3;
+        public Image abilityIcon3;
 
         // Use this for initialization
         void Start()
         {
+            // Enable the frames for ability cooldowns if the player has learnt them
             m_Character = GameObject.FindGameObjectWithTag("Player").GetComponent<PlatformerCharacter2D>();
+            if (m_Character.ability1Learnt)
+            {
+                ability1.enabled = true;
+                abilityIcon1.enabled = true;
+            }
+
+            if (m_Character.ability2Learnt)
+            {
+                ability2.enabled = true;
+                abilityIcon2.enabled = true;
+            }
+
+            if (m_Character.ability3Learnt)
+            {
+                ability3.enabled = true;
+                abilityIcon3.enabled = true;
+            }
         }
 
         // Update is called once per frame
         void Update()
         {
+            // Set the fill amount on the cooldown bar
             ability1.fillAmount = (m_Character.ability1CD / m_Character.abilityCD);
             ability2.fillAmount = (m_Character.ability2CD / m_Character.abilityCD);
             ability3.fillAmount = (m_Character.ability3CD / m_Character.abilityCD);

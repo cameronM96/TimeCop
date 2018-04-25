@@ -5,7 +5,7 @@ using UnityEngine;
 // Created by Myles Okorn
 public class MO_RainOfArrows : MonoBehaviour {
 
-    public float rainTimer = 500.0f;
+    public float rainTimer = 15.0f;
     public GameObject arrow;
     public float numberOfArrows;
     public float numberOfRows;
@@ -26,7 +26,7 @@ public class MO_RainOfArrows : MonoBehaviour {
 
         if (isRaining)
         {
-
+            // Here down created by Cameron Mullins
             //start rain of arrows
             for (int i = 0; i < numberOfRows; i++)
             {
@@ -42,6 +42,7 @@ public class MO_RainOfArrows : MonoBehaviour {
                     Instantiate(arrow, spawnPoint, transform.rotation);
                 }
             }
+            // End Cameron Mullins work
             //reset the timer 
             rainTimer = 500.0f;
             isRaining = false;

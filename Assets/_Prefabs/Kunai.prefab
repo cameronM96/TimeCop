@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 61814938990422790}
   - component: {fileID: 114694751565189750}
   - component: {fileID: 50293107726741344}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Kunai
   m_TagString: Projectile
   m_Icon: {fileID: 0}
