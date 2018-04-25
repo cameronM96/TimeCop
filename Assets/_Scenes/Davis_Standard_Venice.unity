@@ -351,7 +351,10 @@ Transform:
   m_RootOrder: 234
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &10481382
 GameObject:
   m_ObjectHideFlags: 0
@@ -395,15 +398,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -421,15 +420,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -491,15 +486,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -517,15 +508,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -544,7 +531,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &14909439
 GameObject:
   m_ObjectHideFlags: 0
@@ -1613,7 +1603,7 @@ Transform:
   - {fileID: 1238400183}
   - {fileID: 1181936231}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &36898102
 GameObject:
@@ -2306,7 +2296,10 @@ Transform:
   m_RootOrder: 100
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &56568748
 GameObject:
   m_ObjectHideFlags: 0
@@ -2350,15 +2343,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -2376,15 +2365,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -2403,7 +2388,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &57002322
 GameObject:
   m_ObjectHideFlags: 0
@@ -2817,7 +2805,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &71898561
 GameObject:
@@ -3302,6 +3290,43 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &77661974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1953132340542922, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 77661975}
+  m_Layer: 0
+  m_Name: Platform1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &77661975
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4588117708487772, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 77661974}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: -1, z: 0}
+  m_LocalScale: {x: 3, y: 1, z: 1}
+  m_Children:
+  - {fileID: 689691011}
+  - {fileID: 1804172171}
+  - {fileID: 1979913866}
+  - {fileID: 229905532}
+  - {fileID: 11030279}
+  - {fileID: 804670520}
+  - {fileID: 2138085260}
+  m_Father: {fileID: 1584734059}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &82992766
 GameObject:
   m_ObjectHideFlags: 0
@@ -3741,9 +3766,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 101446076}
-  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -84.07691, y: 4.7839537, z: 0}
-  m_LocalScale: {x: 3.670004, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 34.107704, y: 9.734, z: 0}
+  m_LocalScale: {x: 3.670002, y: 1, z: 1}
   m_Children:
   - {fileID: 2066790720}
   - {fileID: 1044062750}
@@ -3756,8 +3781,8 @@ Transform:
   - {fileID: 188319090}
   - {fileID: 2058509401}
   - {fileID: 1575089251}
-  m_Father: {fileID: 1612989735}
-  m_RootOrder: 3
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &102398802
 GameObject:
@@ -3841,7 +3866,7 @@ Transform:
   - {fileID: 802777881}
   - {fileID: 1247723514}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &108834556
 GameObject:
@@ -4244,7 +4269,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &122834481
 GameObject:
@@ -4873,6 +4898,63 @@ Transform:
   m_Father: {fileID: 33064662}
   m_RootOrder: 361
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &156594362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1219279593577904, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 156594363}
+  - component: {fileID: 156594364}
+  m_Layer: 0
+  m_Name: Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &156594363
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4463271787335204, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 156594362}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.2502, y: 0.31217, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1879593696}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &156594364
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 61645698185789334, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 156594362}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.36181712, y: -0.23010147}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.8194275, y: 0.71594405}
+  m_EdgeRadius: 0
 --- !u!1 &158485715
 GameObject:
   m_ObjectHideFlags: 0
@@ -5133,44 +5215,47 @@ Transform:
   m_Father: {fileID: 33064662}
   m_RootOrder: 243
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &178242936
+--- !u!1 &171229153
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1548650564627246, guid: ad644661e8882af468b04c99ac9fb170,
+  m_PrefabParentObject: {fileID: 1879544932726388, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
     type: 2}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInternal: {fileID: 1863292203}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 178242937}
-  - component: {fileID: 178242938}
-  m_Layer: 0
-  m_Name: PrototypeWhite04x01 (18)
+  - component: {fileID: 171229154}
+  - component: {fileID: 171229155}
+  m_Layer: 10
+  m_Name: PrototypeWhite04x01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &178242937
+--- !u!4 &171229154
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4330558402524552, guid: ad644661e8882af468b04c99ac9fb170,
+  m_PrefabParentObject: {fileID: 4578918040089150, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
     type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 178242936}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 171229153}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 46.22, y: -0.0000076293945, z: 0}
-  m_LocalScale: {x: 2.5723658, y: 0.6599998, z: 1}
+  m_LocalPosition: {x: 1.09, y: 0.17000008, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 640434571}
-  m_RootOrder: 21
+  m_Father: {fileID: 1835891359}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &178242938
+--- !u!212 &171229155
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212090144990266114, guid: ad644661e8882af468b04c99ac9fb170,
+  m_PrefabParentObject: {fileID: 212376015555057548, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
     type: 2}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
   m_PrefabInternal: {fileID: 1863292203}
   m_GameObject: {fileID: 171229153}
   m_Enabled: 1
@@ -5178,15 +5263,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -5204,15 +5285,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -5267,7 +5344,10 @@ SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 212090144990266114, guid: ad644661e8882af468b04c99ac9fb170,
     type: 2}
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 178242936}
   m_Enabled: 1
@@ -5480,7 +5560,10 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &186533704
 GameObject:
   m_ObjectHideFlags: 0
@@ -5524,15 +5607,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -5550,15 +5629,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -5577,7 +5652,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &188319089
 GameObject:
   m_ObjectHideFlags: 0
@@ -5964,6 +6042,63 @@ Transform:
   m_Father: {fileID: 33064662}
   m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &214414993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1091471772159396, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 214414994}
+  - component: {fileID: 214414995}
+  m_Layer: 0
+  m_Name: Slider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &214414994
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4855630453819138, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 214414993}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1970362292}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &214414995
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 61829139659025184, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 214414993}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 3626fe8e008014f6bbd19bb72937b311, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 12.50135, y: 0.31220862}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 25.008635, y: 0.62635964}
+  m_EdgeRadius: 0
 --- !u!1 &214899258
 GameObject:
   m_ObjectHideFlags: 0
@@ -6053,15 +6188,15 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1612989735}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 400000, guid: ba4eef1c1bb56b444b143beb8d3e30d5, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -118.184616
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ba4eef1c1bb56b444b143beb8d3e30d5, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -4.9500465
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ba4eef1c1bb56b444b143beb8d3e30d5, type: 2}
       propertyPath: m_LocalPosition.z
@@ -6069,11 +6204,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ba4eef1c1bb56b444b143beb8d3e30d5, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ba4eef1c1bb56b444b143beb8d3e30d5, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ba4eef1c1bb56b444b143beb8d3e30d5, type: 2}
       propertyPath: m_LocalRotation.z
@@ -6101,7 +6236,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ba4eef1c1bb56b444b143beb8d3e30d5, type: 2}
       propertyPath: m_LocalScale.x
-      value: 3.8300018
+      value: 3.83
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ba4eef1c1bb56b444b143beb8d3e30d5, type: 2}
       propertyPath: m_Name
@@ -6122,10 +6257,6 @@ Prefab:
     - target: {fileID: 100010, guid: ba4eef1c1bb56b444b143beb8d3e30d5, type: 2}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ba4eef1c1bb56b444b143beb8d3e30d5, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ba4eef1c1bb56b444b143beb8d3e30d5, type: 2}
@@ -6241,7 +6372,10 @@ Transform:
   m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &229905531
 GameObject:
   m_ObjectHideFlags: 0
@@ -6285,15 +6419,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -6311,15 +6441,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -6338,7 +6464,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &230614949
 GameObject:
   m_ObjectHideFlags: 0
@@ -6442,6 +6571,9 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+--- !u!1 &235626520
 =======
 --- !u!1 &235626520
 GameObject:
@@ -6484,7 +6616,6 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
-<<<<<<< HEAD
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -6560,9 +6691,6 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -7092,6 +7220,43 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &264264226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1198991768916388, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 264264227}
+  m_Layer: 0
+  m_Name: Platform2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &264264227
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4813917293519872, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 264264226}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.43, y: 3.11, z: 0}
+  m_LocalScale: {x: 3, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791534889}
+  - {fileID: 1883509313}
+  - {fileID: 1130783966}
+  - {fileID: 1510473055}
+  - {fileID: 1547224526}
+  - {fileID: 2146012943}
+  - {fileID: 1357460026}
+  m_Father: {fileID: 1584734059}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &265209000 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400014, guid: 47d3e747b2e87de4c8358aaa436365ea, type: 2}
@@ -7257,7 +7422,7 @@ Transform:
   m_LocalScale: {x: 6.674029, y: 6.6740355, z: 6.6740355}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &276754405
 GameObject:
@@ -7631,7 +7796,10 @@ Transform:
   m_RootOrder: 343
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &285705861
 GameObject:
   m_ObjectHideFlags: 0
@@ -7675,15 +7843,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -7701,15 +7865,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -7728,7 +7888,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &287078362
 GameObject:
   m_ObjectHideFlags: 0
@@ -8145,8 +8308,86 @@ Prefab:
   m_ParentPrefab: {fileID: 100100000, guid: 3dc82f88b805ff142b804693e2585a17, type: 2}
   m_IsPrefabParent: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 --- !u!1 &303132147
+=======
+--- !u!1 &303132147
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1224600048433832, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 303132148}
+  - component: {fileID: 303132149}
+  m_Layer: 10
+  m_Name: PrototypeWhite04x01 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &303132148
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4521968614300976, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 303132147}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.57, y: 0.17000008, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1835891359}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &303132149
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 212112058940335990, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 303132147}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 3eb4f6ccdc9a240028824dffc4cf46d6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!1 &304940484
+>>>>>>> parent of e920b69... Fixing Venice Level
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 1224600048433832, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
@@ -9484,7 +9725,84 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+--- !u!1 &341332410
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1418582364291724, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 341332411}
+  - component: {fileID: 341332412}
+  m_Layer: 10
+  m_Name: PrototypeWhite04x01 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &341332411
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4759668065015368, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 341332410}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.57, y: 0.17000008, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2019585260}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &341332412
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 212515371104274824, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 341332410}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 3eb4f6ccdc9a240028824dffc4cf46d6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &341431733
 GameObject:
   m_ObjectHideFlags: 0
@@ -9731,7 +10049,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &347301708
 GameObject:
@@ -9892,7 +10210,10 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &360032196
 GameObject:
   m_ObjectHideFlags: 0
@@ -9936,15 +10257,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -9962,15 +10279,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -9989,7 +10302,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &360932397
 GameObject:
   m_ObjectHideFlags: 0
@@ -10382,7 +10698,10 @@ Transform:
   m_RootOrder: 156
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &385363867
 GameObject:
   m_ObjectHideFlags: 0
@@ -10426,15 +10745,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -10452,15 +10767,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -10521,7 +10832,10 @@ Transform:
   m_Father: {fileID: 1584734059}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &389282531
 GameObject:
   m_ObjectHideFlags: 0
@@ -11826,6 +12140,43 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.07894616, y: 0.6308952}
   m_EdgeRadius: 0
+--- !u!1 &465181131
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1982849140575708, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 465181132}
+  m_Layer: 0
+  m_Name: Platform5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &465181132
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4852527566815862, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 465181131}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 14.99, z: 0}
+  m_LocalScale: {x: 3, y: 1, z: 1}
+  m_Children:
+  - {fileID: 498476517}
+  - {fileID: 1223198530}
+  - {fileID: 752466491}
+  - {fileID: 1017599405}
+  - {fileID: 235626521}
+  - {fileID: 746128782}
+  - {fileID: 1163568773}
+  m_Father: {fileID: 1584734059}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &466621491
 GameObject:
   m_ObjectHideFlags: 0
@@ -11966,66 +12317,6 @@ Transform:
   m_Father: {fileID: 33064662}
   m_RootOrder: 350
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &473376332
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1643944409}
-    m_Modifications:
-    - target: {fileID: 4548634787785362, guid: aa017c1484dc95547b5f261977c3c1e5, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -72.01767
-      objectReference: {fileID: 0}
-    - target: {fileID: 4548634787785362, guid: aa017c1484dc95547b5f261977c3c1e5, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -2.2200465
-      objectReference: {fileID: 0}
-    - target: {fileID: 4548634787785362, guid: aa017c1484dc95547b5f261977c3c1e5, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4548634787785362, guid: aa017c1484dc95547b5f261977c3c1e5, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4548634787785362, guid: aa017c1484dc95547b5f261977c3c1e5, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4548634787785362, guid: aa017c1484dc95547b5f261977c3c1e5, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4548634787785362, guid: aa017c1484dc95547b5f261977c3c1e5, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4548634787785362, guid: aa017c1484dc95547b5f261977c3c1e5, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4548634787785362, guid: aa017c1484dc95547b5f261977c3c1e5, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4548634787785362, guid: aa017c1484dc95547b5f261977c3c1e5, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 212032363608647820, guid: aa017c1484dc95547b5f261977c3c1e5,
-        type: 2}
-      propertyPath: m_FlipX
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 212032363608647820, guid: aa017c1484dc95547b5f261977c3c1e5,
-        type: 2}
-      propertyPath: m_FlipY
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: aa017c1484dc95547b5f261977c3c1e5, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &476923105
 GameObject:
   m_ObjectHideFlags: 0
@@ -12129,7 +12420,10 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &480213393
 GameObject:
   m_ObjectHideFlags: 0
@@ -12173,15 +12467,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -12199,15 +12489,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -12226,7 +12512,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &482803740
 GameObject:
   m_ObjectHideFlags: 0
@@ -12260,15 +12549,15 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1612989735}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4716585415865726, guid: 05da1e8b23dafc44b8c4d9dbe4f9ccc4, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 319.0746
+      value: 437.2592
       objectReference: {fileID: 0}
     - target: {fileID: 4716585415865726, guid: 05da1e8b23dafc44b8c4d9dbe4f9ccc4, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.41518307
+      value: 4.5348635
       objectReference: {fileID: 0}
     - target: {fileID: 4716585415865726, guid: 05da1e8b23dafc44b8c4d9dbe4f9ccc4, type: 2}
       propertyPath: m_LocalPosition.z
@@ -12276,15 +12565,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4716585415865726, guid: 05da1e8b23dafc44b8c4d9dbe4f9ccc4, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4716585415865726, guid: 05da1e8b23dafc44b8c4d9dbe4f9ccc4, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4716585415865726, guid: 05da1e8b23dafc44b8c4d9dbe4f9ccc4, type: 2}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4716585415865726, guid: 05da1e8b23dafc44b8c4d9dbe4f9ccc4, type: 2}
       propertyPath: m_LocalRotation.w
@@ -12292,7 +12581,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4716585415865726, guid: 05da1e8b23dafc44b8c4d9dbe4f9ccc4, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 114001346608262038, guid: 05da1e8b23dafc44b8c4d9dbe4f9ccc4,
         type: 2}
@@ -12303,7 +12592,10 @@ Prefab:
   m_ParentPrefab: {fileID: 100100000, guid: 05da1e8b23dafc44b8c4d9dbe4f9ccc4, type: 2}
   m_IsPrefabParent: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &488144344
 GameObject:
   m_ObjectHideFlags: 0
@@ -12347,15 +12639,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -12373,15 +12661,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -12400,7 +12684,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &488691314
 GameObject:
   m_ObjectHideFlags: 0
@@ -12767,6 +13054,63 @@ Transform:
   m_Father: {fileID: 33064662}
   m_RootOrder: 389
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &498476516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1861010770833886, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 498476517}
+  - component: {fileID: 498476518}
+  m_Layer: 0
+  m_Name: Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &498476517
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4954276425981310, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 498476516}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.2502, y: 0.31217, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 465181132}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &498476518
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 61582559641469522, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 498476516}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.2834648, y: -0.23010147}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.9761322, y: 0.71594405}
+  m_EdgeRadius: 0
 --- !u!1 &505278533
 GameObject:
   m_ObjectHideFlags: 0
@@ -13183,7 +13527,6 @@ Transform:
   m_Father: {fileID: 33064662}
   m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1 &530682308
 GameObject:
   m_ObjectHideFlags: 0
@@ -13339,8 +13682,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-=======
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
 --- !u!1 &532791960
 GameObject:
   m_ObjectHideFlags: 0
@@ -13436,7 +13777,6 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -13452,7 +13792,6 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -13615,10 +13954,9 @@ SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 21200004, guid: 0eb16b4b3e362ef4f97494dd0e686c46,
     type: 2}
-<<<<<<< HEAD
-=======
-  m_PrefabInternal: {fileID: 1863292203}
-  m_GameObject: {fileID: 531343249}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 543309700}
+>>>>>>> parent of e920b69... Fixing Venice Level
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -14325,7 +14663,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &572345317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14395,17 +14733,13 @@ RectTransform:
   m_Children:
   - {fileID: 1912267054}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!4 &572555336 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 400000, guid: ba4eef1c1bb56b444b143beb8d3e30d5, type: 2}
-  m_PrefabInternal: {fileID: 217047404}
 --- !u!1 &584160808
 GameObject:
   m_ObjectHideFlags: 0
@@ -15185,7 +15519,10 @@ Transform:
   m_RootOrder: 236
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &616038141
 GameObject:
   m_ObjectHideFlags: 0
@@ -15229,15 +15566,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -15255,15 +15588,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -15282,7 +15611,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1001 &619631183
 Prefab:
   m_ObjectHideFlags: 0
@@ -16087,7 +16419,10 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &651244070
 GameObject:
   m_ObjectHideFlags: 0
@@ -16131,15 +16466,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -16157,15 +16488,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -16184,7 +16511,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &652439036
 GameObject:
   m_ObjectHideFlags: 0
@@ -16688,6 +17018,63 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 415310, guid: 3dc82f88b805ff142b804693e2585a17, type: 2}
   m_PrefabInternal: {fileID: 2070349649}
+--- !u!1 &689691010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1101904435165930, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 689691011}
+  - component: {fileID: 689691012}
+  m_Layer: 0
+  m_Name: Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &689691011
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4301027227189566, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 689691010}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.2502, y: 0.31217, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 77661975}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &689691012
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 61219643991584500, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 689691010}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.2834648, y: -0.23010147}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.9761322, y: 0.71594405}
+  m_EdgeRadius: 0
 --- !u!1 &691187951
 GameObject:
   m_ObjectHideFlags: 0
@@ -17121,7 +17508,7 @@ Transform:
   - {fileID: 1115648396}
   - {fileID: 1018002173}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &718571376
 GameObject:
@@ -17244,8 +17631,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 723431136}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -54.803944, y: -16.182463, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 63.380672, y: -11.232416, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1249935757}
@@ -17257,8 +17644,8 @@ Transform:
   - {fileID: 324695111}
   - {fileID: 1896843669}
   - {fileID: 323758270}
-  m_Father: {fileID: 1612989735}
-  m_RootOrder: 8
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &723431138
 SpriteRenderer:
@@ -17718,7 +18105,10 @@ Transform:
   m_RootOrder: 506
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &746128781
 GameObject:
   m_ObjectHideFlags: 0
@@ -17762,15 +18152,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -17788,15 +18174,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -17815,7 +18197,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1001 &747262933
 Prefab:
   m_ObjectHideFlags: 0
@@ -18139,7 +18524,84 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+--- !u!1 &752466490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1112605759142884, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 752466491}
+  - component: {fileID: 752466492}
+  m_Layer: 10
+  m_Name: PrototypeWhite04x01 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &752466491
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4208236863522548, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 752466490}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.05, y: 0.17000008, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 465181132}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &752466492
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 212181627757735632, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 752466490}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 3eb4f6ccdc9a240028824dffc4cf46d6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &754189560
 GameObject:
   m_ObjectHideFlags: 0
@@ -18536,7 +18998,10 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &769638399
 GameObject:
   m_ObjectHideFlags: 0
@@ -18580,15 +19045,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -18606,15 +19067,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -18633,7 +19090,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &778023732
 GameObject:
   m_ObjectHideFlags: 0
@@ -18705,6 +19165,63 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &778255644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1954221408837870, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 778255645}
+  - component: {fileID: 778255646}
+  m_Layer: 0
+  m_Name: Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &778255645
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4627393510068498, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 778255644}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.2502, y: 0.31217, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2019585260}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &778255646
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 61068004044325780, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 778255644}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.2834648, y: -0.23010147}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.9761322, y: 0.71594405}
+  m_EdgeRadius: 0
 --- !u!1 &783126989
 GameObject:
   m_ObjectHideFlags: 0
@@ -18990,7 +19507,10 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &804670519
 GameObject:
   m_ObjectHideFlags: 0
@@ -19034,15 +19554,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -19060,15 +19576,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -19087,7 +19599,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1001 &805408466
 Prefab:
   m_ObjectHideFlags: 0
@@ -19257,64 +19772,6 @@ Transform:
   m_Father: {fileID: 33064662}
   m_RootOrder: 514
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &813753870
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1643944409}
-    m_Modifications:
-    - target: {fileID: 4548634787785362, guid: aa017c1484dc95547b5f261977c3c1e5, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -9.704613
-      objectReference: {fileID: 0}
-    - target: {fileID: 4548634787785362, guid: aa017c1484dc95547b5f261977c3c1e5, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -2.3100464
-      objectReference: {fileID: 0}
-    - target: {fileID: 4548634787785362, guid: aa017c1484dc95547b5f261977c3c1e5, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4548634787785362, guid: aa017c1484dc95547b5f261977c3c1e5, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4548634787785362, guid: aa017c1484dc95547b5f261977c3c1e5, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4548634787785362, guid: aa017c1484dc95547b5f261977c3c1e5, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4548634787785362, guid: aa017c1484dc95547b5f261977c3c1e5, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4548634787785362, guid: aa017c1484dc95547b5f261977c3c1e5, type: 2}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1861093156568530, guid: aa017c1484dc95547b5f261977c3c1e5, type: 2}
-      propertyPath: m_Name
-      value: knight (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4548634787785362, guid: aa017c1484dc95547b5f261977c3c1e5, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4548634787785362, guid: aa017c1484dc95547b5f261977c3c1e5, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4548634787785362, guid: aa017c1484dc95547b5f261977c3c1e5, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: aa017c1484dc95547b5f261977c3c1e5, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &814382417
 GameObject:
   m_ObjectHideFlags: 0
@@ -19428,7 +19885,10 @@ Transform:
   m_RootOrder: 488
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &825799605
 GameObject:
   m_ObjectHideFlags: 0
@@ -19472,15 +19932,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -19498,15 +19954,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -19525,7 +19977,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &827504559
 GameObject:
   m_ObjectHideFlags: 0
@@ -19714,7 +20169,10 @@ Transform:
   m_RootOrder: 519
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &837061937
 GameObject:
   m_ObjectHideFlags: 0
@@ -19815,15 +20273,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -19841,15 +20295,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -19868,7 +20318,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &842052590
 GameObject:
   m_ObjectHideFlags: 0
@@ -20074,8 +20527,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 845580021}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 130.5271, y: 2.8041549, z: 59.875}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 248.71172, y: 7.7542014, z: 59.875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 108834557}
@@ -20084,8 +20537,8 @@ Transform:
   - {fileID: 442728511}
   - {fileID: 1243718438}
   - {fileID: 1332887541}
-  m_Father: {fileID: 1612989735}
-  m_RootOrder: 10
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &846830058
 GameObject:
@@ -21158,11 +21611,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!4 &931562419 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4548634787785362, guid: aa017c1484dc95547b5f261977c3c1e5,
-    type: 2}
-  m_PrefabInternal: {fileID: 813753870}
 --- !u!1 &932843765
 GameObject:
   m_ObjectHideFlags: 0
@@ -22010,6 +22458,86 @@ Transform:
   m_Father: {fileID: 33064662}
   m_RootOrder: 323
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &987353084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1180585268245134, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 987353085}
+  - component: {fileID: 987353086}
+  m_Layer: 0
+  m_Name: PrototypeWhite04x01 (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &987353085
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4384198004907946, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 987353084}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.86, y: 0.30999708, z: 0}
+  m_LocalScale: {x: 18.120052, y: 4.000002, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1970362292}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &987353086
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 212384768559157266, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 987353084}
+=======
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 987353084}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 987628a106b254d74bdd14018a463290, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &987919072
 GameObject:
   m_ObjectHideFlags: 0
@@ -22194,10 +22722,9 @@ SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 212090144990266114, guid: ad644661e8882af468b04c99ac9fb170,
     type: 2}
-<<<<<<< HEAD
-=======
-  m_PrefabInternal: {fileID: 1863292203}
-  m_GameObject: {fileID: 987353084}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 991453093}
+>>>>>>> parent of e920b69... Fixing Venice Level
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -22945,7 +23472,84 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+--- !u!1 &1017599404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1229452696762216, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1017599405}
+  - component: {fileID: 1017599406}
+  m_Layer: 10
+  m_Name: PrototypeWhite04x01 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1017599405
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4212906470744710, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1017599404}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.57, y: 0.17000008, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 465181132}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1017599406
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 212932543524880060, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1017599404}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 3eb4f6ccdc9a240028824dffc4cf46d6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1001 &1018002172
 Prefab:
   m_ObjectHideFlags: 0
@@ -23204,7 +23808,10 @@ BoxCollider2D:
   m_Size: {x: 0.1, y: 0.1}
   m_EdgeRadius: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1024984514
 GameObject:
   m_ObjectHideFlags: 0
@@ -23248,15 +23855,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -23274,15 +23877,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -23301,7 +23900,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1025390913
 GameObject:
   m_ObjectHideFlags: 0
@@ -23331,7 +23933,10 @@ Transform:
   m_RootOrder: 125
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1026398897
 GameObject:
   m_ObjectHideFlags: 0
@@ -23375,15 +23980,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -23401,15 +24002,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -23428,7 +24025,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1027815259
 GameObject:
   m_ObjectHideFlags: 0
@@ -23639,9 +24239,9 @@ Transform:
   m_RootOrder: 515
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 --- !u!1 &1038366821
-<<<<<<< HEAD
 =======
 --- !u!1 &1038366821
 GameObject:
@@ -23794,8 +24394,6 @@ SpriteRenderer:
   m_MaskInteraction: 0
 --- !u!1 &1039768542
 >>>>>>> parent of e920b69... Fixing Venice Level
-=======
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 1942725066531746, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
@@ -25588,7 +26186,10 @@ Transform:
   m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1099162820
 GameObject:
   m_ObjectHideFlags: 0
@@ -25632,15 +26233,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -25658,15 +26255,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -25685,7 +26278,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1099554748
 GameObject:
   m_ObjectHideFlags: 0
@@ -26334,6 +26930,63 @@ Transform:
   m_Father: {fileID: 33064662}
   m_RootOrder: 310
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1120556619
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1631633879336724, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1120556620}
+  - component: {fileID: 1120556621}
+  m_Layer: 0
+  m_Name: Slider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1120556620
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4736830399843082, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1120556619}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 387616877}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1120556621
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 61704680408509274, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1120556619}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 3626fe8e008014f6bbd19bb72937b311, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 14.3, y: 0.31220862}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 26.9, y: 0.62635964}
+  m_EdgeRadius: 0
 --- !u!1 &1121041714
 GameObject:
   m_ObjectHideFlags: 0
@@ -26519,7 +27172,10 @@ Transform:
   m_RootOrder: 212
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1130783965
 GameObject:
   m_ObjectHideFlags: 0
@@ -26563,15 +27219,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -26589,15 +27241,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -26616,7 +27264,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1132763343
 GameObject:
   m_ObjectHideFlags: 0
@@ -27142,6 +27793,9 @@ Transform:
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+--- !u!1 &1163568772
 =======
 --- !u!1 &1163568772
 GameObject:
@@ -27184,7 +27838,6 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
-<<<<<<< HEAD
 <<<<<<< HEAD
   m_MotionVectors: 1
   m_LightProbeUsage: 0
@@ -27261,8 +27914,6 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
-=======
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
@@ -28081,7 +28732,10 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1197352097
 GameObject:
   m_ObjectHideFlags: 0
@@ -28125,15 +28779,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -28151,15 +28801,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -28178,7 +28824,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1197999364
 GameObject:
   m_ObjectHideFlags: 0
@@ -28524,6 +29173,9 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+--- !u!1 &1220753035
 =======
 --- !u!1 &1220753035
 GameObject:
@@ -28566,7 +29218,6 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -28582,7 +29233,6 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -28601,8 +29251,136 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &1222947641
+>>>>>>> parent of e920b69... Fixing Venice Level
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1087707555043444, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1220753036}
+  - component: {fileID: 1220753037}
+  m_Layer: 10
+  m_Name: PrototypeWhite04x01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1220753036
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4274008117532522, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1220753035}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.27, y: 0.17, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2019585260}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+--- !u!212 &1220753037
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 212638907608534108, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1220753035}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+=======
+--- !u!1 &1223198529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1055213670824902, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1223198530}
+  - component: {fileID: 1223198531}
+  m_Layer: 10
+  m_Name: PrototypeWhite04x01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1223198530
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4963700559583834, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1223198529}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.27, y: 0.17, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 465181132}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1223198531
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 212272897398196552, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1223198529}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+>>>>>>> parent of e920b69... Fixing Venice Level
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+<<<<<<< HEAD
+  m_StitchLightmapSeams: 0
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 3eb4f6ccdc9a240028824dffc4cf46d6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
 --- !u!1 &1222947641
+=======
+--- !u!1 &1225456830
+>>>>>>> parent of e920b69... Fixing Venice Level
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -29224,7 +30002,10 @@ Transform:
   m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1242406331
 GameObject:
   m_ObjectHideFlags: 0
@@ -29268,15 +30049,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -29294,15 +30071,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -29321,7 +30094,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1242625693
 GameObject:
   m_ObjectHideFlags: 0
@@ -30505,7 +31281,10 @@ Transform:
   m_RootOrder: 477
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1271917046
 GameObject:
   m_ObjectHideFlags: 0
@@ -30549,15 +31328,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -30575,15 +31350,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -30602,7 +31373,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1272003503
 GameObject:
   m_ObjectHideFlags: 0
@@ -31750,7 +32524,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1326235134
 GameObject:
@@ -32056,10 +32830,6 @@ Transform:
   m_Father: {fileID: 33064662}
   m_RootOrder: 518
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1350494247 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 400000, guid: ba4eef1c1bb56b444b143beb8d3e30d5, type: 2}
-  m_PrefabInternal: {fileID: 1918534325}
 --- !u!1 &1350515429
 GameObject:
   m_ObjectHideFlags: 0
@@ -32321,115 +33091,47 @@ Transform:
   m_Father: {fileID: 33064662}
   m_RootOrder: 238
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1357883355
+--- !u!1 &1357460025
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 1625568967294536, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 1357883356}
-  - component: {fileID: 1357883357}
-  m_Layer: 0
-  m_Name: Pixel background (6)
+  - component: {fileID: 1357460026}
+  - component: {fileID: 1357460027}
+  m_Layer: 10
+  m_Name: PrototypeWhite04x01 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1357883356
+--- !u!4 &1357460026
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1357883355}
+  m_PrefabParentObject: {fileID: 4743917590699434, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1357460025}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 88.7, y: 4, z: 0}
-  m_LocalScale: {x: 7, y: 10, z: 1}
+  m_LocalPosition: {x: 0.13, y: 0.17000008, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1987019857}
+  m_Father: {fileID: 264264227}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1357883357
+--- !u!212 &1357460027
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1357883355}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: 88fe446fd924be24bb042c819177ea76, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 5.07, y: 2.67}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!1 &1364550806
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1548650564627246, guid: ad644661e8882af468b04c99ac9fb170,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1364550807}
-  - component: {fileID: 1364550808}
-  m_Layer: 0
-  m_Name: PrototypeWhite04x01 (16)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1364550807
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4330558402524552, guid: ad644661e8882af468b04c99ac9fb170,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1364550806}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 41.8, y: -0.0000076293945, z: 0}
-  m_LocalScale: {x: 2.5723658, y: 0.6599998, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1773092082}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1364550808
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212090144990266114, guid: ad644661e8882af468b04c99ac9fb170,
+  m_PrefabParentObject: {fileID: 212671862772835026, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
     type: 2}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
   m_PrefabInternal: {fileID: 1863292203}
   m_GameObject: {fileID: 1357460025}
   m_Enabled: 1
@@ -32437,15 +33139,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -32463,15 +33161,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -32530,15 +33224,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -32556,15 +33246,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -32619,7 +33305,10 @@ SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 212090144990266114, guid: ad644661e8882af468b04c99ac9fb170,
     type: 2}
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1364550806}
   m_Enabled: 1
@@ -33555,60 +34244,6 @@ Transform:
   m_Father: {fileID: 33064662}
   m_RootOrder: 316
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1440366619
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1643944409}
-    m_Modifications:
-    - target: {fileID: 4598961385609920, guid: d8da7b289f598b84ca76f6ca21c72127, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 4.2053833
-      objectReference: {fileID: 0}
-    - target: {fileID: 4598961385609920, guid: d8da7b289f598b84ca76f6ca21c72127, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -1.9800465
-      objectReference: {fileID: 0}
-    - target: {fileID: 4598961385609920, guid: d8da7b289f598b84ca76f6ca21c72127, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4598961385609920, guid: d8da7b289f598b84ca76f6ca21c72127, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4598961385609920, guid: d8da7b289f598b84ca76f6ca21c72127, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4598961385609920, guid: d8da7b289f598b84ca76f6ca21c72127, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4598961385609920, guid: d8da7b289f598b84ca76f6ca21c72127, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4598961385609920, guid: d8da7b289f598b84ca76f6ca21c72127, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4598961385609920, guid: d8da7b289f598b84ca76f6ca21c72127, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4598961385609920, guid: d8da7b289f598b84ca76f6ca21c72127, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4598961385609920, guid: d8da7b289f598b84ca76f6ca21c72127, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: d8da7b289f598b84ca76f6ca21c72127, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1441582956
 GameObject:
   m_ObjectHideFlags: 0
@@ -34784,8 +35419,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1490462281}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 254.41441, y: 0.96887636, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 372.59903, y: 5.918923, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1270201535}
@@ -34798,8 +35433,8 @@ Transform:
   - {fileID: 1587460683}
   - {fileID: 204500266}
   - {fileID: 341792418}
-  m_Father: {fileID: 1612989735}
-  m_RootOrder: 11
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1494315678
 GameObject:
@@ -35148,103 +35783,47 @@ Transform:
   m_Father: {fileID: 1559345134}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1511693204 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4716585415865726, guid: 05da1e8b23dafc44b8c4d9dbe4f9ccc4,
-    type: 2}
-  m_PrefabInternal: {fileID: 484113747}
---- !u!1 &1514588566
+--- !u!1 &1510473054
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1514588567}
-  - component: {fileID: 1514588568}
-  m_Layer: 0
-  m_Name: Edge (45)
-  m_TagString: Edge
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1514588567
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1514588566}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 806.48, y: 16.46, z: 0.15829979}
-  m_LocalScale: {x: 5.400051, y: 5.4000535, z: 5.4000535}
-  m_Children: []
-  m_Father: {fileID: 102398803}
-  m_RootOrder: 45
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1514588568
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1514588566}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.1, y: 0.1}
-  m_EdgeRadius: 0
---- !u!1 &1526159232
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1548650564627246, guid: ad644661e8882af468b04c99ac9fb170,
+  m_PrefabParentObject: {fileID: 1729869137205936, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
     type: 2}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInternal: {fileID: 1863292203}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 1526159233}
-  - component: {fileID: 1526159234}
-  m_Layer: 0
-  m_Name: PrototypeWhite04x01 (5)
+  - component: {fileID: 1510473055}
+  - component: {fileID: 1510473056}
+  m_Layer: 10
+  m_Name: PrototypeWhite04x01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1526159233
+--- !u!4 &1510473055
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4330558402524552, guid: ad644661e8882af468b04c99ac9fb170,
+  m_PrefabParentObject: {fileID: 4138564775269180, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
     type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1526159232}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1510473054}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.71, y: 0, z: 0}
-  m_LocalScale: {x: 2.5723658, y: 0.6599998, z: 1}
+  m_LocalPosition: {x: 1.57, y: 0.17000008, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 2066790720}
-  m_RootOrder: 8
+  m_Father: {fileID: 264264227}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1526159234
+--- !u!212 &1510473056
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212090144990266114, guid: ad644661e8882af468b04c99ac9fb170,
+  m_PrefabParentObject: {fileID: 212836209499965824, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
     type: 2}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
   m_PrefabInternal: {fileID: 1863292203}
   m_GameObject: {fileID: 1510473054}
   m_Enabled: 1
@@ -35252,15 +35831,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -35278,15 +35853,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -35402,15 +35973,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -35428,15 +35995,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -35491,7 +36054,10 @@ SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 212090144990266114, guid: ad644661e8882af468b04c99ac9fb170,
     type: 2}
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1526159232}
   m_Enabled: 1
@@ -35801,7 +36367,10 @@ Transform:
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1542359090
 GameObject:
   m_ObjectHideFlags: 0
@@ -35845,15 +36414,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -35871,15 +36436,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -35898,7 +36459,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1542408327
 GameObject:
   m_ObjectHideFlags: 0
@@ -36064,7 +36628,10 @@ BoxCollider2D:
   m_Size: {x: 0.1, y: 0.1}
   m_EdgeRadius: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1547224525
 GameObject:
   m_ObjectHideFlags: 0
@@ -36108,15 +36675,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -36134,15 +36697,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -36161,7 +36720,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1554950377
 GameObject:
   m_ObjectHideFlags: 0
@@ -36191,7 +36753,10 @@ Transform:
   m_RootOrder: 233
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1556948295
 GameObject:
   m_ObjectHideFlags: 0
@@ -36235,15 +36800,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -36261,15 +36822,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -36288,7 +36845,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1001 &1558417327
 Prefab:
   m_ObjectHideFlags: 0
@@ -36462,8 +37022,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559345133}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -72.32712, y: -3.4500463, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 45.8575, y: 1.5000002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 883505478}
@@ -36474,8 +37034,8 @@ Transform:
   - {fileID: 448758909}
   - {fileID: 236756321}
   - {fileID: 619631184}
-  m_Father: {fileID: 1612989735}
-  m_RootOrder: 4
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1561528739
 GameObject:
@@ -36548,6 +37108,43 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &1565044394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1515050913102180, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1565044395}
+  m_Layer: 0
+  m_Name: Platform4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1565044395
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4579499767712096, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1565044394}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.429993, y: 10.93, z: 0}
+  m_LocalScale: {x: 3, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1893084572}
+  - {fileID: 1865622110}
+  - {fileID: 1894914130}
+  - {fileID: 285705862}
+  - {fileID: 1522055257}
+  - {fileID: 1988967017}
+  - {fileID: 2052290797}
+  m_Father: {fileID: 1584734059}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1565991622
 GameObject:
   m_ObjectHideFlags: 0
@@ -36997,6 +37594,44 @@ Transform:
   m_Father: {fileID: 33064662}
   m_RootOrder: 297
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1576972550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1933927774122628, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1576972551}
+  m_Layer: 0
+  m_Name: ExtentsTop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1576972551
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4406546464146466, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1576972550}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.36, y: 29.1, z: 0}
+  m_LocalScale: {x: 1.1250005, y: 1.0000005, z: 1}
+  m_Children:
+  - {fileID: 1038416183}
+  - {fileID: 837061938}
+  - {fileID: 769638400}
+  - {fileID: 2064874810}
+  - {fileID: 2126403142}
+  - {fileID: 1038366822}
+  - {fileID: 2028326900}
+  - {fileID: 1745724600}
+  m_Father: {fileID: 1584734059}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1580613494
 GameObject:
   m_ObjectHideFlags: 0
@@ -37080,6 +37715,7 @@ Transform:
   m_RootOrder: 129
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1584734058 stripped
 =======
 --- !u!1 &1583645738
@@ -37158,40 +37794,137 @@ SpriteRenderer:
   m_MaskInteraction: 0
 --- !u!1 &1584734058
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+--- !u!1 &1583645738
+>>>>>>> parent of e920b69... Fixing Venice Level
 GameObject:
-  m_PrefabParentObject: {fileID: 1809615283026222, guid: d802dbbf3d948ee47bb1a819d9e99549,
-    type: 2}
-  m_PrefabInternal: {fileID: 1863292203}
---- !u!4 &1584734059 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4763277108509848, guid: d802dbbf3d948ee47bb1a819d9e99549,
-    type: 2}
-  m_PrefabInternal: {fileID: 1863292203}
---- !u!61 &1584734060
-BoxCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 1251200985958066, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1583645739}
+  - component: {fileID: 1583645740}
+  m_Layer: 0
+  m_Name: PrototypeWhite04x01 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1583645739
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4671582807128580, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1583645738}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.4, y: 0.30999708, z: 0}
+  m_LocalScale: {x: 18.120018, y: 4.000002, z: 1}
+  m_Children: []
+  m_Father: {fileID: 387616877}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1583645740
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 212412773948054728, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1583645738}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 987628a106b254d74bdd14018a463290, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!1 &1584734058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1285440669224300, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1584734059}
+  - component: {fileID: 1584734060}
+  m_Layer: 0
+  m_Name: CollapsingBuilding2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1584734059
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4144666700906108, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1584734058}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 816.2, y: 4.5348635, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1576972551}
+  - {fileID: 387616877}
+  - {fileID: 1970362292}
+  - {fileID: 77661975}
+  - {fileID: 264264227}
+  - {fileID: 1835891359}
+  - {fileID: 1565044395}
+  - {fileID: 465181132}
+  - {fileID: 1879593696}
+  - {fileID: 2019585260}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1584734060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114132269105661716, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
   m_GameObject: {fileID: 1584734058}
   m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -1.2522888, y: 12.982285}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 18.992493, y: 33.341843}
-  m_EdgeRadius: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07bb4bc55120ffb49be16c974f0f08de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelBuilding: {fileID: 1584734058}
+  fallingSpeed: 1
 --- !u!1 &1585655173
 GameObject:
   m_ObjectHideFlags: 0
@@ -37687,46 +38420,6 @@ Transform:
   m_Father: {fileID: 33064662}
   m_RootOrder: 458
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1612989734
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1612989735}
-  m_Layer: 0
-  m_Name: LevelDesign
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1612989735
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1612989734}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 118.184616, y: 4.9500465, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 572555336}
-  - {fileID: 1350494247}
-  - {fileID: 1987019857}
-  - {fileID: 101446077}
-  - {fileID: 1559345134}
-  - {fileID: 1511693204}
-  - {fileID: 2090454531}
-  - {fileID: 1584734059}
-  - {fileID: 723431137}
-  - {fileID: 1852465496}
-  - {fileID: 845580022}
-  - {fileID: 1490462282}
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1614950068
 GameObject:
   m_ObjectHideFlags: 0
@@ -37844,7 +38537,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4180126854602844, guid: d9e4c6fb295b28c45a4a40b73f22775d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 11
+      value: 417.58
       objectReference: {fileID: 0}
     - target: {fileID: 4180126854602844, guid: d9e4c6fb295b28c45a4a40b73f22775d, type: 2}
       propertyPath: m_LocalPosition.y
@@ -37872,7 +38565,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4180126854602844, guid: d9e4c6fb295b28c45a4a40b73f22775d, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4180126854602844, guid: d9e4c6fb295b28c45a4a40b73f22775d, type: 2}
       propertyPath: m_LocalScale.x
@@ -38522,37 +39215,6 @@ Transform:
   m_Father: {fileID: 33064662}
   m_RootOrder: 413
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1643944408
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1643944409}
-  m_Layer: 0
-  m_Name: Enemies
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1643944409
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1643944408}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 118.184616, y: 4.9500465, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 931562419}
-  - {fileID: 1667857636}
-  - {fileID: 1783201636}
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1644761971
 GameObject:
   m_ObjectHideFlags: 0
@@ -38635,72 +39297,44 @@ Transform:
   m_Father: {fileID: 33064662}
   m_RootOrder: 325
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1648523345
+--- !u!1 &1646300379
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1648523346}
-  m_Layer: 0
-  m_Name: GameObject (358)
-  m_TagString: Path
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1648523346
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1648523345}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 856.72, y: 1.0900002, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 33064662}
-  m_RootOrder: 356
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1650232221
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1548650564627246, guid: ad644661e8882af468b04c99ac9fb170,
+  m_PrefabParentObject: {fileID: 1443659652084198, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
     type: 2}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInternal: {fileID: 1863292203}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 1650232222}
-  - component: {fileID: 1650232223}
-  m_Layer: 0
-  m_Name: PrototypeWhite04x01 (18)
+  - component: {fileID: 1646300380}
+  - component: {fileID: 1646300381}
+  m_Layer: 10
+  m_Name: PrototypeWhite04x01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1650232222
+--- !u!4 &1646300380
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4330558402524552, guid: ad644661e8882af468b04c99ac9fb170,
+  m_PrefabParentObject: {fileID: 4603332784419890, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
     type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1650232221}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1646300379}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 46.22, y: -0.0000076293945, z: 0}
-  m_LocalScale: {x: 2.5723658, y: 0.6599998, z: 1}
+  m_LocalPosition: {x: 1.09, y: 0.17000008, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 1594069848}
-  m_RootOrder: 21
+  m_Father: {fileID: 2019585260}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1650232223
+--- !u!212 &1646300381
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212090144990266114, guid: ad644661e8882af468b04c99ac9fb170,
+  m_PrefabParentObject: {fileID: 212730864974782472, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
     type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1650232221}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1646300379}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -39023,6 +39657,185 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &1647017223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1721846509813994, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1647017224}
+  - component: {fileID: 1647017225}
+  m_Layer: 0
+  m_Name: PrototypeWhite04x01 (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1647017224
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4458867366181314, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1647017223}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 19.6, y: 0.30999565, z: 0}
+  m_LocalScale: {x: 18.120098, y: 4.000002, z: 1}
+  m_Children: []
+  m_Father: {fileID: 387616877}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1647017225
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 212595993661692792, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+<<<<<<< HEAD
+>>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1647017223}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 987628a106b254d74bdd14018a463290, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!1 &1648523345
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1648523346}
+  m_Layer: 0
+  m_Name: GameObject (358)
+  m_TagString: Path
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1648523346
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1648523345}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 856.72, y: 1.0900002, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 33064662}
+  m_RootOrder: 356
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1650232221
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1548650564627246, guid: ad644661e8882af468b04c99ac9fb170,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1650232222}
+  - component: {fileID: 1650232223}
+  m_Layer: 0
+  m_Name: PrototypeWhite04x01 (18)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1650232222
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4330558402524552, guid: ad644661e8882af468b04c99ac9fb170,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1650232221}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 46.22, y: -0.0000076293945, z: 0}
+  m_LocalScale: {x: 2.5723658, y: 0.6599998, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1594069848}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1650232223
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 212090144990266114, guid: ad644661e8882af468b04c99ac9fb170,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1650232221}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 3eb4f6ccdc9a240028824dffc4cf46d6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!1 &1650498694
 GameObject:
   m_ObjectHideFlags: 0
@@ -39087,7 +39900,7 @@ SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 212090144990266114, guid: ad644661e8882af468b04c99ac9fb170,
     type: 2}
->>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+>>>>>>> parent of e920b69... Fixing Venice Level
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1652247821}
   m_Enabled: 1
@@ -39407,11 +40220,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!4 &1667857636 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4598961385609920, guid: d8da7b289f598b84ca76f6ca21c72127,
-    type: 2}
-  m_PrefabInternal: {fileID: 1440366619}
 --- !u!1 &1681195080
 GameObject:
   m_ObjectHideFlags: 0
@@ -40033,7 +40841,10 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1716372751
 GameObject:
   m_ObjectHideFlags: 0
@@ -40077,15 +40888,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -40103,15 +40910,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -40130,7 +40933,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1717531548
 GameObject:
   m_ObjectHideFlags: 0
@@ -40779,7 +41585,10 @@ Transform:
   m_RootOrder: 494
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1745724599
 GameObject:
   m_ObjectHideFlags: 0
@@ -40823,15 +41632,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -40849,15 +41654,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -40876,7 +41677,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1747919083
 GameObject:
   m_ObjectHideFlags: 0
@@ -41681,7 +42485,10 @@ Transform:
   m_RootOrder: 158
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1778411859
 GameObject:
   m_ObjectHideFlags: 0
@@ -41725,15 +42532,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -41751,15 +42554,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -41778,7 +42577,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1779572383
 GameObject:
   m_ObjectHideFlags: 0
@@ -41941,11 +42743,6 @@ Transform:
   m_Father: {fileID: 33064662}
   m_RootOrder: 257
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1783201636 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4548634787785362, guid: aa017c1484dc95547b5f261977c3c1e5,
-    type: 2}
-  m_PrefabInternal: {fileID: 473376332}
 --- !u!1 &1785476671
 GameObject:
   m_ObjectHideFlags: 0
@@ -42046,11 +42843,233 @@ Transform:
   m_RootOrder: 258
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 --- !u!1 &1786314325
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 1419664538639090, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+=======
+--- !u!1 &1786314325
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1419664538639090, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1786314326}
+  - component: {fileID: 1786314327}
+  m_Layer: 0
+  m_Name: PrototypeWhite04x01 (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1786314326
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4200789098188186, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1786314325}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 23.6, y: 0.30999374, z: 0}
+  m_LocalScale: {x: 18.120125, y: 4.000002, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1970362292}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1786314327
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 212278258043742372, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1786314325}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 987628a106b254d74bdd14018a463290, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!1 &1787394238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1787394239}
+  m_Layer: 0
+  m_Name: GameObject (444)
+  m_TagString: Path
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1787394239
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1787394238}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 245.08, y: 2.76, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 33064662}
+  m_RootOrder: 444
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1790399676
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1790399677}
+  m_Layer: 0
+  m_Name: GameObject (103)
+  m_TagString: Path
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1790399677
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1790399676}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 211.35, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 33064662}
+  m_RootOrder: 103
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791534888
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1046016416713028, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791534889}
+  - component: {fileID: 1791534890}
+  m_Layer: 0
+  m_Name: Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791534889
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4671378812268432, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1791534888}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.2502, y: 0.31217, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 264264227}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1791534890
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 61727066446002448, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1791534888}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.36181712, y: -0.23010147}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.8194275, y: 0.71594405}
+  m_EdgeRadius: 0
+--- !u!1 &1791700039
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791700040}
+  m_Layer: 0
+  m_Name: GameObject (155)
+  m_TagString: Path
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791700040
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1791700039}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 382.05997, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 33064662}
+  m_RootOrder: 155
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1792204896
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1548650564627246, guid: ad644661e8882af468b04c99ac9fb170,
+>>>>>>> parent of e920b69... Fixing Venice Level
     type: 2}
   m_PrefabInternal: {fileID: 1863292203}
   serializedVersion: 5
@@ -42468,72 +43487,47 @@ Transform:
   m_Father: {fileID: 33064662}
   m_RootOrder: 102
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1803639123
+--- !u!1 &1802510852
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1803639124}
-  m_Layer: 0
-  m_Name: GameObject (4)
-  m_TagString: Path
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1803639124
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1803639123}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.92, y: 1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 33064662}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1806652955
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1548650564627246, guid: ad644661e8882af468b04c99ac9fb170,
+  m_PrefabParentObject: {fileID: 1502849050328294, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
     type: 2}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInternal: {fileID: 1863292203}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 1806652956}
-  - component: {fileID: 1806652957}
+  - component: {fileID: 1802510853}
+  - component: {fileID: 1802510854}
   m_Layer: 0
-  m_Name: PrototypeWhite04x01 (14)
+  m_Name: PrototypeWhite04x01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1806652956
+--- !u!4 &1802510853
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4330558402524552, guid: ad644661e8882af468b04c99ac9fb170,
+  m_PrefabParentObject: {fileID: 4430037460393118, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
     type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1806652955}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1802510852}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 36.7, y: -0.0000076293945, z: 0}
-  m_LocalScale: {x: 2.5723658, y: 0.6599998, z: 1}
+  m_LocalPosition: {x: 9.27, y: 0.30999708, z: 0}
+  m_LocalScale: {x: 18.120035, y: 4.000002, z: 1}
   m_Children: []
-  m_Father: {fileID: 2066790720}
-  m_RootOrder: 17
+  m_Father: {fileID: 1970362292}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1806652957
+--- !u!212 &1802510854
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212090144990266114, guid: ad644661e8882af468b04c99ac9fb170,
+  m_PrefabParentObject: {fileID: 212728269270069374, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
     type: 2}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
   m_PrefabInternal: {fileID: 1863292203}
   m_GameObject: {fileID: 1802510852}
   m_Enabled: 1
@@ -42541,15 +43535,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -42567,15 +43557,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -42665,10 +43651,9 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_DynamicOccludee: 1
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -42684,7 +43669,10 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< HEAD
   m_StitchLightmapSeams: 0
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -42739,7 +43727,10 @@ SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 212090144990266114, guid: ad644661e8882af468b04c99ac9fb170,
     type: 2}
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1806652955}
   m_Enabled: 1
@@ -43371,8 +44362,11 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: 987628a106b254d74bdd14018a463290, type: 3}
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+  m_Sprite: {fileID: 21300000, guid: 3eb4f6ccdc9a240028824dffc4cf46d6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -43535,7 +44529,6 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -43551,7 +44544,6 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -43561,6 +44553,81 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 3eb4f6ccdc9a240028824dffc4cf46d6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!1 &1831144502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1030685954565300, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1831144503}
+  - component: {fileID: 1831144504}
+  m_Layer: 0
+  m_Name: PrototypeWhite04x01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1831144503
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4253232638838928, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1831144502}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.57, y: 0.31, z: 0}
+  m_LocalScale: {x: 11.42, y: 4, z: 1}
+  m_Children: []
+  m_Father: {fileID: 387616877}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1831144504
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 212556308349315828, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1831144502}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 987628a106b254d74bdd14018a463290, type: 3}
+>>>>>>> parent of e920b69... Fixing Venice Level
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -43597,6 +44664,43 @@ Transform:
   m_Children: []
   m_Father: {fileID: 33064662}
   m_RootOrder: 67
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1835891358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1886789771941590, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1835891359}
+  m_Layer: 0
+  m_Name: Platform3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1835891359
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4124552751563768, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1835891358}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 6.96, z: 0}
+  m_LocalScale: {x: 3, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1946873626}
+  - {fileID: 1542359091}
+  - {fileID: 1876581479}
+  - {fileID: 303132148}
+  - {fileID: 171229154}
+  - {fileID: 1271917047}
+  - {fileID: 1024984515}
+  m_Father: {fileID: 1584734059}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1844132131
 GameObject:
@@ -43700,7 +44804,6 @@ Transform:
   m_Father: {fileID: 33064662}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1 &1847597782
 GameObject:
   m_ObjectHideFlags: 0
@@ -43775,8 +44878,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-=======
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
 --- !u!1 &1849962204
 GameObject:
   m_ObjectHideFlags: 0
@@ -43872,8 +44973,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1852465495}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 249.48051, y: 0.49147367, z: -5.375}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 367.66513, y: 5.44152, z: -5.375}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2061497394}
@@ -43881,8 +44982,8 @@ Transform:
   - {fileID: 1950266401}
   - {fileID: 1424023407}
   - {fileID: 687349981}
-  m_Father: {fileID: 1612989735}
-  m_RootOrder: 9
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1857166299
 GameObject:
@@ -44072,47 +45173,42 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1612989735}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4763277108509848, guid: d802dbbf3d948ee47bb1a819d9e99549, type: 2}
+    - target: {fileID: 4144666700906108, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 698.0154
+      value: 816.2
       objectReference: {fileID: 0}
-    - target: {fileID: 4763277108509848, guid: d802dbbf3d948ee47bb1a819d9e99549, type: 2}
+    - target: {fileID: 4144666700906108, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.41518307
+      value: 4.5348635
       objectReference: {fileID: 0}
-    - target: {fileID: 4763277108509848, guid: d802dbbf3d948ee47bb1a819d9e99549, type: 2}
+    - target: {fileID: 4144666700906108, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b, type: 2}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4763277108509848, guid: d802dbbf3d948ee47bb1a819d9e99549, type: 2}
+    - target: {fileID: 4144666700906108, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4763277108509848, guid: d802dbbf3d948ee47bb1a819d9e99549, type: 2}
+    - target: {fileID: 4144666700906108, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4763277108509848, guid: d802dbbf3d948ee47bb1a819d9e99549, type: 2}
+    - target: {fileID: 4144666700906108, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b, type: 2}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4763277108509848, guid: d802dbbf3d948ee47bb1a819d9e99549, type: 2}
+    - target: {fileID: 4144666700906108, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4763277108509848, guid: d802dbbf3d948ee47bb1a819d9e99549, type: 2}
+    - target: {fileID: 4144666700906108, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b, type: 2}
       propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 114170691154786002, guid: d802dbbf3d948ee47bb1a819d9e99549,
-        type: 2}
-      propertyPath: fallingSpeed
-      value: -2
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: d802dbbf3d948ee47bb1a819d9e99549, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1863837540
 GameObject:
@@ -44171,7 +45267,10 @@ Transform:
   m_RootOrder: 207
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1865622109
 GameObject:
   m_ObjectHideFlags: 0
@@ -44215,15 +45314,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -44241,15 +45336,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -44268,7 +45359,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1869537267
 GameObject:
   m_ObjectHideFlags: 0
@@ -44457,7 +45551,10 @@ BoxCollider2D:
   m_Size: {x: 47.443085, y: 0.62425214}
   m_EdgeRadius: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1876581478
 GameObject:
   m_ObjectHideFlags: 0
@@ -44501,15 +45598,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -44527,15 +45620,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -44554,7 +45643,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1878646143
 GameObject:
   m_ObjectHideFlags: 0
@@ -44657,6 +45749,43 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &1879593695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1289046767581044, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1879593696}
+  m_Layer: 0
+  m_Name: Platform6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1879593696
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4932357146339136, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1879593695}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.429993, y: 19.06, z: 0}
+  m_LocalScale: {x: 3, y: 1, z: 1}
+  m_Children:
+  - {fileID: 156594363}
+  - {fileID: 1778411860}
+  - {fileID: 1556948296}
+  - {fileID: 186533705}
+  - {fileID: 1893890700}
+  - {fileID: 1197352098}
+  - {fileID: 385363868}
+  m_Father: {fileID: 1584734059}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1883319974
 GameObject:
   m_ObjectHideFlags: 0
@@ -44807,7 +45936,84 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+--- !u!1 &1883509312
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1255571712758144, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1883509313}
+  - component: {fileID: 1883509314}
+  m_Layer: 10
+  m_Name: PrototypeWhite04x01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1883509313
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4949742400168694, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1883509312}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.27, y: 0.17, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 264264227}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1883509314
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 212297662399210172, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1883509312}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 3eb4f6ccdc9a240028824dffc4cf46d6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1886126381
 GameObject:
   m_ObjectHideFlags: 0
@@ -44974,6 +46180,63 @@ Transform:
   m_Father: {fileID: 33064662}
   m_RootOrder: 408
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1893084571
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1962265447922722, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1893084572}
+  - component: {fileID: 1893084573}
+  m_Layer: 0
+  m_Name: Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1893084572
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4230312274607016, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1893084571}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.2502, y: 0.31217, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1565044395}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1893084573
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 61002320811551152, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1893084571}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.36181712, y: -0.23010147}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.8194275, y: 0.71594405}
+  m_EdgeRadius: 0
 --- !u!1 &1893192594
 GameObject:
   m_ObjectHideFlags: 0
@@ -45049,7 +46312,10 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1893890699
 GameObject:
   m_ObjectHideFlags: 0
@@ -45093,15 +46359,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -45119,15 +46381,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -45189,15 +46447,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -45215,15 +46469,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -45242,7 +46492,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1896704795
 GameObject:
   m_ObjectHideFlags: 0
@@ -45712,7 +46965,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1903983463
 GameObject:
@@ -46040,27 +47293,27 @@ Prefab:
     - target: {fileID: 224305815060116744, guid: 9e99104717ec5f344b3432263a0f2f1b,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 80
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224730659933675792, guid: 9e99104717ec5f344b3432263a0f2f1b,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -80
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224730659933675792, guid: 9e99104717ec5f344b3432263a0f2f1b,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 80
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224543001956655452, guid: 9e99104717ec5f344b3432263a0f2f1b,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -80
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224543001956655452, guid: 9e99104717ec5f344b3432263a0f2f1b,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 80
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224305815060116744, guid: 9e99104717ec5f344b3432263a0f2f1b,
         type: 2}
@@ -46090,7 +47343,7 @@ Prefab:
     - target: {fileID: 224305815060116744, guid: 9e99104717ec5f344b3432263a0f2f1b,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -80
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224305815060116744, guid: 9e99104717ec5f344b3432263a0f2f1b,
         type: 2}
@@ -46156,86 +47409,6 @@ Prefab:
         type: 2}
       propertyPath: m_SizeDelta.x
       value: 73.333336
-      objectReference: {fileID: 0}
-    - target: {fileID: 224939548831375742, guid: 9e99104717ec5f344b3432263a0f2f1b,
-        type: 2}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224939548831375742, guid: 9e99104717ec5f344b3432263a0f2f1b,
-        type: 2}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224939548831375742, guid: 9e99104717ec5f344b3432263a0f2f1b,
-        type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224702948811551836, guid: 9e99104717ec5f344b3432263a0f2f1b,
-        type: 2}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224702948811551836, guid: 9e99104717ec5f344b3432263a0f2f1b,
-        type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224025597837846418, guid: 9e99104717ec5f344b3432263a0f2f1b,
-        type: 2}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224025597837846418, guid: 9e99104717ec5f344b3432263a0f2f1b,
-        type: 2}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224025597837846418, guid: 9e99104717ec5f344b3432263a0f2f1b,
-        type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224289564575368722, guid: 9e99104717ec5f344b3432263a0f2f1b,
-        type: 2}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224289564575368722, guid: 9e99104717ec5f344b3432263a0f2f1b,
-        type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224939548831375742, guid: 9e99104717ec5f344b3432263a0f2f1b,
-        type: 2}
-      propertyPath: m_AnchorMax.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224702948811551836, guid: 9e99104717ec5f344b3432263a0f2f1b,
-        type: 2}
-      propertyPath: m_AnchorMin.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224702948811551836, guid: 9e99104717ec5f344b3432263a0f2f1b,
-        type: 2}
-      propertyPath: m_AnchorMax.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224025597837846418, guid: 9e99104717ec5f344b3432263a0f2f1b,
-        type: 2}
-      propertyPath: m_AnchorMax.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224289564575368722, guid: 9e99104717ec5f344b3432263a0f2f1b,
-        type: 2}
-      propertyPath: m_AnchorMin.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224289564575368722, guid: 9e99104717ec5f344b3432263a0f2f1b,
-        type: 2}
-      propertyPath: m_AnchorMax.x
-      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9e99104717ec5f344b3432263a0f2f1b, type: 2}
@@ -46426,15 +47599,15 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1612989735}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 400000, guid: ba4eef1c1bb56b444b143beb8d3e30d5, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 826.54535
+      value: 944.73
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ba4eef1c1bb56b444b143beb8d3e30d5, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -4.9500465
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ba4eef1c1bb56b444b143beb8d3e30d5, type: 2}
       propertyPath: m_LocalPosition.z
@@ -46442,11 +47615,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ba4eef1c1bb56b444b143beb8d3e30d5, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ba4eef1c1bb56b444b143beb8d3e30d5, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ba4eef1c1bb56b444b143beb8d3e30d5, type: 2}
       propertyPath: m_LocalRotation.z
@@ -46458,7 +47631,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ba4eef1c1bb56b444b143beb8d3e30d5, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ba4eef1c1bb56b444b143beb8d3e30d5, type: 2}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -46474,7 +47647,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ba4eef1c1bb56b444b143beb8d3e30d5, type: 2}
       propertyPath: m_LocalScale.x
-      value: 3.8300018
+      value: 3.83
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ba4eef1c1bb56b444b143beb8d3e30d5, type: 2}
       propertyPath: m_Name
@@ -46495,10 +47668,6 @@ Prefab:
     - target: {fileID: 100010, guid: ba4eef1c1bb56b444b143beb8d3e30d5, type: 2}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ba4eef1c1bb56b444b143beb8d3e30d5, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ba4eef1c1bb56b444b143beb8d3e30d5, type: 2}
@@ -47204,6 +48373,63 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &1946873625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1899466648358194, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1946873626}
+  - component: {fileID: 1946873627}
+  m_Layer: 0
+  m_Name: Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1946873626
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4477578744033006, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1946873625}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.2502, y: 0.31217, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1835891359}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1946873627
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 61911402550605340, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1946873625}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.2834648, y: -0.23010147}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.9761322, y: 0.71594405}
+  m_EdgeRadius: 0
 --- !u!4 &1950266401 stripped
 Transform:
   m_PrefabParentObject: {fileID: 415310, guid: 3dc82f88b805ff142b804693e2585a17, type: 2}
@@ -47607,6 +48833,47 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &1970362291
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1988850974992762, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1970362292}
+  m_Layer: 0
+  m_Name: ExtentsRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1970362292
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4659198932579496, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1970362291}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 8.533356, y: -4.5348635, z: 0}
+  m_LocalScale: {x: 1.125, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1716372752}
+  - {fileID: 214414994}
+  - {fileID: 2023043153}
+  - {fileID: 530682309}
+  - {fileID: 1802510853}
+  - {fileID: 987353085}
+  - {fileID: 480213394}
+  - {fileID: 825799606}
+  - {fileID: 1026398898}
+  - {fileID: 1242406332}
+  - {fileID: 1786314326}
+  m_Father: {fileID: 1584734059}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1971880034
 GameObject:
   m_ObjectHideFlags: 0
@@ -47792,7 +49059,10 @@ Transform:
   m_RootOrder: 140
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1979913865
 GameObject:
   m_ObjectHideFlags: 0
@@ -47836,10 +49106,9 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_DynamicOccludee: 1
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -47855,7 +49124,10 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< HEAD
   m_StitchLightmapSeams: 0
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -47874,7 +49146,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1981686825
 GameObject:
   m_ObjectHideFlags: 0
@@ -48298,7 +49573,143 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+--- !u!1 &1987019856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1987019857}
+  m_Layer: 0
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1987019857
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1987019856}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 116.80221, y: 5.653757, z: 0}
+  m_LocalScale: {x: 1, y: 1.5, z: 1}
+  m_Children:
+  - {fileID: 444345126}
+  - {fileID: 365225114}
+  - {fileID: 1132763344}
+  - {fileID: 1861757877}
+  - {fileID: 1481970016}
+  - {fileID: 1946436165}
+  - {fileID: 1357883356}
+  - {fileID: 1569551052}
+  - {fileID: 1807284412}
+  - {fileID: 1431183411}
+  - {fileID: 1027815260}
+  - {fileID: 810312437}
+  - {fileID: 1900562932}
+  - {fileID: 2046651844}
+  - {fileID: 1019889715}
+  - {fileID: 844204759}
+  - {fileID: 1090925420}
+  - {fileID: 693818329}
+  - {fileID: 2060392871}
+  - {fileID: 178394280}
+  - {fileID: 1632030893}
+  - {fileID: 778023733}
+  - {fileID: 1293394261}
+  - {fileID: 1815144421}
+  - {fileID: 1175533812}
+  - {fileID: 44839139}
+  - {fileID: 1764300284}
+  - {fileID: 1990956042}
+  - {fileID: 1714706870}
+  - {fileID: 1981686826}
+  - {fileID: 1752982332}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1988967016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1099129666540374, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1988967017}
+  - component: {fileID: 1988967018}
+  m_Layer: 10
+  m_Name: PrototypeWhite04x01 (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1988967017
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4859971491026180, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1988967016}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.59, y: 0.17000008, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1565044395}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1988967018
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 212834932264986328, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 1988967016}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 3eb4f6ccdc9a240028824dffc4cf46d6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &1990293361
 GameObject:
   m_ObjectHideFlags: 0
@@ -49018,8 +50429,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &2020575185
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &2019585259
 GameObject:
   m_ObjectHideFlags: 0
@@ -49100,15 +50514,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -49126,15 +50536,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -49232,15 +50638,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -49258,15 +50660,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -49287,7 +50685,6 @@ SpriteRenderer:
   m_MaskInteraction: 0
 --- !u!1 &2023043152
 <<<<<<< HEAD
-<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
@@ -49302,26 +50699,11 @@ GameObject:
   - component: {fileID: 2023043154}
   m_Layer: 0
   m_Name: PrototypeWhite04x01 (1)
-=======
->>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1548650564627246, guid: ad644661e8882af468b04c99ac9fb170,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 2020575186}
-  - component: {fileID: 2020575187}
-  m_Layer: 0
-  m_Name: PrototypeWhite04x01 (15)
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
 --- !u!4 &2023043153
 Transform:
   m_ObjectHideFlags: 0
@@ -49346,33 +50728,6 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
-=======
---- !u!4 &2020575186
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4330558402524552, guid: ad644661e8882af468b04c99ac9fb170,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2020575185}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 39.26, y: -0.0000076293945, z: 0}
-  m_LocalScale: {x: 2.5723658, y: 0.6599998, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1594069848}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2020575187
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212090144990266114, guid: ad644661e8882af468b04c99ac9fb170,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2020575185}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -49388,10 +50743,6 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-<<<<<<< HEAD
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -49400,123 +50751,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: 987628a106b254d74bdd14018a463290, type: 3}
-=======
-  m_Sprite: {fileID: 21300000, guid: 3eb4f6ccdc9a240028824dffc4cf46d6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!4 &2021241864
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4130364574070748, guid: ad644661e8882af468b04c99ac9fb170,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1091245687}
-  m_LocalRotation: {x: -0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 3.1062572, y: 316.69232, z: 0}
-  m_LocalScale: {x: 2, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1705089193}
-  - {fileID: 1916104753}
-  - {fileID: 1172578892}
-  - {fileID: 1039768543}
-  - {fileID: 479657667}
-  - {fileID: 1507551094}
-  - {fileID: 1879539432}
-  - {fileID: 996754684}
-  - {fileID: 72886807}
-  - {fileID: 987919073}
-  - {fileID: 2099691642}
-  - {fileID: 1225703447}
-  - {fileID: 1084212066}
-  - {fileID: 2050467460}
-  - {fileID: 41340252}
-  - {fileID: 281230184}
-  - {fileID: 517249245}
-  - {fileID: 598434389}
-  - {fileID: 1903983464}
-  - {fileID: 290715993}
-  - {fileID: 417637586}
-  - {fileID: 1494315679}
-  m_Father: {fileID: 101446077}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2022326280
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1548650564627246, guid: ad644661e8882af468b04c99ac9fb170,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 2022326281}
-  - component: {fileID: 2022326282}
-  m_Layer: 0
-  m_Name: PrototypeWhite04x01 (9)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2022326281
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4330558402524552, guid: ad644661e8882af468b04c99ac9fb170,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2022326280}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 24.86, y: -0.0000038146973, z: 0}
-  m_LocalScale: {x: 2.5723658, y: 0.6599998, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2066790720}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2022326282
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 212090144990266114, guid: ad644661e8882af468b04c99ac9fb170,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2022326280}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3eb4f6ccdc9a240028824dffc4cf46d6, type: 3}
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -49554,7 +50789,6 @@ Transform:
   m_Father: {fileID: 33064662}
   m_RootOrder: 175
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1 &2028326899
 GameObject:
   m_ObjectHideFlags: 0
@@ -49629,8 +50863,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-=======
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
 --- !u!1 &2028630820
 GameObject:
   m_ObjectHideFlags: 0
@@ -49688,7 +50920,41 @@ Transform:
   m_RootOrder: 424
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+--- !u!1 &2037397417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1575828801217462, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2037397418}
+  - component: {fileID: 2037397419}
+  m_Layer: 0
+  m_Name: PrototypeWhite04x01 (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2037397418
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4206917749605894, guid: 67e22bb3c7c6e3849a1f7eb6cff4205b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1863292203}
+  m_GameObject: {fileID: 2037397417}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 17, y: 0.30999565, z: 0}
+  m_LocalScale: {x: 18.12008, y: 4.000002, z: 1}
+  m_Children: []
+  m_Father: {fileID: 387616877}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!212 &2037397419
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -49701,15 +50967,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -49727,15 +50989,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -49754,7 +51012,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &2039026669
 GameObject:
   m_ObjectHideFlags: 0
@@ -50205,6 +51466,8 @@ SpriteRenderer:
   m_MaskInteraction: 0
 --- !u!1 &2051821175
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
 =======
 GameObject:
   m_ObjectHideFlags: 0
@@ -50246,7 +51509,6 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
-<<<<<<< HEAD
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -50322,9 +51584,6 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -50783,7 +52042,10 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &2064874809
 GameObject:
   m_ObjectHideFlags: 0
@@ -50827,15 +52089,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -50853,15 +52111,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -50880,7 +52134,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &2066790719
 GameObject:
   m_ObjectHideFlags: 0
@@ -51475,14 +52732,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2090454530}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 173.0154, y: -3.543705, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 291.2, y: 1.4063416, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1469348477}
   - {fileID: 1243032037}
   - {fileID: 1763348703}
-  m_Father: {fileID: 1612989735}
+  m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2093161061
@@ -52044,7 +53301,10 @@ Transform:
   m_RootOrder: 162
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &2126403141
 GameObject:
   m_ObjectHideFlags: 0
@@ -52088,15 +53348,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -52114,15 +53370,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -52141,7 +53393,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &2132192279
 GameObject:
   m_ObjectHideFlags: 0
@@ -52317,7 +53572,10 @@ Transform:
   m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &2138085259
 GameObject:
   m_ObjectHideFlags: 0
@@ -52361,15 +53619,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -52387,15 +53641,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -52414,7 +53664,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &2138720269
 GameObject:
   m_ObjectHideFlags: 0
@@ -52500,7 +53753,10 @@ Transform:
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &2146012942
 GameObject:
   m_ObjectHideFlags: 0
@@ -52544,15 +53800,11 @@ SpriteRenderer:
   m_ReceiveShadows: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_DynamicOccludee: 1
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_DynamicOccludee: 1
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -52570,15 +53822,11 @@ SpriteRenderer:
   m_ImportantGI: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_StitchLightmapSeams: 0
 =======
 >>>>>>> parent of e920b69... Fixing Venice Level
 =======
 >>>>>>> parent of d5c561d... RE added teleporters and scripts
-=======
-  m_StitchLightmapSeams: 0
->>>>>>> parent of dc1614b... Revert "Fixing Venice Level"
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -52597,7 +53845,10 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+<<<<<<< HEAD
 >>>>>>> 494ee97c17bd81cadc8c242402d1e4b9dfbf4135
+=======
+>>>>>>> parent of e920b69... Fixing Venice Level
 --- !u!1 &2146330037
 GameObject:
   m_ObjectHideFlags: 0
