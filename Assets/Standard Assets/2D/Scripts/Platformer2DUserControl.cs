@@ -40,17 +40,23 @@ namespace UnityStandardAssets._2D
             bool crouch = false;
 
             float h = CrossPlatformInputManager.GetAxis("Horizontal");
-            // This is the UpperCut ability
-            if (Input.GetButton("Fire2") && Input.GetKey(KeyCode.W))
-                abilityNumber = 1;
-            // This is the Dash Ability
-            if (Input.GetButton("Fire2") && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)))
-                abilityNumber = 2;
-            // This is the Ground Smash Ability
-            if (Input.GetButton("Fire2") && Input.GetKey(KeyCode.S))
-                abilityNumber = 3;
-            if (Input.GetButton("Fire1"))
-                attack = true;
+            
+            if (!m_Character.m_Anim.GetCurrentAnimatorStateInfo(0).IsName("UpperCut") ||
+                !m_Character.m_Anim.GetCurrentAnimatorStateInfo(0).IsName("Dash") ||
+                !m_Character.m_Anim.GetCurrentAnimatorStateInfo(0).IsName("GroundSmash")) 
+                {
+                // This is the UpperCut ability
+                if (Input.GetButton("Fire2") && Input.GetKey(KeyCode.W) && m_Character.ability1CD <= 0)
+                    abilityNumber = 1;
+                // This is the Dash Ability
+                if (Input.GetButton("Fire2") && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) && m_Character.ability2CD <= 0)
+                    abilityNumber = 2;
+                // This is the Ground Smash Ability
+                if (Input.GetButton("Fire2") && Input.GetKey(KeyCode.S) && m_Character.ability3CD <= 0)
+                    abilityNumber = 3;
+                if (Input.GetButton("Fire1") && m_Character.attackCD <= 0)
+                    attack = true;
+            }
 
             // Pass all parameters to the character control script.
             if (abilityNumber != 0)

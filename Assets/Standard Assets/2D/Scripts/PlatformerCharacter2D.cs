@@ -23,7 +23,7 @@ namespace UnityStandardAssets._2D
         [HideInInspector]
         public Animator m_Anim;            // Reference to the player's animator component.
         private Rigidbody2D m_Rigidbody2D;
-        private bool m_FacingRight = true;  // For determining which way the player is currently facing.
+        public bool m_FacingRight = true;  // For determining which way the player is currently facing.
         public int health = 1;
         public float attackCD = 1f;          // This is the Cooldown timer for the basic attack
         public float ability1CD = 0f;        // This is the Cooldown timer for the Upper Cut

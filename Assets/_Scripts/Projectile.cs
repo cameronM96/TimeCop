@@ -6,25 +6,27 @@ public class Projectile : MonoBehaviour {
     
     public Rigidbody2D rb;
     public float speed;
+    public bool rainArrow = false;
 
 	// Use this for initialization
 	void Start ()
     {
-        //rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
         Destroy(this.gameObject, 20f);
     }
 
     private void Update()
     {
-        //rb.velocity = new Vector2(speed, 0);
+        if(!rainArrow)
+            rb.velocity = new Vector2(speed,0);
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         Destroy(this.gameObject);
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         Destroy(this.gameObject);
     }

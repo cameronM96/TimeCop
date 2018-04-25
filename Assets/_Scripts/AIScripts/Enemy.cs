@@ -93,12 +93,12 @@ namespace UnityStandardAssets._2D
             // These values will probably need to change or be altered based on scale...
             if (knight || ninja || juggernaut)
             {
-                attackRange = 4.0f;
+                attackRange = 10.0f * transform.localScale.x;
                 m_Character.specialAI = true;
             }
             else
             {
-                attackRange = 5.0f;
+                attackRange = 20.0f * transform.localScale.x;
             }
         }
 
@@ -173,9 +173,11 @@ namespace UnityStandardAssets._2D
                 m_Character.Attack();
                 if (!(knight || ninja || juggernaut))
                 {
-                    GameObject projectile;
-                    projectile = (Instantiate(projectilePrefab, projectilePoint.position, projectilePoint.rotation)) as GameObject;
+                    GameObject clone;
+                    clone = (Instantiate(projectilePrefab, projectilePoint.position, projectilePoint.rotation));
                     // Add force to the bullet somehow
+                    if(!m_Character.m_FacingRight)
+                        clone.GetComponent<Projectile>().speed *= -1;
                 }
                 attack = false;
             }
