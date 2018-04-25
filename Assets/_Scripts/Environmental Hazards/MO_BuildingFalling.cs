@@ -7,7 +7,7 @@ public class MO_BuildingFalling : MonoBehaviour {
     
     public GameObject levelBuilding;
 
-    public float fallingSpeed = 1.0f;
+    public float fallingSpeed = -1.0f;
 
     private bool isFalling = false;
 
@@ -16,9 +16,9 @@ public class MO_BuildingFalling : MonoBehaviour {
     {
         if (isFalling)
         {
-            levelBuilding.transform.Translate(0, fallingSpeed, 0);
+            levelBuilding.transform.Translate(0, fallingSpeed * Time.deltaTime, 0);
         }
-        if (levelBuilding.transform.position.y >= -50)
+        if (levelBuilding.transform.position.y <= -50)
         {
             levelBuilding.SetActive(false);
         }
@@ -28,6 +28,7 @@ public class MO_BuildingFalling : MonoBehaviour {
     {
         if (collision.tag == "Player")
         {
+            Debug.Log("Player has entered complasing building");
             if (!isFalling)
             {
                 isFalling = true;

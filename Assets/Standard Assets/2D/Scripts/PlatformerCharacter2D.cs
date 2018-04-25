@@ -40,6 +40,14 @@ namespace UnityStandardAssets._2D
         [HideInInspector]
         public bool specialAI = false;
 
+        // Audio
+        private AudioSource audioSource;
+        [SerializeField] private AudioClip rangedAttack;
+        [SerializeField] private AudioClip meleeAttack;
+        [SerializeField] private AudioClip running;
+        [SerializeField] private AudioClip powerFist;
+        [SerializeField] private AudioClip dash;
+
         private void Awake()
         {
             // Setting up references.
@@ -48,6 +56,7 @@ namespace UnityStandardAssets._2D
             m_Anim = GetComponent<Animator>();
             m_Rigidbody2D = GetComponent<Rigidbody2D>();
             startPoint = GameObject.FindGameObjectWithTag("StartPoint");
+            audioSource = GetComponent<AudioSource>();
 
             if (this.gameObject.transform.localScale.x > 0)
             {
