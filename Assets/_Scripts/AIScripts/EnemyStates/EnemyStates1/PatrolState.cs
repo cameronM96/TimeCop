@@ -38,7 +38,7 @@ namespace UnityStandardAssets._2D
             if (other.tag == "Edge")
             {
                 // Make him turn around somehow...
-                Debug.Log("Turning around");
+                //Debug.Log("Turning around");
                 if (enemy.transform.localScale.x > 0)
                 {
                     enemy.Move(-1, false);

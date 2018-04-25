@@ -39,13 +39,15 @@ public class MO_RainOfArrows : MonoBehaviour {
             if (player.transform.position.x > transform.position.x &&
                 (player.transform.position.x + numberOfArrows) < transform.position.x)
             {
-                warning.enabled = true;
+                if (warning != null)
+                    warning.enabled = true;
                 //StartCoroutine(FlashWarning());
             }
         }
         else
         {
-            warning.enabled = false;
+            if (warning != null)
+                warning.enabled = false;
         }
 
         if (isRaining)
@@ -76,6 +78,7 @@ public class MO_RainOfArrows : MonoBehaviour {
     IEnumerator FlashWarning ()
     {
         yield return new WaitForSeconds(1);
-        warning.enabled = !warning.enabled;
+        if (warning != null)
+            warning.enabled = !warning.enabled;
     }
 }

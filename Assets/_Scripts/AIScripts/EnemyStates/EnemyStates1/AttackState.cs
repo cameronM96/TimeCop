@@ -60,6 +60,20 @@ namespace UnityStandardAssets._2D
 
         public void OnTriggerEnter2D(Collider2D other)
         {
+            // When AI reaches the edge, jump
+            if (other.tag == "Edge")
+            {
+                // Make him jump
+                if (enemy.transform.localScale.x > 0)
+                {
+                    enemy.Move(1, true);
+                }
+                else
+                {
+                    enemy.Move(-1, true);
+                }
+            }
+
             if (other.tag == "AbilityProc")
             {
                 enemy.specialAttack = true;

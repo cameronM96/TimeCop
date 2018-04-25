@@ -373,6 +373,7 @@ MonoBehaviour:
   dashActive: 0
   dashPower: 50
   specialAI: 0
+  volume: {fileID: 0}
   audioSource: {fileID: 82493056811916800}
   rangedAttack: {fileID: 8300000, guid: 30c5059060731884e8234bc0e1ac85c8, type: 3}
   meleeAttack: {fileID: 0}
@@ -398,7 +399,7 @@ MonoBehaviour:
     m_Bits: 512
   obstaclesMask:
     serializedVersion: 2
-    m_Bits: 4294965759
+    m_Bits: 4294963711
   visibleTargets: []
 --- !u!212 &212529092033969198
 SpriteRenderer:

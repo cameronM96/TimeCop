@@ -114,7 +114,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1942596564263166}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.0424433, y: 4.4430685, z: 0}
+  m_LocalPosition: {x: 2.1990137, y: -9.374832, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4325088338805436}
@@ -130,7 +130,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1728578033006198}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.31, y: 0, z: 0}
+  m_LocalPosition: {x: 1.83, y: -0.09, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4645011818341422}
@@ -301,7 +301,7 @@ MonoBehaviour:
     m_Bits: 512
   obstaclesMask:
     serializedVersion: 2
-    m_Bits: 4294965759
+    m_Bits: 4294963711
   visibleTargets: []
 --- !u!114 &114437499302237480
 MonoBehaviour:
@@ -393,6 +393,7 @@ MonoBehaviour:
   dashActive: 0
   dashPower: 50
   specialAI: 0
+  volume: {fileID: 0}
   audioSource: {fileID: 82483651236654124}
   rangedAttack: {fileID: 8300000, guid: 28b495770737c144d8afbb6f54fa2f19, type: 3}
   meleeAttack: {fileID: 0}

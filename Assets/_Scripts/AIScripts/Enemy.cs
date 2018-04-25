@@ -136,11 +136,13 @@ namespace UnityStandardAssets._2D
             }
             else
             {
+                // No target in site
                 Target = null;
             }
             
             jumpTimer -= Time.deltaTime;
 
+            // If AI dies but hasn't dropped it's scroll yet, drop it now
             if (m_Character.health <= 0)
             {
                 if (dropScroll)
@@ -168,21 +170,6 @@ namespace UnityStandardAssets._2D
 
                 pathIsEnded = false;
 
-                // This logic is flawed
-                //if (path.vectorPath[currentWayPoint].y - transform.position.y > 0.0f)
-                //{
-                //    if (jumpTimer <= 0)
-                //    {
-                //        jumpTimer = jumpTimerReset;
-                //        Debug.Log("Jumping");
-                //        m_Jump = true;
-                //    }
-                //}
-                //else
-                //{
-                //    m_Jump = false;
-                //}
-
                 // Determine if the AI is close enough to the node to move to the next node in the path.
                 float dist = Vector3.Distance(transform.position, path.vectorPath[currentWayPoint]);
                 if (dist < nextWayPointDistance)
@@ -204,15 +191,18 @@ namespace UnityStandardAssets._2D
                     specialAttack = false;
                     if (knight)
                     {
+                        // UpperCut
                         m_Character.Abilities(1, m_Character.m_FacingRight);
                     }
                     else if (ninja)
                     {
+                        // Dash
                         Move(h, true);
                         m_Character.Abilities(2, m_Character.m_FacingRight);
                     }
                     else if (juggernaut)
                     {
+                        // GroundSmash
                         m_Character.Abilities(3, m_Character.m_FacingRight);
                     }
 
@@ -236,9 +226,10 @@ namespace UnityStandardAssets._2D
                         // Set speed based on direction AI is facing
                         if (!m_Character.m_FacingRight && (clone.GetComponent<Projectile>().speed > 0))
                         {
+                            // Set the projectiles speed and x scale relative to the AI
                             clone.GetComponent<Projectile>().speed *= -1;
                             Vector3 theScale = transform.localScale;
-                            theScale.x *= -1;
+                            //theScale.x *= -1;
                             clone.transform.localScale = theScale;
                         }
                     }
@@ -255,6 +246,7 @@ namespace UnityStandardAssets._2D
 
         private void LateUpdate()
         {
+            // play the "Hurt" animation
             if (knight || juggernaut)
             {
                 if (!m_Character.m_Anim.GetCurrentAnimatorStateInfo(0).IsName("Hurt"))
@@ -285,6 +277,7 @@ namespace UnityStandardAssets._2D
 
         public void OnPathComplete(Path p)
         {
+            // Empty path if the end of the path is complete
             if (!p.error)
             {
                 path = p;
@@ -312,6 +305,7 @@ namespace UnityStandardAssets._2D
             StartCoroutine(UpdatePath());
         }
 
+        // Move the AI
         public void Move(float h, bool jump)
         {
             m_Character.Move(h, m_Crouch, jump);

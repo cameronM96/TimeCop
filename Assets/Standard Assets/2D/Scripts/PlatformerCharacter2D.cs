@@ -38,13 +38,13 @@ namespace UnityStandardAssets._2D
         public bool ability2Learnt;         // Determine if character has learnt the Dash ability
         public bool ability3Learnt;         // Determine if character has learnt the Ground Smash ability
         [HideInInspector]
-        public bool groundSmashActive = false;
+        public bool groundSmashActive = false;  // Checks if Ground Smash is currently being used
         [HideInInspector]
-        public bool dashActive = false;
-        public float dashPower = 50f;
+        public bool dashActive = false;         // Checks if Dash is currently being used
+        public float dashPower = 50f;           // The strength of the dash (its velocity)
         [HideInInspector]
-        public bool specialAI = false;
-        public GameObject volume;
+        public bool specialAI = false;          // Checks if character is a "special AI" (Knight, Ninja, Juggernaut)
+        public GameObject volume;               // Sets the volume of the sound effects
 
         // Audio
         public AudioSource audioSource;
@@ -54,6 +54,9 @@ namespace UnityStandardAssets._2D
         [SerializeField] private AudioClip powerFist;
         [SerializeField] private AudioClip dash;
         [SerializeField] private AudioClip deathSound;
+
+        // Pause Functionality
+        //public PauseFunction pause;
 
         private void Awake()
         {
@@ -130,7 +133,7 @@ namespace UnityStandardAssets._2D
 
             m_Anim.SetBool("Ground", m_Grounded);
 
-            // Set the vertical animation
+            // Set the vertical animation variable
             m_Anim.SetFloat("vSpeed", m_Rigidbody2D.velocity.y);
         }
 
@@ -233,13 +236,15 @@ namespace UnityStandardAssets._2D
                 m_Rigidbody2D.velocity = new Vector2(0, 0);
 
                 m_Anim.SetBool("Attack", true);
+
+                // Play attack sound
                 if (rangedAttack != null)
                 {
                     audioSource.clip = rangedAttack;
                 }
                 else
                 {
-                    audioSource.clip = rangedAttack;
+                    audioSource.clip = meleeAttack;
                 }
                 audioSource.loop = false;
                 audioSource.Play();
@@ -263,7 +268,7 @@ namespace UnityStandardAssets._2D
                     }
                     break;
                 case 2:
-                    // Do dash Ability
+                    // Do Dash Ability
                     if (ability2CD <= 0f && ability2Learnt)
                     {
                         //if ((m_FacingRight && dir == false) || (!m_FacingRight && dir ==  true))

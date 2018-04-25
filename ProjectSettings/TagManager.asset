@@ -26,6 +26,7 @@ TagManager:
   - AbilityProc
   - VolumeSlider
   - Warning
+  - Pause
   layers:
   - Default
   - TransparentFX
