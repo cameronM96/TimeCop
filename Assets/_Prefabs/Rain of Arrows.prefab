@@ -51,7 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1df1efa2f34ea0247ba26ef82a0a98a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rainTimer: 10
+  rainTimer: 15
   arrow: {fileID: 1484732432233602, guid: 7066f68d165fc734f9123e9d6f4cc94a, type: 2}
   numberOfArrows: 80
   numberOfRows: 2

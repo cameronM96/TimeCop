@@ -32,8 +32,9 @@ namespace UnityStandardAssets._2D
 
         }
 
-        public void OnTriggerEnter(Collider2D other)
+        public void OnTriggerEnter2D(Collider2D other)
         {
+            // When AI reaches the edge of its patrol area, turn around
             if (other.tag == "Edge")
             {
                 // Make him turn around somehow...
@@ -46,6 +47,12 @@ namespace UnityStandardAssets._2D
                 {
                     enemy.Move(1, false); 
                 }
+            }
+
+            // When AI reaches area where it's ability can be used, use it.
+            if (other.tag == "AbilityProc")
+            {
+                enemy.specialAttack = true;
             }
         }
 

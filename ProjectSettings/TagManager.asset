@@ -23,6 +23,7 @@ TagManager:
   - Ability2Scroll
   - Ability3Scroll
   - StartPoint
+  - AbilityProc
   layers:
   - Default
   - TransparentFX

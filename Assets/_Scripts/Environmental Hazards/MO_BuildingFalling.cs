@@ -4,22 +4,15 @@ using UnityEngine;
 
 // Created by Myles Okorn
 public class MO_BuildingFalling : MonoBehaviour {
-
-    public GameObject triggerVolume;
+    
     public GameObject levelBuilding;
 
     public float fallingSpeed = 1.0f;
 
     private bool isFalling = false;
 
-	// Use this for initialization
-	void Start ()
-    {
-		
-	}
-	
-	// Update is called once per frame
-	void Update ()
+    // Update is called once per frame
+    void Update ()
     {
         if (isFalling)
         {
@@ -33,9 +26,12 @@ public class MO_BuildingFalling : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!isFalling)
+        if (collision.tag == "Player")
         {
-            isFalling = true;
+            if (!isFalling)
+            {
+                isFalling = true;
+            }
         }
     }
 }

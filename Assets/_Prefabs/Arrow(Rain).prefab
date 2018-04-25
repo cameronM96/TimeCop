@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 61790202324715128}
   - component: {fileID: 114504308488842684}
   - component: {fileID: 50891167320904448}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Arrow(Rain)
   m_TagString: Projectile
   m_Icon: {fileID: 0}

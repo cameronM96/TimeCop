@@ -196,7 +196,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 217506264975f3742b54e196cbea58b4, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 1
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -264,7 +264,6 @@ MonoBehaviour:
   jumpForce: 10
   nextWayPointDistance: 3
   pathIsEnded: 0
-  scoreManager: {fileID: 0}
   knight: 0
   ninja: 0
   juggernaut: 0
@@ -276,6 +275,8 @@ MonoBehaviour:
   projectilePrefab: {fileID: 1427373818393952, guid: 38db084ff9345294c9ab935a94471a44,
     type: 2}
   projectilePoint: {fileID: 4780059988653252}
+  dropScroll: 0
+  scroll: {fileID: 0}
 --- !u!114 &114816473865810206
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -296,11 +297,18 @@ MonoBehaviour:
     m_Bits: 257
   m_GroundCheck: {fileID: 0}
   m_Anim: {fileID: 0}
+  m_FacingRight: 1
   health: 1
   attackCD: 1
   ability1CD: 3
   ability2CD: 3
   ability3CD: 3
+  abilityCD: 3
+  ability1Learnt: 0
+  ability2Learnt: 0
+  ability3Learnt: 0
+  groundSmashActive: 0
+  specialAI: 0
 --- !u!212 &212481531579058138
 SpriteRenderer:
   m_ObjectHideFlags: 1

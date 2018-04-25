@@ -103,23 +103,20 @@ namespace UnityStandardAssets._2D
             {
                 m_Anim.SetBool("Attack", false);
             }
-
-            if (this.gameObject.tag == "Player")
+            
+            if (!m_Anim.GetCurrentAnimatorStateInfo(0).IsName("UpperCut"))
             {
-                if (!m_Anim.GetCurrentAnimatorStateInfo(0).IsName("UpperCut"))
-                {
-                    m_Anim.SetBool("UpperCut", false);
-                }
+                m_Anim.SetBool("UpperCut", false);
+            }
 
-                if (!m_Anim.GetCurrentAnimatorStateInfo(0).IsName("Dash"))
-                {
-                    m_Anim.SetBool("Dash", false);
-                }
+            if (!m_Anim.GetCurrentAnimatorStateInfo(0).IsName("Dash"))
+            {
+                m_Anim.SetBool("Dash", false);
+            }
 
-                if (!m_Anim.GetCurrentAnimatorStateInfo(0).IsName("GroundSmash"))
-                {
-                    m_Anim.SetBool("GroundSmash", false);
-                }
+            if (!m_Anim.GetCurrentAnimatorStateInfo(0).IsName("GroundSmash"))
+            {
+                m_Anim.SetBool("GroundSmash", false);
             }
         }
 
@@ -200,7 +197,7 @@ namespace UnityStandardAssets._2D
             }
         }
 
-        public void Abilities (int ability)
+        public void Abilities(int ability, bool dir)
         {
             switch (ability)
             {
@@ -215,6 +212,9 @@ namespace UnityStandardAssets._2D
                 case 2:
                     if (ability2CD <= 0f && ability2Learnt)
                     {
+                        //if ((m_FacingRight && dir == false) || (!m_FacingRight && dir ==  true))
+                        //    Flip();
+
                         m_Anim.SetBool("Dash", true);
                         if (m_FacingRight)
                         {
@@ -231,6 +231,7 @@ namespace UnityStandardAssets._2D
                     if (ability3CD <= 0f && ability3Learnt)
                     {
                         m_Anim.SetBool("GroundSmash", true);
+                        m_Rigidbody2D.AddForce(new Vector2(m_Rigidbody2D.velocity.x, m_JumpForce * -1f));
                         ability3CD = abilityCD;
                         groundSmashActive = true;
                     }
@@ -248,6 +249,7 @@ namespace UnityStandardAssets._2D
             // Instead of destroy probably just teleport to start if it's the player...
             if (this.gameObject.tag != "Player")
             {
+
                 Destroy(this.gameObject, 3.0f);
             }
             else
@@ -281,16 +283,19 @@ namespace UnityStandardAssets._2D
                 if (other.tag == "Ability1Scroll")
                 {
                     ability1Learnt = true;
+                    Destroy(other.gameObject);
                 }
 
                 if (other.tag == "Ability2Scroll")
                 {
                     ability2Learnt = true;
+                    Destroy(other.gameObject);
                 }
 
                 if (other.tag == "Ability3Scroll")
                 {
                     ability3Learnt = true;
+                    Destroy(other.gameObject);
                 }
             }
 
@@ -300,6 +305,10 @@ namespace UnityStandardAssets._2D
                 if (other.tag == "Weapon")
                 {
                     health -= 1;
+                    if (!(health <= 0))
+                    {
+                        m_Anim.SetBool("Hurt", true);
+                    }
                 }
             }
         }

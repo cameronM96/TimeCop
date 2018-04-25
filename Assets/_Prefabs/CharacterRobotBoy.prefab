@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4044431477253532}
   - component: {fileID: 70164473835824000}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: GroundSmash (1)
   m_TagString: Weapon
   m_Icon: {fileID: 0}
@@ -76,7 +76,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4852709219886852}
   - component: {fileID: 70705051815714608}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: AttackHitBox
   m_TagString: Weapon
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4947560642288438}
   - component: {fileID: 70494689573644208}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: UpperCutHitBox
   m_TagString: Weapon
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4838917580031732}
   - component: {fileID: 70573260396631442}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: DashHitBox
   m_TagString: Weapon
   m_Icon: {fileID: 0}
@@ -139,7 +139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4644860159088258}
   - component: {fileID: 70680865893278448}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: GroundSmash
   m_TagString: Weapon
   m_Icon: {fileID: 0}
@@ -181,7 +181,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1239784493429290}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.61, y: -9.03, z: 0}
+  m_LocalPosition: {x: 4.55, y: -9.03, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4599245829365332}
@@ -306,7 +306,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6.6602345
+  orthographic size: 10.452651
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -387,7 +387,7 @@ CapsuleCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1004965921763046}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -402,7 +402,7 @@ CapsuleCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1299631274110950}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -417,7 +417,7 @@ CapsuleCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1648383549054120}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -432,7 +432,7 @@ CapsuleCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1963183305189618}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -447,7 +447,7 @@ CapsuleCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1282822726829378}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1

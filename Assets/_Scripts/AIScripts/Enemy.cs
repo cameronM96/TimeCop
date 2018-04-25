@@ -59,6 +59,10 @@ namespace UnityStandardAssets._2D
         [SerializeField]
         private Transform projectilePoint;
 
+        public bool dropScroll;
+        [SerializeField]
+        private GameObject scroll;
+
         // Use this for initialization
         public void Awake()
         {
@@ -79,10 +83,17 @@ namespace UnityStandardAssets._2D
             if (knight)
             {
                 m_Character.health = 2;
+                m_Character.ability1Learnt = true;
             }
             else if (juggernaut)
             {
                 m_Character.health = 3;
+                m_Character.ability3Learnt = true;
+            }
+            else if (ninja)
+            {
+                m_Character.health = 1;
+                m_Character.ability2Learnt = true;
             }
             else
             {
@@ -91,14 +102,19 @@ namespace UnityStandardAssets._2D
 
             // Determine the AI's attack range based on kind of AI.
             // These values will probably need to change or be altered based on scale...
-            if (knight || ninja || juggernaut)
+            if (ninja || juggernaut)
             {
-                attackRange = 10.0f * transform.localScale.x;
+                attackRange = 3.0f * transform.localScale.x;
+                m_Character.specialAI = true;
+            }
+            else if (knight)
+            {
+                attackRange = 3.0f * (transform.localScale.x * 2);
                 m_Character.specialAI = true;
             }
             else
             {
-                attackRange = 20.0f * transform.localScale.x;
+                attackRange = 10.0f * transform.localScale.x;
             }
         }
 
@@ -167,24 +183,69 @@ namespace UnityStandardAssets._2D
             }
 
             Debug.Log("Jumping: " + m_Jump);
-            // Moves the AI
-            if (attack)
-            {
-                m_Character.Attack();
-                if (!(knight || ninja || juggernaut))
-                {
-                    GameObject clone;
-                    clone = (Instantiate(projectilePrefab, projectilePoint.position, projectilePoint.rotation));
-                    // Add force to the bullet somehow
-                    if(!m_Character.m_FacingRight)
-                        clone.GetComponent<Projectile>().speed *= -1;
-                }
-                attack = false;
-            }
 
-            if (!m_Character.m_Anim.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
+            // Don't allow AI to do actions if it is hurt or dead
+            if (!m_Character.m_Anim.GetCurrentAnimatorStateInfo(0).IsName("Hurt") || 
+                !m_Character.m_Anim.GetCurrentAnimatorStateInfo(0).IsName("death"))
             {
-                Move(h, m_Jump);
+                // Do specialAbility
+                if (specialAttack)
+                {
+                    specialAttack = false;
+                    if (knight)
+                    {
+                        m_Character.Abilities(1, m_Character.m_FacingRight);
+                    }
+                    else if (ninja)
+                    {
+                        Move(h, true);
+                        m_Character.Abilities(2, m_Character.m_FacingRight);
+                    }
+                    else if (juggernaut)
+                    {
+                        m_Character.Abilities(3, m_Character.m_FacingRight);
+                    }
+
+                    // This can only ever occur once per AI, but only 1 per level should be selected.
+                    if (dropScroll)
+                    {
+                        dropScroll = false;
+                        Instantiate(scroll, transform.position, transform.rotation);
+                    }
+                }
+
+                // Do basic attack
+                if (attack && m_Character.attackCD <= 0)
+                {
+                    m_Character.Attack();
+                    if (!(knight || ninja || juggernaut))
+                    {
+                        GameObject clone;
+                        clone = (Instantiate(projectilePrefab, projectilePoint.position, projectilePoint.rotation));
+
+                        // Set speed based on direction AI is facing
+                        if (!m_Character.m_FacingRight && (clone.GetComponent<Projectile>().speed > 0))
+                            clone.GetComponent<Projectile>().speed *= -1;
+                    }
+                    attack = false;
+                }
+
+                // Move AI
+                if (!m_Character.m_Anim.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
+                {
+                    Move(h, m_Jump);
+                }
+            }
+        }
+
+        private void LateUpdate()
+        {
+            if (knight || juggernaut)
+            {
+                if (!m_Character.m_Anim.GetCurrentAnimatorStateInfo(0).IsName("Hurt"))
+                {
+                    m_Character.m_Anim.SetBool("Hurt", false);
+                }
             }
         }
 
@@ -204,7 +265,7 @@ namespace UnityStandardAssets._2D
         
         private void OnTriggerEnter2D(Collider2D other)
         {
-            currentState.OnTriggerEnter(other);
+            currentState.OnTriggerEnter2D(other);
         }
 
         public void OnPathComplete(Path p)
