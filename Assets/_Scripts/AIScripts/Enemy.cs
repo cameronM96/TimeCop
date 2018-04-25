@@ -99,6 +99,7 @@ namespace UnityStandardAssets._2D
             {
                 m_Character.health = 1;
             }
+            //m_Character.attackCD *= 2;
 
             // Determine the AI's attack range based on kind of AI.
             // These values will probably need to change or be altered based on scale...
@@ -225,7 +226,12 @@ namespace UnityStandardAssets._2D
 
                         // Set speed based on direction AI is facing
                         if (!m_Character.m_FacingRight && (clone.GetComponent<Projectile>().speed > 0))
+                        {
                             clone.GetComponent<Projectile>().speed *= -1;
+                            Vector3 theScale = transform.localScale;
+                            theScale.x *= -1;
+                            clone.transform.localScale = theScale;
+                        }
                     }
                     attack = false;
                 }

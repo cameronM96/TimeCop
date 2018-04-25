@@ -445,6 +445,7 @@ MonoBehaviour:
   ability2CD: 3
   ability3CD: 3
   abilityCD: 3
+  attackCDReset: 2
   ability1Learnt: 0
   ability2Learnt: 0
   ability3Learnt: 0
@@ -458,6 +459,7 @@ MonoBehaviour:
   running: {fileID: 8300000, guid: c3cc19d6b910aaa4ab4aed9cf5b3bf61, type: 3}
   powerFist: {fileID: 8300000, guid: cdd363cfefa00864497c0a8b71ed00a3, type: 3}
   dash: {fileID: 8300000, guid: 34479b2c7b7dd0a438c7361a20a41d8d, type: 3}
+  deathSound: {fileID: 8300000, guid: b6648be9ad1988b4281b2789108ebe99, type: 3}
 --- !u!212 &212032363608647820
 SpriteRenderer:
   m_ObjectHideFlags: 1

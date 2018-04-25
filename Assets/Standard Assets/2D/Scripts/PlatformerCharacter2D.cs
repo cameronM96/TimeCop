@@ -25,11 +25,12 @@ namespace UnityStandardAssets._2D
         private Rigidbody2D m_Rigidbody2D;
         public bool m_FacingRight = true;   // For determining which way the player is currently facing.
         public int health = 1;
-        public float attackCD = 1f;         // This is the Cooldown timer for the basic attack
+        public float attackCD = 0f;         // This is the Cooldown timer for the basic attack
         public float ability1CD = 0f;       // This is the Cooldown timer for the Upper Cut
         public float ability2CD = 0f;       // This is the Cooldown timer for the Dash
         public float ability3CD = 0f;       // This is the Cooldown timer for the Ground Smash
         public float abilityCD = 3f;        // Cooldown length for all abilities.
+        public float attackCDReset = 2f;
         private GameObject startPoint;      // Respawn point
         private float respawndelay;
         public bool ability1Learnt;         // Determine if character has learnt the Upper Cut ability
@@ -50,6 +51,7 @@ namespace UnityStandardAssets._2D
         [SerializeField] private AudioClip running;
         [SerializeField] private AudioClip powerFist;
         [SerializeField] private AudioClip dash;
+        [SerializeField] private AudioClip deathSound;
 
         private void Awake()
         {
@@ -222,7 +224,7 @@ namespace UnityStandardAssets._2D
         {
             if (attackCD <= 0f)
             {
-                attackCD = 1f;
+                attackCD = attackCDReset;
                 // Play attack animation, collider is attached to the animation and is triggered there.
                 m_Rigidbody2D.velocity = new Vector2(0, 0);
 
@@ -301,6 +303,9 @@ namespace UnityStandardAssets._2D
         {
             // When health hits 0 or less play the death animations and destroy object shortly after.
             m_Anim.SetBool("death", true);
+            audioSource.clip = deathSound;
+            audioSource.loop = false;
+            audioSource.Play();
             // Instead of destroy probably just teleport to start if it's the player...
             if (this.gameObject.tag != "Player")
             {
