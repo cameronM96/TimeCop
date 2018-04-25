@@ -39,7 +39,6 @@ namespace UnityStandardAssets._2D
         [HideInInspector]
         public bool pathIsEnded = false;
 
-        public ScoreManager scoreManager;
         public bool knight;
         public bool ninja;
         public bool juggernaut;
@@ -95,6 +94,7 @@ namespace UnityStandardAssets._2D
             if (knight || ninja || juggernaut)
             {
                 attackRange = 4.0f;
+                m_Character.specialAI = true;
             }
             else
             {
@@ -237,20 +237,6 @@ namespace UnityStandardAssets._2D
         public void Move(float h, bool jump)
         {
             m_Character.Move(h, m_Crouch, jump);
-        }
-
-        private void Death ()
-        {
-            // Play Death animation
-
-            if (knight || ninja || juggernaut)
-            {
-                ++scoreManager.specialEnemyKillCount;
-            }
-            else
-            {
-                ++scoreManager.basicEnemyKillCount;
-            }
         }
     }
 }

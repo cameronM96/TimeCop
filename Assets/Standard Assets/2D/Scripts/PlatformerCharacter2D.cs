@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 namespace UnityStandardAssets._2D
 {
@@ -25,14 +26,19 @@ namespace UnityStandardAssets._2D
         private bool m_FacingRight = true;  // For determining which way the player is currently facing.
         public int health = 1;
         public float attackCD = 1f;          // This is the Cooldown timer for the basic attack
-        public float ability1CD = 3f;        // This is the Cooldown timer for the Upper Cut
-        public float ability2CD = 3f;        // This is the Cooldown timer for the Dash
-        public float ability3CD = 3f;        // This is the Cooldown timer for the Ground Smash
+        public float ability1CD = 0f;        // This is the Cooldown timer for the Upper Cut
+        public float ability2CD = 0f;        // This is the Cooldown timer for the Dash
+        public float ability3CD = 0f;        // This is the Cooldown timer for the Ground Smash
+        public float abilityCD = 3f;
         private GameObject startPoint;
         private float respawndelay;
         public bool ability1Learnt;
         public bool ability2Learnt;
         public bool ability3Learnt;
+        [HideInInspector]
+        public bool groundSmashActive = false;
+        [HideInInspector]
+        public bool specialAI = false;
 
         private void Awake()
         {
@@ -77,6 +83,13 @@ namespace UnityStandardAssets._2D
                 if (colliders[i].gameObject != gameObject)
                     m_Grounded = true;
             }
+
+            // Checks if "GroundSmash" is active and to change it when player hits the ground.
+            if (groundSmashActive && m_Grounded)
+            {
+                groundSmashActive = false;
+            }
+
             m_Anim.SetBool("Ground", m_Grounded);
 
             // Set the vertical animation
@@ -192,26 +205,34 @@ namespace UnityStandardAssets._2D
             switch (ability)
             {
                 case 1:
-                    if (ability1CD <= 0f || ability1Learnt)
+                    if (ability1CD <= 0f && ability1Learnt)
                     {
                         m_Anim.SetBool("UpperCut", true);
                         m_Rigidbody2D.AddForce(new Vector2(m_Rigidbody2D.velocity.x, m_JumpForce * 1.5f));
-                        ability1CD = 3f;
+                        ability1CD = abilityCD;
                     }
                     break;
                 case 2:
-                    if (ability2CD <= 0f || ability2Learnt)
+                    if (ability2CD <= 0f && ability2Learnt)
                     {
                         m_Anim.SetBool("Dash", true);
-                        m_Rigidbody2D.velocity = new Vector2(1.5f * m_MaxSpeed, m_Rigidbody2D.velocity.y);
-                        ability2CD = 3f;
+                        if (m_FacingRight)
+                        {
+                            m_Rigidbody2D.velocity = new Vector2(5.0f * m_MaxSpeed, m_Rigidbody2D.velocity.y);
+                        }
+                        else
+                        {
+                            m_Rigidbody2D.velocity = new Vector2((5.0f * m_MaxSpeed) * -1f, m_Rigidbody2D.velocity.y);
+                        }
+                        ability2CD = abilityCD;
                     }
                     break;
                 case 3:
-                    if (ability3CD <= 0f || ability3Learnt)
+                    if (ability3CD <= 0f && ability3Learnt)
                     {
                         m_Anim.SetBool("GroundSmash", true);
-                        ability3CD = 3f;
+                        ability3CD = abilityCD;
+                        groundSmashActive = true;
                     }
                     break;
                 default:
@@ -220,7 +241,7 @@ namespace UnityStandardAssets._2D
         }
 
         // This is triggered when the players attack collides with a projectile...
-        public void Death()
+        private void Death()
         {
             // When health hits 0 or less play the death animations and destroy object shortly after.
             m_Anim.SetBool("death", true);
@@ -233,16 +254,16 @@ namespace UnityStandardAssets._2D
             {
                 // Set player back to start
                 Debug.Log("Respawning");
-                Respawn();
+                StartCoroutine(Respawn());
             }
         }
 
         // This doesn't work...
         IEnumerator Respawn()
         {
-            health = 1;
             yield return new WaitForSeconds(3);
             Debug.Log("Respawn Complete");
+            health = 1;
             this.gameObject.transform.position = startPoint.transform.position;
             m_Anim.SetBool("death", false);
         }

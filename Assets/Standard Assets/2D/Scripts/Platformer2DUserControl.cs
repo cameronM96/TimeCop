@@ -65,8 +65,9 @@ namespace UnityStandardAssets._2D
             }
             else
             {
-                // Move character
-                m_Character.Move(h, crouch, m_Jump);
+                // Move character (if groundsmash isn't active)
+                if (!m_Character.groundSmashActive)
+                    m_Character.Move(h, crouch, m_Jump);
             }
             
             m_Jump = false;
