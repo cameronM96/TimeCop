@@ -60,6 +60,7 @@ GameObject:
   - component: {fileID: 114650458143038500}
   - component: {fileID: 114961476830331524}
   - component: {fileID: 61055168958518234}
+  - component: {fileID: 82264866755260784}
   m_Layer: 9
   m_Name: CharacterRobotBoy
   m_TagString: Player
@@ -181,7 +182,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1239784493429290}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.55, y: -9.03, z: 0}
+  m_LocalPosition: {x: -0.28, y: -9.03, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4599245829365332}
@@ -463,6 +464,86 @@ AudioListener:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1219293943300240}
   m_Enabled: 1
+--- !u!82 &82264866755260784
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1239784493429290}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!95 &95854296482285220
 Animator:
   serializedVersion: 3
@@ -497,7 +578,7 @@ MonoBehaviour:
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294963711
   m_GroundCheck: {fileID: 0}
   m_Anim: {fileID: 0}
   m_FacingRight: 1
@@ -511,7 +592,15 @@ MonoBehaviour:
   ability2Learnt: 1
   ability3Learnt: 1
   groundSmashActive: 0
+  dashActive: 0
+  dashPower: 50
   specialAI: 0
+  audioSource: {fileID: 0}
+  rangedAttack: {fileID: 0}
+  meleeAttack: {fileID: 8300000, guid: 0b69f679c3377944e9feb4d7101ed475, type: 3}
+  running: {fileID: 8300000, guid: a2f211d6a050c0b45b19435a09c2d2ee, type: 3}
+  powerFist: {fileID: 8300000, guid: cdd363cfefa00864497c0a8b71ed00a3, type: 3}
+  dash: {fileID: 8300000, guid: 34479b2c7b7dd0a438c7361a20a41d8d, type: 3}
 --- !u!114 &114961476830331524
 MonoBehaviour:
   m_ObjectHideFlags: 1

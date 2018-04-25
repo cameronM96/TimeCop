@@ -15,33 +15,36 @@ namespace UnityStandardAssets._2D
         [SerializeField] private LayerMask m_WhatIsGround;                  // A mask determining what is ground to the character
 
         [HideInInspector]
-        public Transform m_GroundCheck;    // A position marking where to check if the player is grounded.
+        public Transform m_GroundCheck;     // A position marking where to check if the player is grounded.
         const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
         private bool m_Grounded;            // Whether or not the player is grounded.
         private Transform m_CeilingCheck;   // A position marking where to check for ceilings
         const float k_CeilingRadius = .01f; // Radius of the overlap circle to determine if the player can stand up
         [HideInInspector]
-        public Animator m_Anim;            // Reference to the player's animator component.
+        public Animator m_Anim;             // Reference to the player's animator component.
         private Rigidbody2D m_Rigidbody2D;
-        public bool m_FacingRight = true;  // For determining which way the player is currently facing.
+        public bool m_FacingRight = true;   // For determining which way the player is currently facing.
         public int health = 1;
-        public float attackCD = 1f;          // This is the Cooldown timer for the basic attack
-        public float ability1CD = 0f;        // This is the Cooldown timer for the Upper Cut
-        public float ability2CD = 0f;        // This is the Cooldown timer for the Dash
-        public float ability3CD = 0f;        // This is the Cooldown timer for the Ground Smash
-        public float abilityCD = 3f;
-        private GameObject startPoint;
+        public float attackCD = 1f;         // This is the Cooldown timer for the basic attack
+        public float ability1CD = 0f;       // This is the Cooldown timer for the Upper Cut
+        public float ability2CD = 0f;       // This is the Cooldown timer for the Dash
+        public float ability3CD = 0f;       // This is the Cooldown timer for the Ground Smash
+        public float abilityCD = 3f;        // Cooldown length for all abilities.
+        private GameObject startPoint;      // Respawn point
         private float respawndelay;
-        public bool ability1Learnt;
-        public bool ability2Learnt;
-        public bool ability3Learnt;
+        public bool ability1Learnt;         // Determine if character has learnt the Upper Cut ability
+        public bool ability2Learnt;         // Determine if character has learnt the Dash ability
+        public bool ability3Learnt;         // Determine if character has learnt the Ground Smash ability
         [HideInInspector]
         public bool groundSmashActive = false;
+        [HideInInspector]
+        public bool dashActive = false;
+        public float dashPower = 50f;
         [HideInInspector]
         public bool specialAI = false;
 
         // Audio
-        private AudioSource audioSource;
+        public AudioSource audioSource;
         [SerializeField] private AudioClip rangedAttack;
         [SerializeField] private AudioClip meleeAttack;
         [SerializeField] private AudioClip running;
@@ -69,15 +72,32 @@ namespace UnityStandardAssets._2D
 
         private void Update()
         {
+            // Check if characters health is 0 or below and kill if it is
             if (health <= 0)
             {
                 Death();
             }
 
+            // Set the cooldown timers for all abilities and attacks
             attackCD -= Time.deltaTime;
             ability1CD -= Time.deltaTime;
             ability2CD -= Time.deltaTime;
             ability3CD -= Time.deltaTime;
+
+            // Determine if running noise should be played.
+            if (!dashActive)
+            {
+                if (m_Rigidbody2D.velocity.x != 0 && m_Grounded)
+                {
+                    audioSource.clip = running;
+                    audioSource.loop = true;
+                    audioSource.Play();
+                }
+                else
+                {
+                    audioSource.loop = false;
+                }
+            }
         }
 
         private void FixedUpdate()
@@ -97,6 +117,9 @@ namespace UnityStandardAssets._2D
             if (groundSmashActive && m_Grounded)
             {
                 groundSmashActive = false;
+                audioSource.clip = powerFist;
+                audioSource.loop = false;
+                audioSource.Play();
             }
 
             m_Anim.SetBool("Ground", m_Grounded);
@@ -121,6 +144,7 @@ namespace UnityStandardAssets._2D
             if (!m_Anim.GetCurrentAnimatorStateInfo(0).IsName("Dash"))
             {
                 m_Anim.SetBool("Dash", false);
+                dashActive = false;
             }
 
             if (!m_Anim.GetCurrentAnimatorStateInfo(0).IsName("GroundSmash"))
@@ -203,6 +227,16 @@ namespace UnityStandardAssets._2D
                 m_Rigidbody2D.velocity = new Vector2(0, 0);
 
                 m_Anim.SetBool("Attack", true);
+                if (rangedAttack != null)
+                {
+                    audioSource.clip = rangedAttack;
+                }
+                else
+                {
+                    audioSource.clip = rangedAttack;
+                }
+                audioSource.loop = false;
+                audioSource.Play();
             }
         }
 
@@ -211,38 +245,50 @@ namespace UnityStandardAssets._2D
             switch (ability)
             {
                 case 1:
+                    // Do Uppdercut Ability
                     if (ability1CD <= 0f && ability1Learnt)
                     {
                         m_Anim.SetBool("UpperCut", true);
                         m_Rigidbody2D.AddForce(new Vector2(m_Rigidbody2D.velocity.x, m_JumpForce * 1.5f));
                         ability1CD = abilityCD;
+                        audioSource.clip = dash;
+                        audioSource.loop = false;
+                        audioSource.Play();
                     }
                     break;
                 case 2:
+                    // Do dash Ability
                     if (ability2CD <= 0f && ability2Learnt)
                     {
                         //if ((m_FacingRight && dir == false) || (!m_FacingRight && dir ==  true))
                         //    Flip();
-
+                        dashActive = true;
                         m_Anim.SetBool("Dash", true);
                         if (m_FacingRight)
                         {
-                            m_Rigidbody2D.velocity = new Vector2(5.0f * m_MaxSpeed, m_Rigidbody2D.velocity.y);
+                            m_Rigidbody2D.velocity = new Vector2(dashPower * m_MaxSpeed, m_Rigidbody2D.velocity.y);
                         }
                         else
                         {
-                            m_Rigidbody2D.velocity = new Vector2((5.0f * m_MaxSpeed) * -1f, m_Rigidbody2D.velocity.y);
+                            m_Rigidbody2D.velocity = new Vector2((dashPower * m_MaxSpeed) * -1f, m_Rigidbody2D.velocity.y);
                         }
                         ability2CD = abilityCD;
+                        audioSource.clip = dash;
+                        audioSource.loop = false;
+                        audioSource.Play();
                     }
                     break;
                 case 3:
+                    // Do GroundSmash Ability
                     if (ability3CD <= 0f && ability3Learnt)
                     {
                         m_Anim.SetBool("GroundSmash", true);
                         m_Rigidbody2D.AddForce(new Vector2(m_Rigidbody2D.velocity.x, m_JumpForce * -1f));
                         ability3CD = abilityCD;
                         groundSmashActive = true;
+                        audioSource.clip = dash;
+                        audioSource.loop = false;
+                        audioSource.Play();
                     }
                     break;
                 default:
@@ -289,6 +335,7 @@ namespace UnityStandardAssets._2D
                     health -= 1;
                 }
 
+                // Check if player has picked up a scroll to learn a new ability
                 if (other.tag == "Ability1Scroll")
                 {
                     ability1Learnt = true;
@@ -321,5 +368,5 @@ namespace UnityStandardAssets._2D
                 }
             }
         }
-    }
+    }   
 }

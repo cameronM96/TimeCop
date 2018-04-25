@@ -73,6 +73,7 @@ GameObject:
   - component: {fileID: 114804996739551812}
   - component: {fileID: 114019567129824046}
   - component: {fileID: 58470245034637514}
+  - component: {fileID: 82126326509954972}
   m_Layer: 10
   m_Name: Archer_Basic
   m_TagString: AI
@@ -87,7 +88,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1567346799769958}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11, y: 0.11, z: 0}
+  m_LocalPosition: {x: -2.27, y: 3.7325318, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4877870193159926}
@@ -185,6 +186,86 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0.12}
   m_Size: {x: 1.12, y: 2.5}
   m_Direction: 0
+--- !u!82 &82126326509954972
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1567346799769958}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!95 &95699206011666248
 Animator:
   serializedVersion: 3
@@ -308,7 +389,15 @@ MonoBehaviour:
   ability2Learnt: 0
   ability3Learnt: 0
   groundSmashActive: 0
+  dashActive: 0
+  dashPower: 50
   specialAI: 0
+  audioSource: {fileID: 82126326509954972}
+  rangedAttack: {fileID: 8300000, guid: fed0f3df76cbbfc4c8f0286e788fa860, type: 3}
+  meleeAttack: {fileID: 0}
+  running: {fileID: 8300000, guid: a2f211d6a050c0b45b19435a09c2d2ee, type: 3}
+  powerFist: {fileID: 8300000, guid: cdd363cfefa00864497c0a8b71ed00a3, type: 3}
+  dash: {fileID: 8300000, guid: 34479b2c7b7dd0a438c7361a20a41d8d, type: 3}
 --- !u!212 &212481531579058138
 SpriteRenderer:
   m_ObjectHideFlags: 1
