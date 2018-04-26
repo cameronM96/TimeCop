@@ -2752,32 +2752,28 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Art\n\n\"PixelPunk\" - https://www.pinterest.co.uk/pin/31947478590579222/\n\n\"Black-Gradient
-    Background\" - http://gause.polk-fl.net/black-gradient-background/\n\n\"CyberPunk\"
-    - https://www.pinterest.com.au/pin/531424824767271273/\n\n\"Pixel Art Wallpapers\"
-    - http://www.xsjjys.com/pixel-art-wallpapers.html\n\n\"Water Again\" - http://dullahansoft.com/pixel/?tag=water\n\nKnight
-    by CraftPix.net - \nhttps://craftpix.net/freebies/2d-fantasy-knight-free-sprite-sheets//\n\nArcher
-    by Open Game Graphics - \nhttps://opengamegraphics.com/product/cartoony-fantasy-heroes/\n\nNinja
-    by Game Art 2D - \nhttps://www.gameart2d.com/ninja-adventure---free-sprites.html\n\nGirl
-    Ninja by Game Art 2D - \nhttps://www.gameart2d.com/ninja-girl---free-sprites.html\n\nRobot
-    by Game Art 2D - \nhttps://www.gameart2d.com/the-robot---free-sprites.html\n\nAbility
-    Icons by Game-Icons.net - \nhttp://game-icons.net/\n\n2D Game Character Pack (Slim
-    Version) by \"MoonStar\" - https://opengameart.org/content/2d-game-character-pack-slim-version\n\n\n\nAssets\n\nPixel
-    Font Tripfive - PIXELMUSH\n\nDigital Ruby (Jeff Johnson) - \"Free Parallaz for
-    Unity (2D)\"\n\nRandom Creations - \"Indian Kanoe - Malecite\"\n\nJulien Tonsuso
-    - \"Modular Fantasy Bridges\"\n\nMAD Entertainment - \"Neon Shapes\"\n\nUnity
-    Technologies - \"2D Game Kit\"\n\nLowlyPoly - \"Building Apartment\"\n\nA* Pathfinding
-    by Aron Granberg - https://arongranberg.com/astar/\n\nTiny RPG Town Environment
-    - \"ANSIMUZ\"\n\n\n\nAudio\n\nPolearm, Katana and Power Fist swing (No contact)
-    - swoosh.wav by 'PorkMuncher'\r\n\nPolearm and Katana attack (Hit enemy) - samurai
-    slash by 'nekoninja'\r\n\nPolearm and Katana attack (Hit obstacle/wall) - katana1.mp3
-    by 'Taira Komori'\r\n\nKatana Dash ability - Unsheathed blade by 'jamesabdulrahman'
-    \r\nEnemy laser shot - Lazer.mp3 by 'uzerx' \r\n\nEnemy musket shot - aaronsiler_musket
-    2.wav by 'aaronsiler' \r\nGrass footstep - Footstep_Grass_4.wav by 'GiocoSound'\n\t\r\nRegular
-    footstep (Concrete) - Step 10.wav by 'carrigsound'\r\nMetal footstep (Armour)
-    - metal-click.wav by 'newagesoup'\r\n\nBow draw and release - Regular Arrow Shot
-    by 'brendan89'\r\nArrow impact ground/obstacle - Arrow Impact 1 by 'Ali_6868'\r\n\nPower
-    Fist ability (Ground Smash) - Impact Cinematic by 'original_sound'\r\n"
+  m_Text: "Art\r\n\r\n\"PixelPunk\" on Pinterest - Steph Langan\r\n\r\n\"Black-Gradient
+    Background\" - Gause Academy\r\n\r\n\"CyberPunk\" on Pinterest - Matheus Fernandes\r\n\r\n\"Pixel
+    Art Wallpapers\" - xsJJys\r\n\r\n\"Water Again\" - cacciatc\r\n\r\nAbility Icons
+    - game-icons.net\r\n\r\n2D Game Character Pack (Slim Version) - Open Game Art\r\n\r\n\r\n\r\nAssets\r\n\r\nPixel
+    Font Tripfive - \u201CPIXELMUSH\u201D\r\n\r\nDigital Ruby (Jeff Johnson) - \"Free
+    Parallax for Unity (2D)\"\r\n\r\nRandom Creations - \"Indian Kanoe - Malecite\"\r\n\r\nJulien
+    Tonsuso - \"Modular Fantasy Bridges\"\r\n\r\nMAD Entertainment - \"Neon Shapes\"\r\n\r\nUnity
+    Technologies - \"2D Game Kit\"\r\n\r\nLowlyPoly - \"Building Apartment\"\r\n\r\nA*
+    Pathfinding - Aron Granberg\r\n\r\nTiny RPG Town Environment - \"ANSIMUZ\"\r\n\r\n2D
+    Fantasy Knight Free Character Sprite - CraftPix\r\n\r\nArcher by Open Game Graphics
+    - Open Game Graphics\r\n\r\nNinja - Game Art 2D\r\n\r\nGirl Ninja - Game Art 2D\r\n\r\nRobot
+    - Game Art 2D\r\n\r\n\r\nAudio\r\n\r\nPolearm, Katana and Power Fist swing (No
+    contact) - swoosh.wav by 'PorkMuncher'\r\n\r\nPolearm and Katana attack (Hit enemy)
+    - samurai slash by 'nekoninja'\r\n\r\nPolearm and Katana attack (Hit obstacle/wall)
+    - katana1.mp3 by 'Taira Komori'\r\n\r\nKatana Dash ability - Unsheathed blade
+    by 'jamesabdulrahman' \r\nEnemy laser shot - Lazer.mp3 by 'uzerx' \r\n\r\nEnemy
+    musket shot - aaronsiler_musket 2.wav by 'aaronsiler' \r\nGrass footstep - Footstep_Grass_4.wav
+    by 'GiocoSound'\r\n\t\r\nRegular footstep (Concrete) - Step 10.wav by 'carrigsound'\r\nMetal
+    footstep (Armour) - metal-click.wav by 'newagesoup'\r\n\r\nBow draw and release
+    - Regular Arrow Shot by 'brendan89'\r\nArrow impact ground/obstacle - Arrow Impact
+    1 by 'Ali_6868'\r\n\r\nPower Fist ability (Ground Smash) - Impact Cinematic by
+    'original_sound'\r\n"
 --- !u!222 &766777763
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -179,8 +179,6 @@ namespace UnityStandardAssets._2D
                 }
             }
 
-            Debug.Log("Jumping: " + m_Jump);
-
             // Don't allow AI to do actions if it is hurt or dead
             if (!m_Character.m_Anim.GetCurrentAnimatorStateInfo(0).IsName("Hurt") || 
                 !m_Character.m_Anim.GetCurrentAnimatorStateInfo(0).IsName("death"))
@@ -267,7 +265,7 @@ namespace UnityStandardAssets._2D
             currentState = newState;
 
             currentState.Enter(this);
-            Debug.Log(currentState);
+            
         }
         
         private void OnTriggerEnter2D(Collider2D other)
