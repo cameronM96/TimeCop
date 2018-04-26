@@ -580,8 +580,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 43277372}
   m_HandleRect: {fileID: 43277371}
   m_Direction: 2
-  m_Value: 0.9993906
-  m_Size: 0.030984243
+  m_Value: 0.9993569
+  m_Size: 0.0326449
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1292,7 +1292,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 245108518}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -45.893814, z: 0}
+  m_LocalPosition: {x: 0, y: -121.39844, z: 0}
   m_LocalScale: {x: 12.07389, y: 4.25671, z: 4.1205597}
   m_Children:
   - {fileID: 761747654}
@@ -1653,7 +1653,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 306831487}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 143.24002, z: 0}
+  m_LocalPosition: {x: 0, y: 327.18005, z: 0}
   m_LocalScale: {x: 20, y: 20, z: 10}
   m_Children: []
   m_Father: {fileID: 1502263191}
@@ -2709,7 +2709,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 766777760}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.16500092, y: -938.33997, z: 0}
+  m_LocalPosition: {x: 0.16500092, y: -889.02, z: 0}
   m_LocalScale: {x: 0.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 2042888756}
@@ -2717,8 +2717,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.165, y: -938.34}
-  m_SizeDelta: {x: 94.02, y: 1232.62}
+  m_AnchoredPosition: {x: 0.165, y: -889.02}
+  m_SizeDelta: {x: 94.02, y: 1166.86}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &766777762
 MonoBehaviour:
@@ -2762,21 +2762,22 @@ MonoBehaviour:
     Ninja by Game Art 2D - \nhttps://www.gameart2d.com/ninja-girl---free-sprites.html\n\nRobot
     by Game Art 2D - \nhttps://www.gameart2d.com/the-robot---free-sprites.html\n\nAbility
     Icons by Game-Icons.net - \nhttp://game-icons.net/\n\n2D Game Character Pack (Slim
-    Version) by \"MoonStar\" - https://opengameart.org/content/2d-game-character-pack-slim-version\n\n\n\nAssets\n\nDigital
-    Ruby (Jeff Johnson) - \"Free Parallaz for Unity (2D)\"\n\nRandom Creations - \"Indian
-    Kanoe - Malecite\"\n\nJulien Tonsuso - \"Modular Fantasy Bridges\"\n\nMAD Entertainment
-    - \"Neon Shapes\"\n\nUnity Technologies - \"2D Game Kit\"\n\nLowlyPoly - \"Building
-    Apartment\"\n\nA* Pathfinding by Aron Granberg - https://arongranberg.com/astar/\n\nTiny
-    RPG Town Environment - \"ANSIMUZ\"\n\n\n\nAudio\n\nPolearm, Katana and Power Fist
-    swing (No contact) - swoosh.wav by 'PorkMuncher'\r\n\nPolearm and Katana attack
-    (Hit enemy) - samurai slash by 'nekoninja'\r\n\nPolearm and Katana attack (Hit
-    obstacle/wall) - katana1.mp3 by 'Taira Komori'\r\n\nKatana Dash ability - Unsheathed
-    blade by 'jamesabdulrahman' \r\nEnemy laser shot - Lazer.mp3 by 'uzerx' \r\n\nEnemy
-    musket shot - aaronsiler_musket 2.wav by 'aaronsiler' \r\nGrass footstep - Footstep_Grass_4.wav
-    by 'GiocoSound'\n\t\r\nRegular footstep (Concrete) - Step 10.wav by 'carrigsound'\r\nMetal
-    footstep (Armour) - metal-click.wav by 'newagesoup'\r\n\nBow draw and release
-    - Regular Arrow Shot by 'brendan89'\r\nArrow impact ground/obstacle - Arrow Impact
-    1 by 'Ali_6868'\r\n\nPower Fist ability (Ground Smash) - Impact Cinematic by 'original_sound'\r\n"
+    Version) by \"MoonStar\" - https://opengameart.org/content/2d-game-character-pack-slim-version\n\n\n\nAssets\n\nPixel
+    Font Tripfive - PIXELMUSH\n\nDigital Ruby (Jeff Johnson) - \"Free Parallaz for
+    Unity (2D)\"\n\nRandom Creations - \"Indian Kanoe - Malecite\"\n\nJulien Tonsuso
+    - \"Modular Fantasy Bridges\"\n\nMAD Entertainment - \"Neon Shapes\"\n\nUnity
+    Technologies - \"2D Game Kit\"\n\nLowlyPoly - \"Building Apartment\"\n\nA* Pathfinding
+    by Aron Granberg - https://arongranberg.com/astar/\n\nTiny RPG Town Environment
+    - \"ANSIMUZ\"\n\n\n\nAudio\n\nPolearm, Katana and Power Fist swing (No contact)
+    - swoosh.wav by 'PorkMuncher'\r\n\nPolearm and Katana attack (Hit enemy) - samurai
+    slash by 'nekoninja'\r\n\nPolearm and Katana attack (Hit obstacle/wall) - katana1.mp3
+    by 'Taira Komori'\r\n\nKatana Dash ability - Unsheathed blade by 'jamesabdulrahman'
+    \r\nEnemy laser shot - Lazer.mp3 by 'uzerx' \r\n\nEnemy musket shot - aaronsiler_musket
+    2.wav by 'aaronsiler' \r\nGrass footstep - Footstep_Grass_4.wav by 'GiocoSound'\n\t\r\nRegular
+    footstep (Concrete) - Step 10.wav by 'carrigsound'\r\nMetal footstep (Armour)
+    - metal-click.wav by 'newagesoup'\r\n\nBow draw and release - Regular Arrow Shot
+    by 'brendan89'\r\nArrow impact ground/obstacle - Arrow Impact 1 by 'Ali_6868'\r\n\nPower
+    Fist ability (Ground Smash) - Impact Cinematic by 'original_sound'\r\n"
 --- !u!222 &766777763
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2808,7 +2809,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 842114624}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -45.893814, z: 0}
+  m_LocalPosition: {x: 0, y: -121.39844, z: 0}
   m_LocalScale: {x: 12.073885, y: 4.2567096, z: 4.12056}
   m_Children:
   - {fileID: 253188075}
@@ -3406,7 +3407,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1040736457}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -45.893814, z: 0}
+  m_LocalPosition: {x: 0, y: -121.39844, z: 0}
   m_LocalScale: {x: 12.07389, y: 4.25671, z: 4.1205597}
   m_Children:
   - {fileID: 1342415057}
@@ -4570,7 +4571,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1441690817}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -45.893814, z: 0}
+  m_LocalPosition: {x: 0, y: -121.39844, z: 0}
   m_LocalScale: {x: 12.07389, y: 4.25671, z: 4.1205597}
   m_Children:
   - {fileID: 636124813}
@@ -4843,7 +4844,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1502263187}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 441.5, y: 168, z: 0}
+  m_LocalPosition: {x: 798, y: 438.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1448561947}
@@ -5431,7 +5432,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1683880886}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -45.893814, z: 0}
+  m_LocalPosition: {x: 0, y: -121.39844, z: 0}
   m_LocalScale: {x: 12.07389, y: 4.25671, z: 4.1205597}
   m_Children:
   - {fileID: 240646553}

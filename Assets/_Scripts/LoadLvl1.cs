@@ -6,6 +6,6 @@ public class LoadLvl1 : StateMachineBehaviour
 {
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Davis_Standard_Venice");
     }
 }
